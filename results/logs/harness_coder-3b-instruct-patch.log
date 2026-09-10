@@ -1,0 +1,2335 @@
+2026-09-08 16:23:19,896 - datasets - INFO - PyTorch version 2.6.0 available.
+<frozen runpy>:128: RuntimeWarning: 'swebench.harness.run_evaluation' found in sys.modules after import of package 'swebench.harness', but prior to execution of 'swebench.harness.run_evaluation'; this may result in unpredictable behaviour
+Found 250 existing instance images. Will reuse them.
+Running 250 instances...
+Evaluation:   0%|          | 0/250 [00:00<?, ?it/s, error=0, ✓=0, ✖=0]astropy__astropy-13579: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/astropy/wcs/api.py b/astropy/wcs/api.py
+|index 0a5b0f0..c0a5b0f 100644
+|--- a/astropy/wcs/api.py
+|+++ b/astropy/wcs/api.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/astropy__astropy-13579/run_instance.log) for more information.
+astropy__astropy-13033: >>>>> Patch Apply Failed:
+patching file astropy/timeseries/core.py
+Hunk #1 FAILED at 101.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file astropy/timeseries/core.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/astropy__astropy-13033/run_instance.log) for more information.
+astropy__astropy-12907: >>>>> Patch Apply Failed:
+patching file astropy/modeling/separable.py
+Hunk #1 FAILED at 103.
+Hunk #2 FAILED at 112.
+2 out of 2 hunks FAILED -- saving rejects to file astropy/modeling/separable.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/astropy__astropy-12907/run_instance.log) for more information.
+Evaluation:   0%|          | 0/250 [00:20<?, ?it/s, ✓=0, ✖=0, error=1]Evaluation:   0%|          | 1/250 [00:20<1:25:31, 20.61s/it, ✓=0, ✖=0, error=1]Evaluation:   0%|          | 1/250 [00:20<1:25:31, 20.61s/it, ✓=0, ✖=0, error=2]Evaluation:   1%|          | 2/250 [00:20<1:25:10, 20.61s/it, ✓=0, ✖=0, error=3]astropy__astropy-14365: >>>>> Patch Apply Failed:
+patching file astropy/io/ascii/qdp.py
+Hunk #1 FAILED at 103.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/astropy__astropy-14365/run_instance.log) for more information.
+Evaluation:   1%|          | 3/250 [00:40<1:24:49, 20.61s/it, ✓=0, ✖=0, error=4]Evaluation:   2%|▏         | 4/250 [00:40<38:04,  9.29s/it, ✓=0, ✖=0, error=4]  astropy__astropy-14539: >>>>> Patch Apply Failed:
+patching file astropy/io/fits/diff.py
+patch: **** malformed patch at line 16:                  else:
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/astropy__astropy-14539/run_instance.log) for more information.
+Evaluation:   2%|▏         | 4/250 [00:58<38:04,  9.29s/it, ✓=0, ✖=0, error=5]Evaluation:   2%|▏         | 5/250 [00:58<47:34, 11.65s/it, ✓=0, ✖=0, error=5]astropy__astropy-14995: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/astropy/nddata/core.py b/astropy/nddata/core.py
+|index 1a2b3c4..5d6e7f8 100644
+|--- a/astropy/nddata/core.py
+|+++ b/astropy/nddata/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/astropy__astropy-14995/run_instance.log) for more information.
+Evaluation:   2%|▏         | 5/250 [01:15<47:34, 11.65s/it, ✓=0, ✖=0, error=6]Evaluation:   2%|▏         | 6/250 [01:15<54:20, 13.36s/it, ✓=0, ✖=0, error=6]astropy__astropy-7166: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/inherit_docstrings.py b/inherit_docstrings.py
+|index 1234567..89abcdef 100644
+|--- a/inherit_docstrings.py
+|+++ b/inherit_docstrings.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 24: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/astropy__astropy-7166/run_instance.log) for more information.
+Evaluation:   2%|▏         | 6/250 [01:33<54:20, 13.36s/it, ✓=0, ✖=0, error=7]Evaluation:   3%|▎         | 7/250 [01:33<59:09, 14.61s/it, ✓=0, ✖=0, error=7]django__django-10097: >>>>> Patch Apply Failed:
+patching file django/core/validators.py
+Hunk #1 FAILED at 101.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/core/validators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-10097/run_instance.log) for more information.
+Evaluation:   3%|▎         | 7/250 [01:42<59:09, 14.61s/it, ✓=0, ✖=1, error=7]Evaluation:   3%|▎         | 8/250 [01:42<51:59, 12.89s/it, ✓=0, ✖=1, error=7]django__django-10554: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 248.
+Hunk #2 FAILED at 272.
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/query.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-10554/run_instance.log) for more information.
+Evaluation:   3%|▎         | 8/250 [01:44<51:59, 12.89s/it, ✓=0, ✖=2, error=7]Evaluation:   4%|▎         | 9/250 [01:44<39:08,  9.75s/it, ✓=0, ✖=2, error=7]django__django-10880: >>>>> Patch Apply Failed:
+patching file django/db/models/aggregates.py
+patch: **** malformed patch at line 12: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-10880/run_instance.log) for more information.
+Evaluation:   4%|▎         | 9/250 [01:47<39:08,  9.75s/it, ✓=0, ✖=3, error=7]Evaluation:   4%|▍         | 10/250 [01:47<31:15,  7.82s/it, ✓=0, ✖=3, error=7]django__django-11066: >>>>> Patch Apply Failed:
+patching file django/contrib/contenttypes/management/__init__.py
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11066/run_instance.log) for more information.
+Evaluation:   4%|▍         | 10/250 [01:51<31:15,  7.82s/it, ✓=0, ✖=3, error=8]Evaluation:   4%|▍         | 11/250 [01:51<25:45,  6.47s/it, ✓=0, ✖=3, error=8]django__django-11087: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/treeherder/model/models.py b/treeherder/model/models.py
+|index 1234567..89abcdef 100644
+|--- a/treeherder/model/models.py
+|+++ b/treeherder/model/models.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11087/run_instance.log) for more information.
+Evaluation:   4%|▍         | 11/250 [01:59<25:45,  6.47s/it, ✓=0, ✖=3, error=9]Evaluation:   5%|▍         | 12/250 [01:59<28:20,  7.14s/it, ✓=0, ✖=3, error=9]django__django-11095: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/admin.py b/admin.py
+|index 1234567..89abcdef 100644
+|--- a/admin.py
+|+++ b/admin.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11095/run_instance.log) for more information.
+Evaluation:   5%|▍         | 12/250 [02:02<28:20,  7.14s/it, ✓=0, ✖=3, error=10]Evaluation:   5%|▌         | 13/250 [02:02<22:33,  5.71s/it, ✓=0, ✖=3, error=10]django__django-11119: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/engine.py b/engine.py
+|index 1234567..abcdefg 100644
+|--- a/engine.py
+|+++ b/engine.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11119/run_instance.log) for more information.
+Evaluation:   5%|▌         | 13/250 [02:05<22:33,  5.71s/it, ✓=0, ✖=3, error=11]Evaluation:   6%|▌         | 14/250 [02:05<19:25,  4.94s/it, ✓=0, ✖=3, error=11]django__django-11133: >>>>> Patch Apply Failed:
+patching file django/http/response.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file django/http/response.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11133/run_instance.log) for more information.
+Evaluation:   6%|▌         | 14/250 [02:08<19:25,  4.94s/it, ✓=0, ✖=3, error=12]Evaluation:   6%|▌         | 15/250 [02:08<17:14,  4.40s/it, ✓=0, ✖=3, error=12]django__django-11138: >>>>> Patch Apply Failed:
+patching file django/db/backends/mysql/operations.py
+Hunk #1 FAILED at 46.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/mysql/operations.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11138/run_instance.log) for more information.
+Evaluation:   6%|▌         | 15/250 [02:17<17:14,  4.40s/it, ✓=0, ✖=3, error=13]Evaluation:   6%|▋         | 16/250 [02:17<22:24,  5.74s/it, ✓=0, ✖=3, error=13]django__django-11141: >>>>> Patch Apply Failed:
+patching file django/db/migrations/__init__.py
+patch: **** malformed patch at line 9: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11141/run_instance.log) for more information.
+Evaluation:   6%|▋         | 16/250 [02:19<22:24,  5.74s/it, ✓=0, ✖=3, error=14]Evaluation:   7%|▋         | 17/250 [02:19<18:18,  4.71s/it, ✓=0, ✖=3, error=14]django__django-11149: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/admin.py b/admin.py
+|index 1234567..89abcdef 100644
+|--- a/admin.py
+|+++ b/admin.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11149/run_instance.log) for more information.
+Evaluation:   7%|▋         | 17/250 [02:22<18:18,  4.71s/it, ✓=0, ✖=3, error=15]Evaluation:   7%|▋         | 18/250 [02:22<16:28,  4.26s/it, ✓=0, ✖=3, error=15]django__django-11211: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/models.py b/models.py
+|index 1234567..89abcdef 100644
+|--- a/models.py
+|+++ b/models.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11211/run_instance.log) for more information.
+Evaluation:   7%|▋         | 18/250 [02:25<16:28,  4.26s/it, ✓=0, ✖=3, error=16]Evaluation:   8%|▊         | 19/250 [02:25<14:58,  3.89s/it, ✓=0, ✖=3, error=16]django__django-11276: >>>>> Patch Apply Failed:
+patching file django/utils/html.py
+patch: **** malformed patch at line 12: @@ -10,7 +11,7 @@ def escape(text):
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11276/run_instance.log) for more information.
+Evaluation:   8%|▊         | 19/250 [02:35<14:58,  3.89s/it, ✓=0, ✖=3, error=17]Evaluation:   8%|▊         | 20/250 [02:35<20:57,  5.47s/it, ✓=0, ✖=3, error=17]django__django-11292: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/management/commands/base.py b/management/commands/base.py
+|index 1234567..89abcdef 100644
+|--- a/management/commands/base.py
+|+++ b/management/commands/base.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 21:              self.check()
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11292/run_instance.log) for more information.
+Evaluation:   8%|▊         | 20/250 [02:37<20:57,  5.47s/it, ✓=0, ✖=3, error=18]Evaluation:   8%|▊         | 21/250 [02:37<16:52,  4.42s/it, ✓=0, ✖=3, error=18]django__django-11333: >>>>> Patch Apply Failed:
+patching file django/urls/resolvers.py
+patch: **** malformed patch at line 12: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11333/run_instance.log) for more information.
+Evaluation:   8%|▊         | 21/250 [02:40<16:52,  4.42s/it, ✓=0, ✖=3, error=19]Evaluation:   9%|▉         | 22/250 [02:40<15:25,  4.06s/it, ✓=0, ✖=3, error=19]django__django-11400: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/filters.py
+Hunk #1 FAILED at 193.
+Hunk #2 FAILED at 419.
+2 out of 2 hunks FAILED -- saving rejects to file django/contrib/admin/filters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11400/run_instance.log) for more information.
+Evaluation:   9%|▉         | 22/250 [02:43<15:25,  4.06s/it, ✓=0, ✖=3, error=20]Evaluation:   9%|▉         | 23/250 [02:43<14:30,  3.84s/it, ✓=0, ✖=3, error=20]django__django-11451: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/backends.py
+patch: **** malformed patch at line 14:              # Run the default password hasher once to reduce the timing
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11451/run_instance.log) for more information.
+Evaluation:   9%|▉         | 23/250 [02:52<14:30,  3.84s/it, ✓=0, ✖=3, error=21]Evaluation:  10%|▉         | 24/250 [02:52<20:03,  5.33s/it, ✓=0, ✖=3, error=21]Evaluation:  10%|▉         | 24/250 [02:54<20:03,  5.33s/it, ✓=0, ✖=3, error=22]Evaluation:  10%|█         | 25/250 [02:54<16:18,  4.35s/it, ✓=0, ✖=3, error=22]django__django-11532: >>>>> Patch Apply Failed:
+patching file django/core/mail/message.py
+patch: **** malformed patch at line 12: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11532/run_instance.log) for more information.
+Evaluation:  10%|█         | 25/250 [02:57<16:18,  4.35s/it, ✓=0, ✖=3, error=23]Evaluation:  10%|█         | 26/250 [02:57<15:07,  4.05s/it, ✓=0, ✖=3, error=23]django__django-11555: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11555/run_instance.log) for more information.
+Evaluation:  10%|█         | 26/250 [03:01<15:07,  4.05s/it, ✓=0, ✖=3, error=24]Evaluation:  11%|█         | 27/250 [03:01<14:12,  3.82s/it, ✓=0, ✖=3, error=24]django__django-11728: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 12: ```
+
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/simplify_regexp.py b/simplify_regexp.py
+|index 1234567..abcdef8 100644
+|--- a/simplify_regexp.py
+|+++ b/simplify_regexp.py
+--------------------------
+No file to patch.  Skipping patch.
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11728/run_instance.log) for more information.
+Evaluation:  11%|█         | 27/250 [03:12<14:12,  3.82s/it, ✓=0, ✖=3, error=25]Evaluation:  11%|█         | 28/250 [03:12<22:08,  5.98s/it, ✓=0, ✖=3, error=25]Evaluation:  11%|█         | 28/250 [03:15<22:08,  5.98s/it, ✓=0, ✖=3, error=26]Evaluation:  12%|█▏        | 29/250 [03:15<19:00,  5.16s/it, ✓=0, ✖=3, error=26]django__django-11740: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/testapp1/models.py b/testapp1/models.py
+|index 1234567..89abcdef 100644
+|--- a/testapp1/models.py
+|+++ b/testapp1/models.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11740/run_instance.log) for more information.
+Evaluation:  12%|█▏        | 29/250 [03:18<19:00,  5.16s/it, ✓=0, ✖=3, error=27]Evaluation:  12%|█▏        | 30/250 [03:18<16:49,  4.59s/it, ✓=0, ✖=3, error=27]django__django-11815: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/migrations/0001_initial.py b/migrations/0001_initial.py
+|index 1234567..89abcdef 100644
+|--- a/migrations/0001_initial.py
+|+++ b/migrations/0001_initial.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 13: -            model_name='item',
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11815/run_instance.log) for more information.
+Evaluation:  12%|█▏        | 30/250 [03:21<16:49,  4.59s/it, ✓=0, ✖=4, error=27]Evaluation:  12%|█▏        | 31/250 [03:21<15:22,  4.21s/it, ✓=0, ✖=4, error=27]django__django-11848: >>>>> Patch Apply Failed:
+patching file django/utils/http.py
+Hunk #1 FAILED at 103.
+patch: **** malformed patch at line 22: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11848/run_instance.log) for more information.
+Evaluation:  12%|█▏        | 31/250 [03:33<15:22,  4.21s/it, ✓=0, ✖=4, error=28]Evaluation:  13%|█▎        | 32/250 [03:33<22:54,  6.31s/it, ✓=0, ✖=4, error=28]django__django-11880: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+Hunk #1 succeeded at 195 with fuzz 3 (offset -2 lines).
+patch: **** malformed patch at line 23: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11880/run_instance.log) for more information.
+Evaluation:  13%|█▎        | 32/250 [03:35<22:54,  6.31s/it, ✓=0, ✖=4, error=29]Evaluation:  13%|█▎        | 33/250 [03:35<19:02,  5.27s/it, ✓=0, ✖=4, error=29]django__django-11885: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/models.py b/models.py
+|index 1234567..89abcdef 100644
+|--- a/models.py
+|+++ b/models.py
+--------------------------
+No file to patch.  Skipping patch.
+2 out of 2 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-11885/run_instance.log) for more information.
+Evaluation:  13%|█▎        | 33/250 [03:40<19:02,  5.27s/it, ✓=0, ✖=4, error=30]Evaluation:  14%|█▎        | 34/250 [03:40<17:46,  4.94s/it, ✓=0, ✖=4, error=30]Evaluation:  14%|█▎        | 34/250 [03:40<17:46,  4.94s/it, ✓=0, ✖=5, error=30]Evaluation:  14%|█▍        | 35/250 [03:40<12:39,  3.53s/it, ✓=0, ✖=5, error=30]django__django-12050: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/peewee.py b/peewee.py
+|index 1234567..abcdef8 100644
+|--- a/peewee.py
+|+++ b/peewee.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-12050/run_instance.log) for more information.
+django__django-12125: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/migrations/0001_initial.py b/migrations/0001_initial.py
+|index 1234567..89abcdef 100644
+|--- a/migrations/0001_initial.py
+|+++ b/migrations/0001_initial.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-12125/run_instance.log) for more information.
+Evaluation:  14%|█▍        | 35/250 [03:50<12:39,  3.53s/it, ✓=0, ✖=5, error=31]Evaluation:  14%|█▍        | 36/250 [03:50<19:38,  5.50s/it, ✓=0, ✖=5, error=31]django__django-12155: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/admindoc/docutils.py b/admindoc/docutils.py
+|index 1234567..89abcdef 100644
+|--- a/admindoc/docutils.py
+|+++ b/admindoc/docutils.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-12155/run_instance.log) for more information.
+Evaluation:  14%|█▍        | 36/250 [03:53<19:38,  5.50s/it, ✓=0, ✖=5, error=32]Evaluation:  15%|█▍        | 37/250 [03:53<16:40,  4.70s/it, ✓=0, ✖=5, error=32]django__django-12276: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-12276/run_instance.log) for more information.
+Evaluation:  15%|█▍        | 37/250 [03:59<16:40,  4.70s/it, ✓=0, ✖=5, error=33]Evaluation:  15%|█▌        | 38/250 [03:59<17:45,  5.03s/it, ✓=0, ✖=5, error=33]Evaluation:  15%|█▌        | 38/250 [03:59<17:45,  5.03s/it, ✓=0, ✖=5, error=34]django__django-12304: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+Hunk #1 succeeded at 123 with fuzz 3.
+Hunk #2 succeeded at 135 with fuzz 3.
+can't find file to patch at input line 25
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django/db/models/fields/choices.py b/django/db/models/fields/choices.py
+|index 1234567..89abcdef 100644
+|--- a/django/db/models/fields/choices.py
+|+++ b/django/db/models/fields/choices.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 40: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-12304/run_instance.log) for more information.
+Evaluation:  16%|█▌        | 39/250 [04:08<17:40,  5.03s/it, ✓=0, ✖=5, error=35]Evaluation:  16%|█▌        | 40/250 [04:08<16:42,  4.77s/it, ✓=0, ✖=5, error=35]django__django-12325: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/models.py b/models.py
+|index 1234567..89abcdef 100644
+|--- a/models.py
+|+++ b/models.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-12325/run_instance.log) for more information.
+Evaluation:  16%|█▌        | 40/250 [04:10<16:42,  4.77s/it, ✓=0, ✖=5, error=36]Evaluation:  16%|█▋        | 41/250 [04:10<15:01,  4.31s/it, ✓=0, ✖=5, error=36]django__django-12406: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/forms/widgets.py b/forms/widgets.py
+|index 3b5a5e4..c7b8f9d 100644
+|--- a/forms/widgets.py
+|+++ b/forms/widgets.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-12406/run_instance.log) for more information.
+Evaluation:  16%|█▋        | 41/250 [04:17<15:01,  4.31s/it, ✓=0, ✖=5, error=37]Evaluation:  17%|█▋        | 42/250 [04:17<16:33,  4.78s/it, ✓=0, ✖=5, error=37]django__django-12419: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django/conf/settings.py b/django/conf/settings.py
+|index 1234567..89abcdef 100644
+|--- a/django/conf/settings.py
+|+++ b/django/conf/settings.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-12419/run_instance.log) for more information.
+Evaluation:  17%|█▋        | 42/250 [04:25<16:33,  4.78s/it, ✓=0, ✖=5, error=38]Evaluation:  17%|█▋        | 43/250 [04:25<20:06,  5.83s/it, ✓=0, ✖=5, error=38]Evaluation:  17%|█▋        | 43/250 [04:27<20:06,  5.83s/it, ✓=0, ✖=6, error=38]Evaluation:  18%|█▊        | 44/250 [04:27<15:43,  4.58s/it, ✓=0, ✖=6, error=38]django__django-12663: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 succeeded at 1411 with fuzz 3 (offset 530 lines).
+can't find file to patch at input line 18
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django/utils/lazy.py b/django/utils/lazy.py
+|index 0a5b0a5..b0a5b0a 100644
+|--- a/django/utils/lazy.py
+|+++ b/django/utils/lazy.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-12663/run_instance.log) for more information.
+django__django-12741: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/your_module.py b/your_module.py
+|index 1234567..89abcdef 100644
+|--- a/your_module.py
+|+++ b/your_module.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-12741/run_instance.log) for more information.
+Evaluation:  18%|█▊        | 44/250 [04:28<15:43,  4.58s/it, ✓=0, ✖=6, error=39]Evaluation:  18%|█▊        | 45/250 [04:28<12:59,  3.80s/it, ✓=0, ✖=6, error=39]Evaluation:  18%|█▊        | 45/250 [04:35<12:59,  3.80s/it, ✓=0, ✖=6, error=40]Evaluation:  18%|█▊        | 46/250 [04:35<15:32,  4.57s/it, ✓=0, ✖=6, error=40]django__django-13112: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/DJ_RegLogin/apps.py b/DJ_RegLogin/apps.py
+|index 2a5f7e4..c8b9b6d 100644
+|--- a/DJ_RegLogin/apps.py
+|+++ b/DJ_RegLogin/apps.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13112/run_instance.log) for more information.
+Evaluation:  18%|█▊        | 46/250 [04:43<15:32,  4.57s/it, ✓=0, ✖=6, error=41]Evaluation:  19%|█▉        | 47/250 [04:43<19:15,  5.69s/it, ✓=0, ✖=6, error=41]Evaluation:  19%|█▉        | 47/250 [04:45<19:15,  5.69s/it, ✓=0, ✖=6, error=42]Evaluation:  19%|█▉        | 48/250 [04:45<15:14,  4.53s/it, ✓=0, ✖=6, error=42]django__django-13158: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/forms.py b/forms.py
+|index 1234567..89abcdef 100644
+|--- a/forms.py
+|+++ b/forms.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 12: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13158/run_instance.log) for more information.
+django__django-13195: >>>>> Patch Apply Failed:
+patching file django/http/response.py
+Hunk #1 FAILED at 210.
+Hunk #2 succeeded at 220 with fuzz 3.
+1 out of 2 hunks FAILED -- saving rejects to file django/http/response.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13195/run_instance.log) for more information.
+Evaluation:  19%|█▉        | 48/250 [04:52<15:14,  4.53s/it, ✓=0, ✖=6, error=43]Evaluation:  20%|█▉        | 49/250 [04:52<17:56,  5.36s/it, ✓=0, ✖=6, error=43]Evaluation:  20%|█▉        | 49/250 [05:00<17:56,  5.36s/it, ✓=0, ✖=7, error=43]Evaluation:  20%|██        | 50/250 [05:00<19:53,  5.97s/it, ✓=0, ✖=7, error=43]django__django-13344: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/middleware.py b/middleware.py
+|index 1234567..abcdefg 100644
+|--- a/middleware.py
+|+++ b/middleware.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 10: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13344/run_instance.log) for more information.
+Evaluation:  20%|██        | 50/250 [05:02<19:53,  5.97s/it, ✓=0, ✖=7, error=44]Evaluation:  20%|██        | 51/250 [05:02<16:16,  4.90s/it, ✓=0, ✖=7, error=44]Evaluation:  20%|██        | 51/250 [05:04<16:16,  4.90s/it, ✓=0, ✖=7, error=45]Evaluation:  21%|██        | 52/250 [05:04<13:08,  3.98s/it, ✓=0, ✖=7, error=45]django__django-13346: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13346/run_instance.log) for more information.
+django__django-13363: >>>>> Patch Apply Failed:
+patching file django/db/models/functions/datetime.py
+Hunk #1 FAILED at 292.
+patch: **** malformed patch at line 24: @@ -310,6 +314,10 @@ class TruncDate(Func):
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13363/run_instance.log) for more information.
+Evaluation:  21%|██        | 52/250 [05:17<13:08,  3.98s/it, ✓=0, ✖=7, error=46]Evaluation:  21%|██        | 53/250 [05:17<22:10,  6.76s/it, ✓=0, ✖=7, error=46]Evaluation:  21%|██        | 53/250 [05:21<22:10,  6.76s/it, ✓=0, ✖=7, error=47]Evaluation:  22%|██▏       | 54/250 [05:21<19:14,  5.89s/it, ✓=0, ✖=7, error=47]Evaluation:  22%|██▏       | 54/250 [05:23<19:14,  5.89s/it, ✓=0, ✖=7, error=48]Evaluation:  22%|██▏       | 55/250 [05:23<14:47,  4.55s/it, ✓=0, ✖=7, error=48]Evaluation:  22%|██▏       | 55/250 [05:23<14:47,  4.55s/it, ✓=0, ✖=8, error=48]django__django-13406: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 253.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13406/run_instance.log) for more information.
+django__django-13417: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 succeeded at 109 with fuzz 3.
+Hunk #2 succeeded at 128 with fuzz 3.
+patch: **** malformed patch at line 28: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13417/run_instance.log) for more information.
+django__django-13449: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django/db/models/functions.py b/django/db/models/functions.py
+|index 0f0a5b1..c0a5b1c 100644
+|--- a/django/db/models/functions.py
+|+++ b/django/db/models/functions.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13449/run_instance.log) for more information.
+Evaluation:  22%|██▏       | 56/250 [05:39<14:42,  4.55s/it, ✓=0, ✖=8, error=49]Evaluation:  23%|██▎       | 57/250 [05:39<20:28,  6.37s/it, ✓=0, ✖=8, error=49]django__django-13512: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django_mysql/models.py b/django_mysql/models.py
+|index 0a5b1c1..b0a5b1c 100644
+|--- a/django_mysql/models.py
+|+++ b/django_mysql/models.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13512/run_instance.log) for more information.
+Evaluation:  23%|██▎       | 57/250 [05:41<20:28,  6.37s/it, ✓=0, ✖=8, error=50]Evaluation:  23%|██▎       | 58/250 [05:41<16:53,  5.28s/it, ✓=0, ✖=8, error=50]Evaluation:  23%|██▎       | 58/250 [05:41<16:53,  5.28s/it, ✓=0, ✖=8, error=51]Evaluation:  24%|██▎       | 59/250 [05:44<16:48,  5.28s/it, ✓=0, ✖=9, error=51]Evaluation:  24%|██▍       | 60/250 [05:44<11:07,  3.51s/it, ✓=0, ✖=9, error=51]django__django-13513: >>>>> Patch Apply Failed:
+patching file django/views/debug.py
+Hunk #1 FAILED at 390.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/views/debug.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13513/run_instance.log) for more information.
+django__django-13569: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/compiler.py
+Hunk #1 succeeded at 99 with fuzz 3 (offset -3 lines).
+patch: **** malformed patch at line 21: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13569/run_instance.log) for more information.
+Evaluation:  24%|██▍       | 60/250 [05:57<11:07,  3.51s/it, ✓=0, ✖=9, error=52]Evaluation:  24%|██▍       | 61/250 [05:57<18:24,  5.85s/it, ✓=0, ✖=9, error=52]django__django-13590: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 FAILED at 123.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/sql/query.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13590/run_instance.log) for more information.
+Evaluation:  24%|██▍       | 61/250 [06:00<18:24,  5.85s/it, ✓=0, ✖=9, error=53]Evaluation:  25%|██▍       | 62/250 [06:00<15:59,  5.10s/it, ✓=0, ✖=9, error=53]Evaluation:  25%|██▍       | 62/250 [06:01<15:59,  5.10s/it, ✓=0, ✖=9, error=54]Evaluation:  25%|██▌       | 63/250 [06:01<12:50,  4.12s/it, ✓=0, ✖=9, error=54]django__django-13741: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/forms.py
+patch: **** malformed patch at line 12: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13741/run_instance.log) for more information.
+Evaluation:  25%|██▌       | 63/250 [06:08<12:50,  4.12s/it, ✓=0, ✖=10, error=54]Evaluation:  26%|██▌       | 64/250 [06:08<14:57,  4.82s/it, ✓=0, ✖=10, error=54]django__django-13786: >>>>> Patch Apply Failed:
+patching file django/db/migrations/operations/models.py
+patch: **** malformed patch at line 14: @@ -149,6 +150,10 @@ class AlterModelOptions(Operation):
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13786/run_instance.log) for more information.
+Evaluation:  26%|██▌       | 64/250 [06:15<14:57,  4.82s/it, ✓=0, ✖=10, error=55]Evaluation:  26%|██▌       | 65/250 [06:15<16:28,  5.34s/it, ✓=0, ✖=10, error=55]Evaluation:  26%|██▌       | 65/250 [06:19<16:28,  5.34s/it, ✓=0, ✖=10, error=56]Evaluation:  26%|██▋       | 66/250 [06:19<15:25,  5.03s/it, ✓=0, ✖=10, error=56]django__django-13925: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/core/models.py b/core/models.py
+|index 1234567..89abcdef 100644
+|--- a/core/models.py
+|+++ b/core/models.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 8: class Entity(models.Model):
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13925/run_instance.log) for more information.
+Evaluation:  26%|██▋       | 66/250 [06:26<15:25,  5.03s/it, ✓=0, ✖=10, error=57]Evaluation:  27%|██▋       | 67/250 [06:26<16:50,  5.52s/it, ✓=0, ✖=10, error=57]django__django-13933: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+Hunk #1 FAILED at 123.
+Hunk #2 FAILED at 134.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/forms/fields.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13933/run_instance.log) for more information.
+Evaluation:  27%|██▋       | 67/250 [06:37<16:50,  5.52s/it, ✓=0, ✖=10, error=58]Evaluation:  27%|██▋       | 68/250 [06:37<21:24,  7.06s/it, ✓=0, ✖=10, error=58]django__django-13964: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/models.py b/models.py
+|index 1234567..89abcdef 100644
+|--- a/models.py
+|+++ b/models.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-13964/run_instance.log) for more information.
+Evaluation:  27%|██▋       | 68/250 [06:41<21:24,  7.06s/it, ✓=0, ✖=11, error=58]Evaluation:  28%|██▊       | 69/250 [06:41<19:05,  6.33s/it, ✓=0, ✖=11, error=58]django__django-14007: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+Hunk #1 succeeded at 104 with fuzz 3.
+can't find file to patch at input line 17
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django/db/models/fields/integer.py b/django/db/models/fields/integer.py
+|index 8a5b9c7..d4b3f0e 100644
+|--- a/django/db/models/fields/integer.py
+|+++ b/django/db/models/fields/integer.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14007/run_instance.log) for more information.
+Evaluation:  28%|██▊       | 69/250 [06:43<19:05,  6.33s/it, ✓=0, ✖=11, error=59]Evaluation:  28%|██▊       | 70/250 [06:43<15:26,  5.15s/it, ✓=0, ✖=11, error=59]django__django-14011: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django/test/live.py b/django/test/live.py
+|index 5a3b9c6..e0f0a0a 100644
+|--- a/django/test/live.py
+|+++ b/django/test/live.py
+--------------------------
+No file to patch.  Skipping patch.
+2 out of 2 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14011/run_instance.log) for more information.
+Evaluation:  28%|██▊       | 70/250 [06:54<15:26,  5.15s/it, ✓=0, ✖=11, error=60]Evaluation:  28%|██▊       | 71/250 [06:54<20:04,  6.73s/it, ✓=0, ✖=11, error=60]django__django-14034: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14034/run_instance.log) for more information.
+Evaluation:  28%|██▊       | 71/250 [06:58<20:04,  6.73s/it, ✓=0, ✖=11, error=61]Evaluation:  29%|██▉       | 72/250 [06:58<18:03,  6.09s/it, ✓=0, ✖=11, error=61]django__django-14089: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/ordered_set.py b/ordered_set.py
+|index 1234567..89abcdef 100644
+|--- a/ordered_set.py
+|+++ b/ordered_set.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14089/run_instance.log) for more information.
+Evaluation:  29%|██▉       | 72/250 [07:01<18:03,  6.09s/it, ✓=0, ✖=11, error=62]Evaluation:  29%|██▉       | 73/250 [07:01<14:41,  4.98s/it, ✓=0, ✖=11, error=62]django__django-14311: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 123.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14311/run_instance.log) for more information.
+Evaluation:  29%|██▉       | 73/250 [07:12<14:41,  4.98s/it, ✓=0, ✖=11, error=63]Evaluation:  30%|██▉       | 74/250 [07:12<19:49,  6.76s/it, ✓=0, ✖=11, error=63]Evaluation:  30%|██▉       | 74/250 [07:12<19:49,  6.76s/it, ✓=0, ✖=12, error=63]Evaluation:  30%|███       | 75/250 [07:12<14:05,  4.83s/it, ✓=0, ✖=12, error=63]django__django-14349: >>>>> Patch Apply Failed:
+patching file django/core/validators.py
+Hunk #1 FAILED at 123.
+Hunk #2 succeeded at 131 with fuzz 3.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file django/core/validators.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14349/run_instance.log) for more information.
+django__django-14373: >>>>> Patch Apply Failed:
+patching file django/utils/dateformat.py
+Hunk #1 FAILED at 20.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateformat.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14373/run_instance.log) for more information.
+Evaluation:  30%|███       | 75/250 [07:16<14:05,  4.83s/it, ✓=0, ✖=12, error=64]Evaluation:  30%|███       | 76/250 [07:16<13:13,  4.56s/it, ✓=0, ✖=12, error=64]django__django-14500: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/migrations.py b/migrations.py
+|index 1234567..89abcdef 100644
+|--- a/migrations.py
+|+++ b/migrations.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 17: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14500/run_instance.log) for more information.
+Evaluation:  30%|███       | 76/250 [07:18<13:13,  4.56s/it, ✓=0, ✖=12, error=65]Evaluation:  31%|███       | 77/250 [07:18<11:04,  3.84s/it, ✓=0, ✖=12, error=65]django__django-14539: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/your_module.py b/your_module.py
+|index 1234567..89abcdef 100644
+|--- a/your_module.py
+|+++ b/your_module.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 24: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14539/run_instance.log) for more information.
+Evaluation:  31%|███       | 77/250 [07:30<11:04,  3.84s/it, ✓=0, ✖=12, error=66]Evaluation:  31%|███       | 78/250 [07:30<18:13,  6.36s/it, ✓=0, ✖=12, error=66]Evaluation:  31%|███       | 78/250 [07:31<18:13,  6.36s/it, ✓=0, ✖=12, error=67]Evaluation:  32%|███▏      | 79/250 [07:31<13:17,  4.66s/it, ✓=0, ✖=12, error=67]django__django-14580: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/app/migrations/0001_initial.py b/app/migrations/0001_initial.py
+|index 5a1b2c3..d4e5f67 100644
+|--- a/app/migrations/0001_initial.py
+|+++ b/app/migrations/0001_initial.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14580/run_instance.log) for more information.
+django__django-14725: >>>>> Patch Apply Failed:
+patching file django/forms/models.py
+Hunk #1 FAILED at 1234.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/models.py.rej
+can't find file to patch at input line 25
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|+            )
+|
+|     def get_initial_for_empty(self):
+|         return self.get_initial()
+|
+|diff --git a/tests/forms/test_modelformset.py b/tests/forms/test_modelformset.py
+|index 1234567..89abcdef 100644
+|--- a/tests/forms/test_modelformset.py
+|+++ b/tests/forms/test_modelformset.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 33:          )
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14725/run_instance.log) for more information.
+Evaluation:  32%|███▏      | 79/250 [07:34<13:17,  4.66s/it, ✓=0, ✖=12, error=68]Evaluation:  32%|███▏      | 80/250 [07:34<11:17,  3.99s/it, ✓=0, ✖=12, error=68]django__django-14752: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/admin/views/autocomplete.py b/admin/views/autocomplete.py
+|index 1234567..89abcdef 100644
+|--- a/admin/views/autocomplete.py
+|+++ b/admin/views/autocomplete.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 12: @@ -10,6 +11,7 @@ class AutocompleteJsonView(admin.ModelAdmin):
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14752/run_instance.log) for more information.
+Evaluation:  32%|███▏      | 80/250 [07:36<11:17,  3.99s/it, ✓=0, ✖=12, error=69]Evaluation:  32%|███▏      | 81/250 [07:36<09:42,  3.45s/it, ✓=0, ✖=12, error=69]django__django-14787: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/your_module.py b/your_module.py
+|index 1234567..89abcdef 100644
+|--- a/your_module.py
+|+++ b/your_module.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 11: @@ -10,7 +11,7 @@ def logger(func):
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14787/run_instance.log) for more information.
+Evaluation:  32%|███▏      | 81/250 [07:49<09:42,  3.45s/it, ✓=0, ✖=12, error=70]Evaluation:  33%|███▎      | 82/250 [07:49<18:07,  6.47s/it, ✓=0, ✖=12, error=70]Evaluation:  33%|███▎      | 82/250 [07:50<18:07,  6.47s/it, ✓=0, ✖=12, error=71]Evaluation:  33%|███▎      | 83/250 [07:50<13:12,  4.75s/it, ✓=0, ✖=12, error=71]Evaluation:  33%|███▎      | 83/250 [07:52<13:12,  4.75s/it, ✓=0, ✖=12, error=72]Evaluation:  34%|███▎      | 84/250 [07:52<11:00,  3.98s/it, ✓=0, ✖=12, error=72]django__django-14915: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 FAILED at 104.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/widgets.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-14915/run_instance.log) for more information.
+Evaluation:  34%|███▎      | 84/250 [07:54<11:00,  3.98s/it, ✓=0, ✖=12, error=73]Evaluation:  34%|███▍      | 85/250 [07:54<09:30,  3.46s/it, ✓=0, ✖=12, error=73]django__django-15022: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/options.py
+Hunk #1 FAILED at 104.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/options.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-15022/run_instance.log) for more information.
+django__django-15098: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/tshi/settings.py b/tshi/settings.py
+|index 1234567..89abcdef 100644
+|--- a/tshi/settings.py
+|+++ b/tshi/settings.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+can't find file to patch at input line 17
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/tshi/urls.py b/tshi/urls.py
+|index 1234567..89abcdef 100644
+|--- a/tshi/urls.py
+|+++ b/tshi/urls.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-15098/run_instance.log) for more information.
+Evaluation:  34%|███▍      | 85/250 [08:09<09:30,  3.46s/it, ✓=0, ✖=12, error=74]Evaluation:  34%|███▍      | 86/250 [08:09<18:19,  6.70s/it, ✓=0, ✖=12, error=74]django__django-15161: >>>>> Patch Apply Failed:
+patching file django/db/models/expressions.py
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/expressions.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-15161/run_instance.log) for more information.
+Evaluation:  34%|███▍      | 86/250 [08:11<18:19,  6.70s/it, ✓=0, ✖=12, error=75]Evaluation:  35%|███▍      | 87/250 [08:11<14:43,  5.42s/it, ✓=0, ✖=12, error=75]Evaluation:  35%|███▍      | 87/250 [08:12<14:43,  5.42s/it, ✓=0, ✖=12, error=76]Evaluation:  35%|███▌      | 88/250 [08:12<11:16,  4.17s/it, ✓=0, ✖=12, error=76]django__django-15268: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django/db/migrations/operations/constraints.py b/django/db/migrations/operations/constraints.py
+|index 0f0a5a3..b0a5a3a 100644
+|--- a/django/db/migrations/operations/constraints.py
+|+++ b/django/db/migrations/operations/constraints.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 15: @@ -114,6 +118,10 @@ class AlterIndexTogether(MigrationOperation):
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-15268/run_instance.log) for more information.
+Evaluation:  35%|███▌      | 88/250 [08:25<11:16,  4.17s/it, ✓=0, ✖=13, error=76]Evaluation:  36%|███▌      | 89/250 [08:25<18:14,  6.80s/it, ✓=0, ✖=13, error=76]Evaluation:  36%|███▌      | 89/250 [08:27<18:14,  6.80s/it, ✓=0, ✖=13, error=77]Evaluation:  36%|███▌      | 90/250 [08:27<13:52,  5.20s/it, ✓=0, ✖=13, error=77]django__django-15375: >>>>> Patch Apply Failed:
+patching file django/db/models/aggregates.py
+Hunk #1 FAILED at 102.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/aggregates.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-15375/run_instance.log) for more information.
+Evaluation:  36%|███▌      | 90/250 [08:29<13:52,  5.20s/it, ✓=0, ✖=13, error=78]Evaluation:  36%|███▋      | 91/250 [08:29<11:31,  4.35s/it, ✓=0, ✖=13, error=78]django__django-15382: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+patch: **** malformed patch at line 12:          return self
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-15382/run_instance.log) for more information.
+Evaluation:  36%|███▋      | 91/250 [08:39<11:31,  4.35s/it, ✓=0, ✖=14, error=78]Evaluation:  37%|███▋      | 92/250 [08:39<15:44,  5.98s/it, ✓=0, ✖=14, error=78]django__django-15499: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/migrations.py b/migrations.py
+|index 1234567..89abcdef 100644
+|--- a/migrations.py
+|+++ b/migrations.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 14:                      ('name', models.CharField(max_length=100)),
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-15499/run_instance.log) for more information.
+Evaluation:  37%|███▋      | 92/250 [08:45<15:44,  5.98s/it, ✓=0, ✖=14, error=79]Evaluation:  37%|███▋      | 93/250 [08:45<15:19,  5.86s/it, ✓=0, ✖=14, error=79]Evaluation:  37%|███▋      | 93/250 [08:47<15:19,  5.86s/it, ✓=0, ✖=14, error=80]Evaluation:  38%|███▊      | 94/250 [08:47<12:27,  4.79s/it, ✓=0, ✖=14, error=80]django__django-15525: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/testbug/models.py b/testbug/models.py
+|index 0a5b1c1..d0f0e0f 100644
+|--- a/testbug/models.py
+|+++ b/testbug/models.py
+--------------------------
+No file to patch.  Skipping patch.
+2 out of 2 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-15525/run_instance.log) for more information.
+Evaluation:  38%|███▊      | 94/250 [08:53<12:27,  4.79s/it, ✓=0, ✖=15, error=80]Evaluation:  38%|███▊      | 95/250 [08:53<13:16,  5.14s/it, ✓=0, ✖=15, error=80]django__django-15561: >>>>> Patch Apply Failed:
+patching file django/db/backends/sqlite3/schema.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/sqlite3/schema.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-15561/run_instance.log) for more information.
+Evaluation:  38%|███▊      | 95/250 [08:57<13:16,  5.14s/it, ✓=0, ✖=15, error=81]Evaluation:  38%|███▊      | 96/250 [08:57<12:09,  4.74s/it, ✓=0, ✖=15, error=81]Evaluation:  38%|███▊      | 96/250 [09:05<12:09,  4.74s/it, ✓=0, ✖=15, error=82]Evaluation:  39%|███▉      | 97/250 [09:05<14:43,  5.77s/it, ✓=0, ✖=15, error=82]django__django-15732: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/migrations/0002_auto_20230401_1234.py b/migrations/0002_auto_20230401_1234.py
+|index 1234567..89abcdef 100644
+|--- a/migrations/0002_auto_20230401_1234.py
+|+++ b/migrations/0002_auto_20230401_1234.py
+--------------------------
+No file to patch.  Skipping patch.
+2 out of 2 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-15732/run_instance.log) for more information.
+Evaluation:  39%|███▉      | 97/250 [09:11<14:43,  5.77s/it, ✓=0, ✖=15, error=83]Evaluation:  39%|███▉      | 98/250 [09:11<15:12,  6.01s/it, ✓=0, ✖=15, error=83]Evaluation:  39%|███▉      | 98/250 [09:11<15:12,  6.01s/it, ✓=0, ✖=16, error=83]django__django-15741: >>>>> Patch Apply Failed:
+patching file django/utils/formats.py
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-15741/run_instance.log) for more information.
+Evaluation:  40%|███▉      | 99/250 [09:22<15:06,  6.01s/it, ✓=0, ✖=16, error=84]Evaluation:  40%|████      | 100/250 [09:22<14:31,  5.81s/it, ✓=0, ✖=16, error=84]django__django-16100: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 19: ```
+
+patching file django/contrib/admin/views/decorators.py
+Hunk #1 succeeded at 1 with fuzz 3.
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16100/run_instance.log) for more information.
+Evaluation:  40%|████      | 100/250 [09:27<14:31,  5.81s/it, ✓=0, ✖=17, error=84]Evaluation:  40%|████      | 101/250 [09:27<13:42,  5.52s/it, ✓=0, ✖=17, error=84]django__django-16139: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/forms.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/forms.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16139/run_instance.log) for more information.
+Evaluation:  40%|████      | 101/250 [09:29<13:42,  5.52s/it, ✓=0, ✖=17, error=85]Evaluation:  41%|████      | 102/250 [09:29<11:24,  4.62s/it, ✓=0, ✖=17, error=85]django__django-16256: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related_descriptors.py
+Hunk #1 succeeded at 65 with fuzz 3.
+patch: **** malformed patch at line 25: @@ -800,6 +807,12 @@ class ForwardManyToOneDescriptor(ManyToOneDescriptor):
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16256/run_instance.log) for more information.
+Evaluation:  41%|████      | 102/250 [09:38<11:24,  4.62s/it, ✓=0, ✖=18, error=85]Evaluation:  41%|████      | 103/250 [09:38<14:15,  5.82s/it, ✓=0, ✖=18, error=85]django__django-16315: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/models.py b/models.py
+|index 1234567..abcdef8 100644
+|--- a/models.py
+|+++ b/models.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 21: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16315/run_instance.log) for more information.
+Evaluation:  41%|████      | 103/250 [09:40<14:15,  5.82s/it, ✓=0, ✖=18, error=86]Evaluation:  42%|████▏     | 104/250 [09:40<11:29,  4.72s/it, ✓=0, ✖=18, error=86]Evaluation:  42%|████▏     | 104/250 [09:45<11:29,  4.72s/it, ✓=0, ✖=18, error=87]Evaluation:  42%|████▏     | 105/250 [09:45<11:14,  4.65s/it, ✓=0, ✖=18, error=87]django__django-16493: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/files.py
+Hunk #1 FAILED at 101.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/fields/files.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16493/run_instance.log) for more information.
+Evaluation:  42%|████▏     | 105/250 [09:47<11:14,  4.65s/it, ✓=0, ✖=18, error=88]Evaluation:  42%|████▏     | 106/250 [09:47<09:30,  3.96s/it, ✓=0, ✖=18, error=88]django__django-16527: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 11: ```
+
+patching file django/contrib/admin/templatetags/admin_modify.py
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16527/run_instance.log) for more information.
+Evaluation:  42%|████▏     | 106/250 [09:56<09:30,  3.96s/it, ✓=0, ✖=18, error=89]Evaluation:  43%|████▎     | 107/250 [09:56<13:05,  5.49s/it, ✓=0, ✖=18, error=89]django__django-16560: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/models.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/models.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16560/run_instance.log) for more information.
+Evaluation:  43%|████▎     | 107/250 [10:02<13:05,  5.49s/it, ✓=0, ✖=18, error=90]Evaluation:  43%|████▎     | 108/250 [10:02<13:25,  5.67s/it, ✓=0, ✖=18, error=90]django__django-16595: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/migration_optimizer.py b/migration_optimizer.py
+|index 1234567..abcdef8 100644
+|--- a/migration_optimizer.py
+|+++ b/migration_optimizer.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 15: @@ -110,6 +114,10 @@ class MigrationOptimizer:
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16595/run_instance.log) for more information.
+Evaluation:  43%|████▎     | 108/250 [10:04<13:25,  5.67s/it, ✓=0, ✖=18, error=91]Evaluation:  44%|████▎     | 109/250 [10:04<10:48,  4.60s/it, ✓=0, ✖=18, error=91]django__django-16612: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 453.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16612/run_instance.log) for more information.
+Evaluation:  44%|████▎     | 109/250 [10:07<10:48,  4.60s/it, ✓=0, ✖=19, error=91]Evaluation:  44%|████▍     | 110/250 [10:07<09:36,  4.12s/it, ✓=0, ✖=19, error=91]django__django-16631: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/models.py
+Hunk #1 FAILED at 123.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/auth/models.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16631/run_instance.log) for more information.
+Evaluation:  44%|████▍     | 110/250 [10:13<09:36,  4.12s/it, ✓=0, ✖=19, error=92]Evaluation:  44%|████▍     | 111/250 [10:13<11:00,  4.76s/it, ✓=0, ✖=19, error=92]django__django-16662: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/migrations/0001_initial.py b/migrations/0001_initial.py
+|index 1234567..abcdef8 100644
+|--- a/migrations/0001_initial.py
+|+++ b/migrations/0001_initial.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16662/run_instance.log) for more information.
+Evaluation:  44%|████▍     | 111/250 [10:20<11:00,  4.76s/it, ✓=0, ✖=19, error=93]Evaluation:  45%|████▍     | 112/250 [10:20<11:53,  5.17s/it, ✓=0, ✖=19, error=93]django__django-16877: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch: **** malformed patch at line 16:      """
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-16877/run_instance.log) for more information.
+Evaluation:  45%|████▍     | 112/250 [10:22<11:53,  5.17s/it, ✓=0, ✖=19, error=94]Evaluation:  45%|████▌     | 113/250 [10:22<09:40,  4.24s/it, ✓=0, ✖=19, error=94]django__django-17029: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django_stubs/apps.py b/django_stubs/apps.py
+|index 1234567..89abcdef 100644
+|--- a/django_stubs/apps.py
+|+++ b/django_stubs/apps.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 10: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-17029/run_instance.log) for more information.
+Evaluation:  45%|████▌     | 113/250 [10:25<09:40,  4.24s/it, ✓=0, ✖=19, error=95]Evaluation:  46%|████▌     | 114/250 [10:25<08:50,  3.90s/it, ✓=0, ✖=19, error=95]django__django-17087: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/migrations/0001_initial.py b/migrations/0001_initial.py
+|index 1234567..89abcdef 100644
+|--- a/migrations/0001_initial.py
+|+++ b/migrations/0001_initial.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-17087/run_instance.log) for more information.
+Evaluation:  46%|████▌     | 114/250 [10:31<08:50,  3.90s/it, ✓=0, ✖=19, error=96]Evaluation:  46%|████▌     | 115/250 [10:31<10:21,  4.61s/it, ✓=0, ✖=19, error=96]django__django-9296: >>>>> Patch Apply Failed:
+patching file django/core/paginator.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 14:  
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/django__django-9296/run_instance.log) for more information.
+Evaluation:  46%|████▌     | 115/250 [10:37<10:21,  4.61s/it, ✓=0, ✖=19, error=97]Evaluation:  46%|████▋     | 116/250 [10:37<11:22,  5.10s/it, ✓=0, ✖=19, error=97]matplotlib__matplotlib-20488: >>>>> Patch Apply Failed:
+patching file lib/matplotlib/image.py
+Hunk #1 FAILED at 540.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file lib/matplotlib/image.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-20488/run_instance.log) for more information.
+Evaluation:  46%|████▋     | 116/250 [10:39<11:22,  5.10s/it, ✓=0, ✖=19, error=98]Evaluation:  47%|████▋     | 117/250 [10:39<09:09,  4.13s/it, ✓=0, ✖=19, error=98]matplotlib__matplotlib-20676: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/lib/matplotlib/widgets/spanselector.py b/lib/matplotlib/widgets/spanselector.py
+|index 5a5c0f0..e0a0a0a 100644
+|--- a/lib/matplotlib/widgets/spanselector.py
+|+++ b/lib/matplotlib/widgets/spanselector.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-20676/run_instance.log) for more information.
+Evaluation:  47%|████▋     | 117/250 [10:42<09:09,  4.13s/it, ✓=0, ✖=19, error=99]Evaluation:  47%|████▋     | 118/250 [10:42<08:14,  3.75s/it, ✓=0, ✖=19, error=99]matplotlib__matplotlib-20859: >>>>> Patch Apply Failed:
+patching file lib/matplotlib/legend.py
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-20859/run_instance.log) for more information.
+Evaluation:  47%|████▋     | 118/250 [10:48<08:14,  3.75s/it, ✓=0, ✖=19, error=100]Evaluation:  48%|████▊     | 119/250 [10:48<09:58,  4.57s/it, ✓=0, ✖=19, error=100]matplotlib__matplotlib-21568: >>>>> Patch Apply Failed:
+patching file lib/matplotlib/dates.py
+patch: **** malformed patch at line 12:              self._date_locator = AutoDateLocator()
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-21568/run_instance.log) for more information.
+Evaluation:  48%|████▊     | 119/250 [10:55<09:58,  4.57s/it, ✓=0, ✖=19, error=101]Evaluation:  48%|████▊     | 120/250 [10:55<11:09,  5.15s/it, ✓=0, ✖=19, error=101]matplotlib__matplotlib-22719: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/matplotlib/axis.py b/matplotlib/axis.py
+|index 1505c0e..b0a0a0a 100644
+|--- a/matplotlib/axis.py
+|+++ b/matplotlib/axis.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-22719/run_instance.log) for more information.
+Evaluation:  48%|████▊     | 120/250 [10:57<11:09,  5.15s/it, ✓=0, ✖=19, error=102]Evaluation:  48%|████▊     | 121/250 [10:57<08:46,  4.08s/it, ✓=0, ✖=19, error=102]matplotlib__matplotlib-23314: >>>>> Patch Apply Failed:
+patching file lib/matplotlib/axes/_base.py
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-23314/run_instance.log) for more information.
+Evaluation:  48%|████▊     | 121/250 [10:59<08:46,  4.08s/it, ✓=0, ✖=19, error=103]Evaluation:  49%|████▉     | 122/250 [10:59<07:50,  3.68s/it, ✓=0, ✖=19, error=103]matplotlib__matplotlib-23412: >>>>> Patch Apply Failed:
+patching file lib/matplotlib/patches.py
+Hunk #1 FAILED at 1023.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file lib/matplotlib/patches.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-23412/run_instance.log) for more information.
+Evaluation:  49%|████▉     | 122/250 [11:06<07:50,  3.68s/it, ✓=0, ✖=19, error=104]Evaluation:  49%|████▉     | 123/250 [11:06<09:37,  4.55s/it, ✓=0, ✖=19, error=104]matplotlib__matplotlib-24149: >>>>> Patch Apply Failed:
+patching file lib/matplotlib/axes/_axes.py
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-24149/run_instance.log) for more information.
+Evaluation:  49%|████▉     | 123/250 [11:12<09:37,  4.55s/it, ✓=0, ✖=19, error=105]Evaluation:  50%|████▉     | 124/250 [11:12<10:48,  5.15s/it, ✓=0, ✖=19, error=105]matplotlib__matplotlib-24570: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/matplotlib/widgets/hpacker.py b/matplotlib/widgets/hpacker.py
+|index 0a5a5a5..b0a5a5a 100644
+|--- a/matplotlib/widgets/hpacker.py
+|+++ b/matplotlib/widgets/hpacker.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-24570/run_instance.log) for more information.
+Evaluation:  50%|████▉     | 124/250 [11:14<10:48,  5.15s/it, ✓=0, ✖=19, error=106]Evaluation:  50%|█████     | 125/250 [11:14<08:37,  4.14s/it, ✓=0, ✖=19, error=106]Evaluation:  50%|█████     | 125/250 [11:17<08:37,  4.14s/it, ✓=0, ✖=19, error=107]Evaluation:  50%|█████     | 126/250 [11:17<07:31,  3.64s/it, ✓=0, ✖=19, error=107]Evaluation:  50%|█████     | 126/250 [11:23<07:31,  3.64s/it, ✓=0, ✖=19, error=108]Evaluation:  51%|█████     | 127/250 [11:23<09:21,  4.56s/it, ✓=0, ✖=19, error=108]matplotlib__matplotlib-24870: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 12:  
+
+patching file lib/matplotlib/pyplot.py
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-24870/run_instance.log) for more information.
+Evaluation:  51%|█████     | 127/250 [11:33<09:21,  4.56s/it, ✓=0, ✖=19, error=109]Evaluation:  51%|█████     | 128/250 [11:33<12:04,  5.93s/it, ✓=0, ✖=19, error=109]matplotlib__matplotlib-24970: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/matplotlib/colors.py b/matplotlib/colors.py
+|index 1234567..89abcdef 100644
+|--- a/matplotlib/colors.py
+|+++ b/matplotlib/colors.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 21: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-24970/run_instance.log) for more information.
+Evaluation:  51%|█████     | 128/250 [11:42<12:04,  5.93s/it, ✓=0, ✖=19, error=110]Evaluation:  52%|█████▏    | 129/250 [11:42<13:48,  6.85s/it, ✓=0, ✖=19, error=110]matplotlib__matplotlib-25122: >>>>> Patch Apply Failed:
+patching file lib/matplotlib/mlab.py
+Hunk #1 FAILED at 423.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file lib/matplotlib/mlab.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-25122/run_instance.log) for more information.
+Evaluation:  52%|█████▏    | 129/250 [11:50<13:48,  6.85s/it, ✓=0, ✖=19, error=111]Evaluation:  52%|█████▏    | 130/250 [11:50<14:51,  7.43s/it, ✓=0, ✖=19, error=111]matplotlib__matplotlib-25287: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/axis.py b/axis.py
+|--- a/axis.py
+|+++ b/axis.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-25287/run_instance.log) for more information.
+Evaluation:  52%|█████▏    | 130/250 [11:59<14:51,  7.43s/it, ✓=0, ✖=19, error=112]Evaluation:  52%|█████▏    | 131/250 [11:59<15:43,  7.93s/it, ✓=0, ✖=19, error=112]matplotlib__matplotlib-25479: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/matplotlib/cm.py b/matplotlib/cm.py
+|index 161b0a0..c0a0a0a 100644
+|--- a/matplotlib/cm.py
+|+++ b/matplotlib/cm.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-25479/run_instance.log) for more information.
+Evaluation:  52%|█████▏    | 131/250 [12:08<15:43,  7.93s/it, ✓=0, ✖=19, error=113]Evaluation:  53%|█████▎    | 132/250 [12:08<16:04,  8.18s/it, ✓=0, ✖=19, error=113]Evaluation:  53%|█████▎    | 132/250 [12:17<16:04,  8.18s/it, ✓=0, ✖=19, error=114]Evaluation:  53%|█████▎    | 133/250 [12:17<16:35,  8.51s/it, ✓=0, ✖=19, error=114]matplotlib__matplotlib-26113: >>>>> Patch Apply Failed:
+patching file lib/matplotlib/axes/_axes.py
+Hunk #1 FAILED at 4594.
+Hunk #2 FAILED at 4625.
+Hunk #3 FAILED at 4633.
+patch unexpectedly ends in middle of line
+3 out of 3 hunks FAILED -- saving rejects to file lib/matplotlib/axes/_axes.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-26113/run_instance.log) for more information.
+Evaluation:  53%|█████▎    | 133/250 [12:37<16:35,  8.51s/it, ✓=0, ✖=19, error=115]Evaluation:  54%|█████▎    | 134/250 [12:37<22:52, 11.83s/it, ✓=0, ✖=19, error=115]matplotlib__matplotlib-26208: >>>>> Patch Apply Failed:
+patching file lib/matplotlib/axes/_base.py
+Hunk #1 FAILED at 1170.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file lib/matplotlib/axes/_base.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-26208/run_instance.log) for more information.
+Evaluation:  54%|█████▎    | 134/250 [12:55<22:52, 11.83s/it, ✓=0, ✖=19, error=116]Evaluation:  54%|█████▍    | 135/250 [12:55<26:13, 13.68s/it, ✓=0, ✖=19, error=116]matplotlib__matplotlib-26342: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/lib/cartopy/mpl/contour.py b/lib/cartopy/mpl/contour.py
+|index 2ed668c..d0a5b0a 100644
+|--- a/lib/cartopy/mpl/contour.py
+|+++ b/lib/cartopy/mpl/contour.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 12: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/matplotlib__matplotlib-26342/run_instance.log) for more information.
+Evaluation:  54%|█████▍    | 135/250 [12:58<26:13, 13.68s/it, ✓=0, ✖=20, error=116]Evaluation:  54%|█████▍    | 136/250 [12:58<19:39, 10.35s/it, ✓=0, ✖=20, error=116]mwaskom__seaborn-3069: >>>>> Patch Apply Failed:
+patching file seaborn/axisgrid.py
+Hunk #1 succeeded at 123 with fuzz 3.
+patch: **** malformed patch at line 20: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/mwaskom__seaborn-3069/run_instance.log) for more information.
+Evaluation:  54%|█████▍    | 136/250 [13:04<19:39, 10.35s/it, ✓=0, ✖=21, error=116]Evaluation:  55%|█████▍    | 137/250 [13:04<17:30,  9.30s/it, ✓=0, ✖=21, error=116]psf__requests-1142: >>>>> Patch Apply Failed:
+patching file requests/api.py
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/psf__requests-1142/run_instance.log) for more information.
+Evaluation:  55%|█████▍    | 137/250 [13:13<17:30,  9.30s/it, ✓=0, ✖=21, error=117]Evaluation:  55%|█████▌    | 138/250 [13:13<16:51,  9.03s/it, ✓=0, ✖=21, error=117]psf__requests-2317: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 11: ```
+
+patching file requests/sessions.py
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/psf__requests-2317/run_instance.log) for more information.
+Evaluation:  55%|█████▌    | 138/250 [13:15<16:51,  9.03s/it, ✓=0, ✖=21, error=118]Evaluation:  56%|█████▌    | 139/250 [13:15<12:56,  6.99s/it, ✓=0, ✖=21, error=118]psf__requests-2931: >>>>> Patch Apply Failed:
+patching file requests/models.py
+Hunk #1 FAILED at 104.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file requests/models.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/psf__requests-2931/run_instance.log) for more information.
+Evaluation:  56%|█████▌    | 139/250 [13:22<12:56,  6.99s/it, ✓=0, ✖=21, error=119]Evaluation:  56%|█████▌    | 140/250 [13:22<12:46,  6.97s/it, ✓=0, ✖=21, error=119]pydata__xarray-2905: >>>>> Patch Apply Failed:
+patching file xarray/core/variable.py
+Hunk #1 FAILED at 638.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/variable.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pydata__xarray-2905/run_instance.log) for more information.
+Evaluation:  56%|█████▌    | 140/250 [13:31<12:46,  6.97s/it, ✓=0, ✖=21, error=120]Evaluation:  56%|█████▋    | 141/250 [13:31<13:31,  7.45s/it, ✓=0, ✖=21, error=120]pydata__xarray-3095: >>>>> Patch Apply Failed:
+patching file xarray/core/dataset.py
+Hunk #1 FAILED at 104.
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/dataset.py.rej
+patching file xarray/core/dataarray.py
+Hunk #1 FAILED at 104.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/dataarray.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pydata__xarray-3095/run_instance.log) for more information.
+Evaluation:  56%|█████▋    | 141/250 [13:33<13:31,  7.45s/it, ✓=0, ✖=21, error=121]Evaluation:  57%|█████▋    | 142/250 [13:33<10:30,  5.84s/it, ✓=0, ✖=21, error=121]Evaluation:  57%|█████▋    | 142/250 [13:40<10:30,  5.84s/it, ✓=0, ✖=21, error=122]Evaluation:  57%|█████▋    | 143/250 [13:40<11:06,  6.23s/it, ✓=0, ✖=21, error=122]pydata__xarray-3677: >>>>> Patch Apply Failed:
+patching file xarray/core/dataset.py
+Hunk #1 FAILED at 3588.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/dataset.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pydata__xarray-3677/run_instance.log) for more information.
+Evaluation:  57%|█████▋    | 143/250 [13:50<11:06,  6.23s/it, ✓=0, ✖=21, error=123]Evaluation:  58%|█████▊    | 144/250 [13:50<13:19,  7.54s/it, ✓=0, ✖=21, error=123]pydata__xarray-4094: >>>>> Patch Apply Failed:
+patching file xarray/core/dataset.py
+Hunk #1 FAILED at 1234.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/dataset.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pydata__xarray-4094/run_instance.log) for more information.
+Evaluation:  58%|█████▊    | 144/250 [13:58<13:19,  7.54s/it, ✓=0, ✖=21, error=124]Evaluation:  58%|█████▊    | 145/250 [13:58<13:10,  7.53s/it, ✓=0, ✖=21, error=124]pydata__xarray-4356: >>>>> Patch Apply Failed:
+patching file xarray/core/nanops.py
+Hunk #1 FAILED at 32.
+Hunk #2 FAILED at 39.
+patch: **** malformed patch at line 29: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pydata__xarray-4356/run_instance.log) for more information.
+Evaluation:  58%|█████▊    | 145/250 [14:08<13:10,  7.53s/it, ✓=0, ✖=21, error=125]Evaluation:  58%|█████▊    | 146/250 [14:08<14:22,  8.29s/it, ✓=0, ✖=21, error=125]pydata__xarray-4687: >>>>> Patch Apply Failed:
+patching file xarray/core/dataarray.py
+Hunk #1 FAILED at 1043.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/dataarray.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pydata__xarray-4687/run_instance.log) for more information.
+Evaluation:  58%|█████▊    | 146/250 [14:16<14:22,  8.29s/it, ✓=0, ✖=21, error=126]Evaluation:  59%|█████▉    | 147/250 [14:16<13:56,  8.12s/it, ✓=0, ✖=21, error=126]Evaluation:  59%|█████▉    | 147/250 [14:16<13:56,  8.12s/it, ✓=0, ✖=22, error=126]Evaluation:  59%|█████▉    | 148/250 [14:25<13:48,  8.12s/it, ✓=0, ✖=23, error=126]Evaluation:  60%|█████▉    | 149/250 [14:25<11:04,  6.58s/it, ✓=0, ✖=23, error=126]Evaluation:  60%|█████▉    | 149/250 [14:26<11:04,  6.58s/it, ✓=0, ✖=23, error=127]Evaluation:  60%|██████    | 150/250 [14:26<08:45,  5.25s/it, ✓=0, ✖=23, error=127]pydata__xarray-6461: >>>>> Patch Apply Failed:
+patching file xarray/core/variable.py
+Hunk #1 FAILED at 1810.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/variable.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pydata__xarray-6461/run_instance.log) for more information.
+pydata__xarray-6599: >>>>> Patch Apply Failed:
+patching file xarray/core/variable.py
+Hunk #1 FAILED at 1234.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/variable.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pydata__xarray-6599/run_instance.log) for more information.
+Evaluation:  60%|██████    | 150/250 [14:44<08:45,  5.25s/it, ✓=0, ✖=23, error=128]Evaluation:  60%|██████    | 151/250 [14:44<13:56,  8.44s/it, ✓=0, ✖=23, error=128]Evaluation:  60%|██████    | 151/250 [14:46<13:56,  8.44s/it, ✓=0, ✖=23, error=129]Evaluation:  61%|██████    | 152/250 [14:46<10:47,  6.61s/it, ✓=0, ✖=23, error=129]pydata__xarray-6992: >>>>> Patch Apply Failed:
+patching file xarray/core/dataset.py
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pydata__xarray-6992/run_instance.log) for more information.
+Evaluation:  61%|██████    | 152/250 [14:47<10:47,  6.61s/it, ✓=0, ✖=24, error=129]Evaluation:  61%|██████    | 153/250 [14:47<08:27,  5.24s/it, ✓=0, ✖=24, error=129]pydata__xarray-7393: >>>>> Patch Apply Failed:
+patching file xarray/core/indexing.py
+Hunk #1 FAILED at 123.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/indexing.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pydata__xarray-7393/run_instance.log) for more information.
+pylint-dev__pylint-4604: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/pylint/checkers/importing.py b/pylint/checkers/importing.py
+|index 0a5b0e0..c0f0a0a 100644
+|--- a/pylint/checkers/importing.py
+|+++ b/pylint/checkers/importing.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 12: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pylint-dev__pylint-4604/run_instance.log) for more information.
+Evaluation:  61%|██████    | 153/250 [14:56<08:27,  5.24s/it, ✓=0, ✖=25, error=129]Evaluation:  62%|██████▏   | 154/250 [14:56<10:08,  6.34s/it, ✓=0, ✖=25, error=129]Evaluation:  62%|██████▏   | 154/250 [15:03<10:08,  6.34s/it, ✓=0, ✖=25, error=130]Evaluation:  62%|██████▏   | 155/250 [15:03<10:14,  6.46s/it, ✓=0, ✖=25, error=130]Evaluation:  62%|██████▏   | 155/250 [15:05<10:14,  6.46s/it, ✓=0, ✖=25, error=131]Evaluation:  62%|██████▏   | 156/250 [15:05<07:54,  5.05s/it, ✓=0, ✖=25, error=131]Evaluation:  62%|██████▏   | 156/250 [15:06<07:54,  5.05s/it, ✓=0, ✖=25, error=132]Evaluation:  63%|██████▎   | 157/250 [15:06<06:05,  3.93s/it, ✓=0, ✖=25, error=132]pylint-dev__pylint-7080: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pylint-dev__pylint-7080/run_instance.log) for more information.
+pylint-dev__pylint-7277: >>>>> Patch Apply Failed:
+patching file pylint/__init__.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pylint-dev__pylint-7277/run_instance.log) for more information.
+pylint-dev__pylint-8898: >>>>> Patch Apply Failed:
+patching file pylint/config/argument.py
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pylint-dev__pylint-8898/run_instance.log) for more information.
+Evaluation:  63%|██████▎   | 157/250 [15:23<06:05,  3.93s/it, ✓=0, ✖=25, error=133]Evaluation:  63%|██████▎   | 158/250 [15:23<11:56,  7.79s/it, ✓=0, ✖=25, error=133]pytest-dev__pytest-10051: >>>>> Patch Apply Failed:
+patching file src/_pytest/logging.py
+Hunk #1 FAILED at 699.
+patch unexpectedly ends in middle of line
+Hunk #2 FAILED at 345.
+2 out of 2 hunks FAILED -- saving rejects to file src/_pytest/logging.py.rej
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pytest-dev__pytest-10051/run_instance.log) for more information.
+Evaluation:  63%|██████▎   | 158/250 [15:25<11:56,  7.79s/it, ✓=0, ✖=25, error=134]Evaluation:  64%|██████▎   | 159/250 [15:25<09:17,  6.13s/it, ✓=0, ✖=25, error=134]Evaluation:  64%|██████▎   | 159/250 [15:25<09:17,  6.13s/it, ✓=0, ✖=25, error=135]Evaluation:  64%|██████▍   | 160/250 [15:26<09:11,  6.13s/it, ✓=0, ✖=26, error=135]Evaluation:  64%|██████▍   | 161/250 [15:26<05:12,  3.51s/it, ✓=0, ✖=26, error=135]pytest-dev__pytest-10356: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/pytest/__init__.py b/pytest/__init__.py
+|index 0a5b1f7..d8c9b4b 100644
+|--- a/pytest/__init__.py
+|+++ b/pytest/__init__.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pytest-dev__pytest-10356/run_instance.log) for more information.
+pytest-dev__pytest-10081: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/unittest.py b/unittest.py
+|index 8a9b5c1..d0f0e0f 100644
+|--- a/unittest.py
+|+++ b/unittest.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 15: @@ -110,6 +114,10 @@ def _run(self):
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pytest-dev__pytest-10081/run_instance.log) for more information.
+pytest-dev__pytest-5787: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/basic/test_basic.py b/basic/test_basic.py
+|index 0a0a0a0..b0b0b0b 100644
+|--- a/basic/test_basic.py
+|+++ b/basic/test_basic.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 21: if __name__ == '__main__':
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pytest-dev__pytest-5787/run_instance.log) for more information.
+Evaluation:  64%|██████▍   | 161/250 [15:41<05:12,  3.51s/it, ✓=0, ✖=26, error=136]Evaluation:  65%|██████▍   | 162/250 [15:41<09:19,  6.36s/it, ✓=0, ✖=26, error=136]pytest-dev__pytest-5840: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/pisys/conftest.py b/pisys/conftest.py
+|index 1234567..89abcdef 100644
+|--- a/pisys/conftest.py
+|+++ b/pisys/conftest.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pytest-dev__pytest-5840/run_instance.log) for more information.
+Evaluation:  65%|██████▍   | 162/250 [15:46<09:19,  6.36s/it, ✓=0, ✖=26, error=137]Evaluation:  65%|██████▌   | 163/250 [15:46<08:35,  5.93s/it, ✓=0, ✖=26, error=137]Evaluation:  65%|██████▌   | 163/250 [15:46<08:35,  5.93s/it, ✓=0, ✖=26, error=138]Evaluation:  66%|██████▌   | 164/250 [15:46<08:29,  5.93s/it, ✓=0, ✖=26, error=139]Evaluation:  66%|██████▌   | 165/250 [15:46<04:54,  3.47s/it, ✓=0, ✖=26, error=139]pytest-dev__pytest-7324: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/Python/compile.c b/Python/compile.c
+|index 6a5c0f0..e0a0a0a 100644
+|--- a/Python/compile.c
+|+++ b/Python/compile.c
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pytest-dev__pytest-7324/run_instance.log) for more information.
+pytest-dev__pytest-7432: >>>>> Patch Apply Failed:
+patching file src/_pytest/skipping.py
+Hunk #1 FAILED at 235.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file src/_pytest/skipping.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pytest-dev__pytest-7432/run_instance.log) for more information.
+Evaluation:  66%|██████▌   | 165/250 [15:59<04:54,  3.47s/it, ✓=0, ✖=26, error=140]Evaluation:  66%|██████▋   | 166/250 [15:59<07:47,  5.57s/it, ✓=0, ✖=26, error=140]pytest-dev__pytest-7490: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pytest-dev__pytest-7490/run_instance.log) for more information.
+Evaluation:  66%|██████▋   | 166/250 [16:05<07:47,  5.57s/it, ✓=0, ✖=26, error=141]Evaluation:  67%|██████▋   | 167/250 [16:05<08:04,  5.83s/it, ✓=0, ✖=26, error=141]Evaluation:  67%|██████▋   | 167/250 [16:06<08:04,  5.83s/it, ✓=0, ✖=26, error=142]Evaluation:  67%|██████▋   | 168/250 [16:06<06:01,  4.41s/it, ✓=0, ✖=26, error=142]pytest-dev__pytest-7571: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/tests/test_logging.py b/tests/test_logging.py
+|index 1a2b3c4..5d6e7f8 100644
+|--- a/tests/test_logging.py
+|+++ b/tests/test_logging.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pytest-dev__pytest-7571/run_instance.log) for more information.
+pytest-dev__pytest-7982: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/src/pytest/_internal/collections.py b/src/pytest/_internal/collections.py
+|index 9a5b1c1..b7c3d2e 100644
+|--- a/src/pytest/_internal/collections.py
+|+++ b/src/pytest/_internal/collections.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/pytest-dev__pytest-7982/run_instance.log) for more information.
+Evaluation:  67%|██████▋   | 168/250 [16:14<06:01,  4.41s/it, ✓=0, ✖=27, error=142]Evaluation:  68%|██████▊   | 169/250 [16:14<07:28,  5.54s/it, ✓=0, ✖=27, error=142]scikit-learn__scikit-learn-10297: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sklearn/linear_model.py b/sklearn/linear_model.py
+|index 8a5b5c1..e0f0a0a 100644
+|--- a/sklearn/linear_model.py
+|+++ b/sklearn/linear_model.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 21: 
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-10297/run_instance.log) for more information.
+Evaluation:  68%|██████▊   | 169/250 [16:16<07:28,  5.54s/it, ✓=0, ✖=27, error=143]Evaluation:  68%|██████▊   | 170/250 [16:16<06:01,  4.52s/it, ✓=0, ✖=27, error=143]scikit-learn__scikit-learn-10844: >>>>> Patch Apply Failed:
+patching file sklearn/metrics/cluster/supervised.py
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-10844/run_instance.log) for more information.
+Evaluation:  68%|██████▊   | 170/250 [16:24<06:01,  4.52s/it, ✓=0, ✖=27, error=144]Evaluation:  68%|██████▊   | 171/250 [16:24<07:09,  5.43s/it, ✓=0, ✖=27, error=144]Evaluation:  68%|██████▊   | 171/250 [16:24<07:09,  5.43s/it, ✓=0, ✖=27, error=145]Evaluation:  69%|██████▉   | 172/250 [16:24<05:06,  3.92s/it, ✓=0, ✖=27, error=145]scikit-learn__scikit-learn-12585: >>>>> Patch Apply Failed:
+patching file sklearn/base.py
+Hunk #1 FAILED at 50.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sklearn/base.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-12585/run_instance.log) for more information.
+Evaluation:  69%|██████▉   | 172/250 [16:32<05:06,  3.92s/it, ✓=0, ✖=27, error=146]Evaluation:  69%|██████▉   | 173/250 [16:32<06:29,  5.05s/it, ✓=0, ✖=27, error=146]scikit-learn__scikit-learn-12682: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sklearn/codings/sparse_coding.py b/sklearn/codings/sparse_coding.py
+|index 5a3b7c8..d4b9e2f 100644
+|--- a/sklearn/codings/sparse_coding.py
+|+++ b/sklearn/codings/sparse_coding.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 20: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-12682/run_instance.log) for more information.
+Evaluation:  69%|██████▉   | 173/250 [16:34<06:29,  5.05s/it, ✓=0, ✖=27, error=147]Evaluation:  70%|██████▉   | 174/250 [16:34<05:23,  4.26s/it, ✓=0, ✖=27, error=147]Evaluation:  70%|██████▉   | 174/250 [16:42<05:23,  4.26s/it, ✓=0, ✖=27, error=148]Evaluation:  70%|███████   | 175/250 [16:42<06:46,  5.43s/it, ✓=0, ✖=27, error=148]scikit-learn__scikit-learn-13124: >>>>> Patch Apply Failed:
+patching file sklearn/model_selection/_split.py
+Hunk #1 FAILED at 103.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sklearn/model_selection/_split.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-13124/run_instance.log) for more information.
+Evaluation:  70%|███████   | 175/250 [16:50<06:46,  5.43s/it, ✓=0, ✖=27, error=149]Evaluation:  70%|███████   | 176/250 [16:50<07:29,  6.07s/it, ✓=0, ✖=27, error=149]Evaluation:  70%|███████   | 176/250 [16:52<07:29,  6.07s/it, ✓=0, ✖=28, error=149]Evaluation:  71%|███████   | 177/250 [16:52<05:49,  4.79s/it, ✓=0, ✖=28, error=149]scikit-learn__scikit-learn-13142: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sklearn/mixture/gmm.py b/sklearn/mixture/gmm.py
+|index 0a5a5e0..d0a5a5e 100644
+|--- a/sklearn/mixture/gmm.py
+|+++ b/sklearn/mixture/gmm.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+24 out of 24 hunks ignored
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-13142/run_instance.log) for more information.
+Evaluation:  71%|███████   | 177/250 [16:58<05:49,  4.79s/it, ✓=0, ✖=29, error=149]Evaluation:  71%|███████   | 178/250 [16:58<06:16,  5.23s/it, ✓=0, ✖=29, error=149]scikit-learn__scikit-learn-13779: >>>>> Patch Apply Failed:
+patching file sklearn/ensemble/voting.py
+Hunk #1 succeeded at 123 with fuzz 3.
+Hunk #2 FAILED at 132.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sklearn/ensemble/voting.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-13779/run_instance.log) for more information.
+Evaluation:  71%|███████   | 178/250 [17:00<06:16,  5.23s/it, ✓=0, ✖=29, error=150]Evaluation:  72%|███████▏  | 179/250 [17:00<05:03,  4.28s/it, ✓=0, ✖=29, error=150]Evaluation:  72%|███████▏  | 179/250 [17:09<05:03,  4.28s/it, ✓=0, ✖=29, error=151]Evaluation:  72%|███████▏  | 180/250 [17:09<06:36,  5.66s/it, ✓=0, ✖=29, error=151]scikit-learn__scikit-learn-14141: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sklearn/utils/version.py b/sklearn/utils/version.py
+|index 1a2b3c4..5d6e7f8 100644
+|--- a/sklearn/utils/version.py
+|+++ b/sklearn/utils/version.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 12: @@ -10,6 +11,7 @@ def show_versions():
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-14141/run_instance.log) for more information.
+Evaluation:  72%|███████▏  | 180/250 [17:16<06:36,  5.66s/it, ✓=0, ✖=29, error=152]Evaluation:  72%|███████▏  | 181/250 [17:16<07:02,  6.12s/it, ✓=0, ✖=29, error=152]Evaluation:  72%|███████▏  | 181/250 [17:16<07:02,  6.12s/it, ✓=0, ✖=30, error=152]scikit-learn__scikit-learn-14496: >>>>> Patch Apply Failed:
+patching file sklearn/cluster/optics_.py
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-14496/run_instance.log) for more information.
+scikit-learn__scikit-learn-15100: >>>>> Patch Apply Failed:
+patching file sklearn/feature_extraction/text.py
+Hunk #1 FAILED at 103.
+Hunk #2 succeeded at 111 with fuzz 3.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sklearn/feature_extraction/text.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-15100/run_instance.log) for more information.
+Evaluation:  73%|███████▎  | 182/250 [17:27<06:56,  6.12s/it, ✓=0, ✖=30, error=153]Evaluation:  73%|███████▎  | 183/250 [17:27<06:21,  5.69s/it, ✓=0, ✖=30, error=153]Evaluation:  73%|███████▎  | 183/250 [17:35<06:21,  5.69s/it, ✓=0, ✖=30, error=154]Evaluation:  74%|███████▎  | 184/250 [17:35<06:58,  6.35s/it, ✓=0, ✖=30, error=154]Evaluation:  74%|███████▎  | 184/250 [17:35<06:58,  6.35s/it, ✓=0, ✖=30, error=155]scikit-learn__scikit-learn-25747: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sklearn/compose/_feature_union.py b/sklearn/compose/_feature_union.py
+|index 0a5b0a5..c0a5b0a 100644
+|--- a/sklearn/compose/_feature_union.py
+|+++ b/sklearn/compose/_feature_union.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-25747/run_instance.log) for more information.
+scikit-learn__scikit-learn-25931: >>>>> Patch Apply Failed:
+patching file sklearn/ensemble/_iforest.py
+Hunk #1 FAILED at 334.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sklearn/ensemble/_iforest.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-25931/run_instance.log) for more information.
+Evaluation:  74%|███████▍  | 185/250 [17:47<06:52,  6.35s/it, ✓=0, ✖=31, error=155]Evaluation:  74%|███████▍  | 186/250 [17:47<06:37,  6.21s/it, ✓=0, ✖=31, error=155]scikit-learn__scikit-learn-25973: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sklearn/feature_selection/sequential.py b/sklearn/feature_selection/sequential.py
+|index 7b0a0a0..d0a0a0a 100644
+|--- a/sklearn/feature_selection/sequential.py
+|+++ b/sklearn/feature_selection/sequential.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 14: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-25973/run_instance.log) for more information.
+Evaluation:  74%|███████▍  | 186/250 [17:54<06:37,  6.21s/it, ✓=0, ✖=31, error=156]Evaluation:  75%|███████▍  | 187/250 [17:54<06:48,  6.49s/it, ✓=0, ✖=31, error=156]Evaluation:  75%|███████▍  | 187/250 [17:54<06:48,  6.49s/it, ✓=0, ✖=31, error=157]scikit-learn__scikit-learn-9288: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sklearn/cluster/kmeans.py b/sklearn/cluster/kmeans.py
+|index 0a5b0a5..c0a5b0a 100644
+|--- a/sklearn/cluster/kmeans.py
+|+++ b/sklearn/cluster/kmeans.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/scikit-learn__scikit-learn-9288/run_instance.log) for more information.
+Evaluation:  75%|███████▌  | 188/250 [17:59<06:42,  6.49s/it, ✓=0, ✖=32, error=157]Evaluation:  76%|███████▌  | 189/250 [17:59<04:50,  4.76s/it, ✓=0, ✖=32, error=157]sphinx-doc__sphinx-10323: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/index.rst b/index.rst
+|index 1234567..89abcdef 100644
+|--- a/index.rst
+|+++ b/index.rst
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-10323/run_instance.log) for more information.
+Evaluation:  76%|███████▌  | 189/250 [18:05<04:50,  4.76s/it, ✓=0, ✖=32, error=158]Evaluation:  76%|███████▌  | 190/250 [18:05<05:04,  5.08s/it, ✓=0, ✖=32, error=158]sphinx-doc__sphinx-10435: >>>>> Patch Apply Failed:
+patching file sphinx/writers/latex.py
+Hunk #1 FAILED at 1234.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sphinx/writers/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-10435/run_instance.log) for more information.
+Evaluation:  76%|███████▌  | 190/250 [18:12<05:04,  5.08s/it, ✓=0, ✖=32, error=159]Evaluation:  76%|███████▋  | 191/250 [18:12<05:32,  5.64s/it, ✓=0, ✖=32, error=159]sphinx-doc__sphinx-10673: >>>>> Patch Apply Failed:
+patching file doc/index.rst
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-10673/run_instance.log) for more information.
+Evaluation:  76%|███████▋  | 191/250 [18:16<05:32,  5.64s/it, ✓=0, ✖=32, error=160]Evaluation:  77%|███████▋  | 192/250 [18:16<05:02,  5.22s/it, ✓=0, ✖=32, error=160]sphinx-doc__sphinx-11510: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/documentation/sphinx/yocto-vars.py b/documentation/sphinx/yocto-vars.py
+|index 1234567..abcdef8 100644
+|--- a/documentation/sphinx/yocto-vars.py
+|+++ b/documentation/sphinx/yocto-vars.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 21: +        include_content = f.read()
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-11510/run_instance.log) for more information.
+Evaluation:  77%|███████▋  | 192/250 [18:22<05:02,  5.22s/it, ✓=0, ✖=32, error=161]Evaluation:  77%|███████▋  | 193/250 [18:22<05:10,  5.46s/it, ✓=0, ✖=32, error=161]sphinx-doc__sphinx-7454: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/typehints.py
+Hunk #1 FAILED at 117.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sphinx/ext/autodoc/typehints.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-7454/run_instance.log) for more information.
+Evaluation:  77%|███████▋  | 193/250 [18:30<05:10,  5.46s/it, ✓=0, ✖=32, error=162]Evaluation:  78%|███████▊  | 194/250 [18:30<05:35,  5.99s/it, ✓=0, ✖=32, error=162]Evaluation:  78%|███████▊  | 194/250 [18:31<05:35,  5.99s/it, ✓=0, ✖=33, error=162]Evaluation:  78%|███████▊  | 195/250 [18:31<04:16,  4.66s/it, ✓=0, ✖=33, error=162]sphinx-doc__sphinx-7889: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/__init__.py
+patch: **** malformed patch at line 12: @@ -10,6 +11,7 @@ from . import directives
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-7889/run_instance.log) for more information.
+sphinx-doc__sphinx-8056: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-8056/run_instance.log) for more information.
+Evaluation:  78%|███████▊  | 195/250 [18:34<04:16,  4.66s/it, ✓=0, ✖=33, error=163]Evaluation:  78%|███████▊  | 196/250 [18:34<03:41,  4.10s/it, ✓=0, ✖=33, error=163]sphinx-doc__sphinx-8120: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/conf.py b/conf.py
+|index 0a5f0a5..e9c6b0a 100644
+|--- a/conf.py
+|+++ b/conf.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 12: @@ -10,6 +11,7 @@ sys.path.insert(0, os.path.abspath('..'))
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-8120/run_instance.log) for more information.
+Evaluation:  78%|███████▊  | 196/250 [18:40<03:41,  4.10s/it, ✓=0, ✖=33, error=164]Evaluation:  79%|███████▉  | 197/250 [18:40<04:08,  4.69s/it, ✓=0, ✖=33, error=164]sphinx-doc__sphinx-8475: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/linkcheck.py b/linkcheck.py
+|index 1234567..89abcdef 100644
+|--- a/linkcheck.py
+|+++ b/linkcheck.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-8475/run_instance.log) for more information.
+Evaluation:  79%|███████▉  | 197/250 [18:48<04:08,  4.69s/it, ✓=0, ✖=33, error=165]Evaluation:  79%|███████▉  | 198/250 [18:48<04:51,  5.60s/it, ✓=0, ✖=33, error=165]Evaluation:  79%|███████▉  | 198/250 [18:49<04:51,  5.60s/it, ✓=0, ✖=33, error=166]Evaluation:  80%|███████▉  | 199/250 [18:49<03:41,  4.34s/it, ✓=0, ✖=33, error=166]sphinx-doc__sphinx-8548: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sphinx/ext/autodoc.py b/sphinx/ext/autodoc.py
+|index 1234567..89abcdef 100644
+|--- a/sphinx/ext/autodoc.py
+|+++ b/sphinx/ext/autodoc.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+27 out of 27 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-8548/run_instance.log) for more information.
+sphinx-doc__sphinx-8621: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sphinx/directives/html.py b/sphinx/directives/html.py
+|index 0a5b0e0..d0a5b0e 100644
+|--- a/sphinx/directives/html.py
+|+++ b/sphinx/directives/html.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-8621/run_instance.log) for more information.
+Evaluation:  80%|███████▉  | 199/250 [18:51<03:41,  4.34s/it, ✓=0, ✖=33, error=167]Evaluation:  80%|████████  | 200/250 [18:51<03:07,  3.74s/it, ✓=0, ✖=33, error=167]sphinx-doc__sphinx-8721: >>>>> Patch Apply Failed:
+patching file sphinx/ext/viewcode.py
+Hunk #1 FAILED at 21.
+Hunk #2 FAILED at 30.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sphinx/ext/viewcode.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-8721/run_instance.log) for more information.
+Evaluation:  80%|████████  | 200/250 [18:57<03:07,  3.74s/it, ✓=0, ✖=33, error=168]Evaluation:  80%|████████  | 201/250 [18:57<03:36,  4.42s/it, ✓=0, ✖=33, error=168]sphinx-doc__sphinx-9229: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/file.py b/file.py
+|index 1234567..89abcdef 100644
+|--- a/file.py
+|+++ b/file.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-9229/run_instance.log) for more information.
+Evaluation:  80%|████████  | 201/250 [19:06<03:36,  4.42s/it, ✓=0, ✖=33, error=169]Evaluation:  81%|████████  | 202/250 [19:06<04:29,  5.62s/it, ✓=0, ✖=33, error=169]Evaluation:  81%|████████  | 202/250 [19:07<04:29,  5.62s/it, ✓=0, ✖=33, error=170]Evaluation:  81%|████████  | 203/250 [19:07<03:27,  4.41s/it, ✓=0, ✖=33, error=170]sphinx-doc__sphinx-9230: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sphinx/ext/autodoc.py b/sphinx/ext/autodoc.py
+|index 1234567..89abcdef 100644
+|--- a/sphinx/ext/autodoc.py
+|+++ b/sphinx/ext/autodoc.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-9230/run_instance.log) for more information.
+Evaluation:  81%|████████  | 203/250 [19:09<03:27,  4.41s/it, ✓=0, ✖=33, error=171]Evaluation:  82%|████████▏ | 204/250 [19:09<02:42,  3.53s/it, ✓=0, ✖=33, error=171]sphinx-doc__sphinx-9258: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/your_module.py b/your_module.py
+|index 1234567..89abcdef 100644
+|--- a/your_module.py
+|+++ b/your_module.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-9258/run_instance.log) for more information.
+Evaluation:  82%|████████▏ | 204/250 [19:15<02:42,  3.53s/it, ✓=0, ✖=33, error=172]Evaluation:  82%|████████▏ | 205/250 [19:15<03:15,  4.35s/it, ✓=0, ✖=33, error=172]sphinx-doc__sphinx-9658: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/docs/source/alibi_detect/utils/pytorch/kernels.rst b/docs/source/alibi_detect/utils/pytorch/kernels.rst
+|index 1a2b3c4..5d6e7f8 100644
+|--- a/docs/source/alibi_detect/utils/pytorch/kernels.rst
+|+++ b/docs/source/alibi_detect/utils/pytorch/kernels.rst
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-9658/run_instance.log) for more information.
+Evaluation:  82%|████████▏ | 205/250 [19:24<03:15,  4.35s/it, ✓=0, ✖=33, error=173]Evaluation:  82%|████████▏ | 206/250 [19:24<04:07,  5.63s/it, ✓=0, ✖=33, error=173]sphinx-doc__sphinx-9698: >>>>> Patch Apply Failed:
+patching file sphinx/domains/python.py
+Hunk #1 FAILED at 123.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sphinx/domains/python.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-9698/run_instance.log) for more information.
+Evaluation:  82%|████████▏ | 206/250 [19:25<04:07,  5.63s/it, ✓=0, ✖=33, error=174]Evaluation:  83%|████████▎ | 207/250 [19:25<03:09,  4.41s/it, ✓=0, ✖=33, error=174]sphinx-doc__sphinx-9711: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sphinx_gallery/gen_gallery.py b/sphinx_gallery/gen_gallery.py
+|index 5a3b7b8..d0f0a0a 100644
+|--- a/sphinx_gallery/gen_gallery.py
+|+++ b/sphinx_gallery/gen_gallery.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sphinx-doc__sphinx-9711/run_instance.log) for more information.
+Evaluation:  83%|████████▎ | 207/250 [19:33<03:09,  4.41s/it, ✓=0, ✖=33, error=175]Evaluation:  83%|████████▎ | 208/250 [19:33<03:42,  5.30s/it, ✓=0, ✖=33, error=175]sympy__sympy-12419: >>>>> Patch Apply Failed:
+patching file sympy/matrices/matrices.py
+Hunk #1 FAILED at 1234.
+Hunk #2 FAILED at 1243.
+Hunk #3 FAILED at 1252.
+Hunk #4 FAILED at 1261.
+Hunk #5 FAILED at 1270.
+Hunk #6 FAILED at 1279.
+Hunk #7 FAILED at 1288.
+Hunk #8 FAILED at 1297.
+Hunk #9 FAILED at 1306.
+Hunk #10 FAILED at 1315.
+Hunk #11 FAILED at 1324.
+Hunk #12 FAILED at 1333.
+Hunk #13 FAILED at 1342.
+Hunk #14 FAILED at 1351.
+Hunk #15 FAILED at 1360.
+Hunk #16 FAILED at 1369.
+patch unexpectedly ends in middle of line
+16 out of 16 hunks FAILED -- saving rejects to file sympy/matrices/matrices.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-12419/run_instance.log) for more information.
+Evaluation:  83%|████████▎ | 208/250 [19:35<03:42,  5.30s/it, ✓=0, ✖=34, error=175]Evaluation:  84%|████████▎ | 209/250 [19:35<02:58,  4.35s/it, ✓=0, ✖=34, error=175]sympy__sympy-12489: >>>>> Patch Apply Failed:
+patching file sympy/combinatorics/permutations.py
+Hunk #1 FAILED at 123.
+Hunk #2 FAILED at 131.
+2 out of 2 hunks FAILED -- saving rejects to file sympy/combinatorics/permutations.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-12489/run_instance.log) for more information.
+Evaluation:  84%|████████▎ | 209/250 [19:41<02:58,  4.35s/it, ✓=0, ✖=34, error=176]Evaluation:  84%|████████▍ | 210/250 [19:41<03:19,  4.98s/it, ✓=0, ✖=34, error=176]sympy__sympy-13031: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 104.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-13031/run_instance.log) for more information.
+Evaluation:  84%|████████▍ | 210/250 [19:43<03:19,  4.98s/it, ✓=0, ✖=34, error=177]Evaluation:  84%|████████▍ | 211/250 [19:43<02:37,  4.04s/it, ✓=0, ✖=34, error=177]sympy__sympy-13091: >>>>> Patch Apply Failed:
+patching file sympy/core/basic.py
+Hunk #1 FAILED at 313.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sympy/core/basic.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-13091/run_instance.log) for more information.
+Evaluation:  84%|████████▍ | 211/250 [19:50<02:37,  4.04s/it, ✓=0, ✖=34, error=178]Evaluation:  85%|████████▍ | 212/250 [19:50<03:08,  4.97s/it, ✓=0, ✖=34, error=178]sympy__sympy-13480: >>>>> Patch Apply Failed:
+patching file sympy/functions/elementary/hyperbolic.py
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-13480/run_instance.log) for more information.
+Evaluation:  85%|████████▍ | 212/250 [19:52<03:08,  4.97s/it, ✓=0, ✖=34, error=179]Evaluation:  85%|████████▌ | 213/250 [19:52<02:31,  4.10s/it, ✓=0, ✖=34, error=179]sympy__sympy-13647: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1043.
+Hunk #2 succeeded at 1051 with fuzz 3.
+1 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-13647/run_instance.log) for more information.
+Evaluation:  85%|████████▌ | 213/250 [19:59<02:31,  4.10s/it, ✓=0, ✖=34, error=180]Evaluation:  86%|████████▌ | 214/250 [19:59<02:54,  4.85s/it, ✓=0, ✖=34, error=180]Evaluation:  86%|████████▌ | 214/250 [20:01<02:54,  4.85s/it, ✓=0, ✖=34, error=181]Evaluation:  86%|████████▌ | 215/250 [20:01<02:17,  3.94s/it, ✓=0, ✖=34, error=181]sympy__sympy-13877: >>>>> Patch Apply Failed:
+patching file sympy/matrices/matrices.py
+patch: **** malformed patch at line 12: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-13877/run_instance.log) for more information.
+Evaluation:  86%|████████▌ | 215/250 [20:08<02:17,  3.94s/it, ✓=0, ✖=34, error=182]Evaluation:  86%|████████▋ | 216/250 [20:08<02:48,  4.95s/it, ✓=0, ✖=34, error=182]sympy__sympy-13878: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sympy/stats/distributions.py b/sympy/stats/distributions.py
+|index 1a2b3c4..5d6e7f8 100644
+|--- a/sympy/stats/distributions.py
+|+++ b/sympy/stats/distributions.py
+--------------------------
+No file to patch.  Skipping patch.
+9 out of 9 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-13878/run_instance.log) for more information.
+Evaluation:  86%|████████▋ | 216/250 [20:10<02:48,  4.95s/it, ✓=0, ✖=34, error=183]Evaluation:  87%|████████▋ | 217/250 [20:10<02:12,  4.02s/it, ✓=0, ✖=34, error=183]sympy__sympy-14531: >>>>> Patch Apply Failed:
+patching file sympy/printing/__init__.py
+patch: **** malformed patch at line 12: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-14531/run_instance.log) for more information.
+Evaluation:  87%|████████▋ | 217/250 [20:18<02:12,  4.02s/it, ✓=0, ✖=34, error=184]Evaluation:  87%|████████▋ | 218/250 [20:18<02:52,  5.39s/it, ✓=0, ✖=34, error=184]Evaluation:  87%|████████▋ | 218/250 [20:24<02:52,  5.39s/it, ✓=0, ✖=35, error=184]Evaluation:  88%|████████▊ | 219/250 [20:24<02:45,  5.33s/it, ✓=0, ✖=35, error=184]sympy__sympy-15017: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sympy/tensor/array.py b/sympy/tensor/array.py
+|index 5a3b7c9..e4f8b0a 100644
+|--- a/sympy/tensor/array.py
+|+++ b/sympy/tensor/array.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-15017/run_instance.log) for more information.
+Evaluation:  88%|████████▊ | 219/250 [20:26<02:45,  5.33s/it, ✓=0, ✖=35, error=185]Evaluation:  88%|████████▊ | 220/250 [20:26<02:12,  4.41s/it, ✓=0, ✖=35, error=185]Evaluation:  88%|████████▊ | 220/250 [20:28<02:12,  4.41s/it, ✓=0, ✖=35, error=186]Evaluation:  88%|████████▊ | 221/250 [20:28<01:43,  3.59s/it, ✓=0, ✖=35, error=186]sympy__sympy-15809: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/src/core/math.py b/src/core/math.py
+|index 1234567..89abcdef 100644
+|--- a/src/core/math.py
+|+++ b/src/core/math.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 14:      if not args:
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-15809/run_instance.log) for more information.
+sympy__sympy-16450: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/src/posify.jl b/src/posify.jl
+|index 0a5b9c8..d0f7e9f 100644
+|--- a/src/posify.jl
+|+++ b/src/posify.jl
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-16450/run_instance.log) for more information.
+Evaluation:  88%|████████▊ | 221/250 [20:41<01:43,  3.59s/it, ✓=0, ✖=35, error=187]Evaluation:  89%|████████▉ | 222/250 [20:41<03:03,  6.56s/it, ✓=0, ✖=35, error=187]sympy__sympy-16597: >>>>> Patch Apply Failed:
+patching file sympy/core/numbers.py
+patch: **** malformed patch at line 13:      def is_odd(self):
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-16597/run_instance.log) for more information.
+Evaluation:  89%|████████▉ | 222/250 [20:43<03:03,  6.56s/it, ✓=0, ✖=36, error=187]Evaluation:  89%|████████▉ | 223/250 [20:43<02:17,  5.09s/it, ✓=0, ✖=36, error=187]Evaluation:  89%|████████▉ | 223/250 [20:44<02:17,  5.09s/it, ✓=0, ✖=36, error=188]Evaluation:  90%|████████▉ | 224/250 [20:44<01:42,  3.93s/it, ✓=0, ✖=36, error=188]sympy__sympy-16766: >>>>> Patch Apply Failed:
+patching file sympy/printing/python.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 14:  
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-16766/run_instance.log) for more information.
+Evaluation:  90%|████████▉ | 224/250 [20:46<01:42,  3.93s/it, ✓=0, ✖=36, error=189]Evaluation:  90%|█████████ | 225/250 [20:46<01:21,  3.28s/it, ✓=0, ✖=36, error=189]sympy__sympy-16886: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/simpy/crypto/crypto.py b/simpy/crypto/crypto.py
+|index 1234567..89abcdef 100644
+|--- a/simpy/crypto/crypto.py
+|+++ b/simpy/crypto/crypto.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-16886/run_instance.log) for more information.
+Evaluation:  90%|█████████ | 225/250 [20:58<01:21,  3.28s/it, ✓=0, ✖=36, error=190]Evaluation:  90%|█████████ | 226/250 [20:58<02:26,  6.11s/it, ✓=0, ✖=36, error=190]sympy__sympy-17630: >>>>> Patch Apply Failed:
+patching file sympy/matrices/expressions/blockmatrix.py
+Hunk #1 succeeded at 148 with fuzz 2 (offset 68 lines).
+Hunk #2 FAILED at 361.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/expressions/blockmatrix.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-17630/run_instance.log) for more information.
+Evaluation:  90%|█████████ | 226/250 [21:01<02:26,  6.11s/it, ✓=0, ✖=36, error=191]Evaluation:  91%|█████████ | 227/250 [21:01<01:53,  4.93s/it, ✓=0, ✖=36, error=191]sympy__sympy-18189: >>>>> Patch Apply Failed:
+patching file sympy/solvers/diophantine.py
+Hunk #1 FAILED at 123.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sympy/solvers/diophantine.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-18189/run_instance.log) for more information.
+Evaluation:  91%|█████████ | 227/250 [21:02<01:53,  4.93s/it, ✓=0, ✖=36, error=192]Evaluation:  91%|█████████ | 228/250 [21:02<01:26,  3.94s/it, ✓=0, ✖=36, error=192]sympy__sympy-18199: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/nthroot_mod.py b/nthroot_mod.py
+|index 1234567..89abcdef 100644
+|--- a/nthroot_mod.py
+|+++ b/nthroot_mod.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 13:          return pow(a, n // 2, p)
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-18199/run_instance.log) for more information.
+Evaluation:  91%|█████████ | 228/250 [21:16<01:26,  3.94s/it, ✓=0, ✖=36, error=193]Evaluation:  92%|█████████▏| 229/250 [21:16<02:22,  6.80s/it, ✓=0, ✖=36, error=193]sympy__sympy-18763: >>>>> Patch Apply Failed:
+patching file sympy/core/expr.py
+Hunk #1 FAILED at 1234.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sympy/core/expr.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-18763/run_instance.log) for more information.
+Evaluation:  92%|█████████▏| 229/250 [21:18<02:22,  6.80s/it, ✓=0, ✖=36, error=194]Evaluation:  92%|█████████▏| 230/250 [21:18<01:49,  5.46s/it, ✓=0, ✖=36, error=194]sympy__sympy-19495: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sympy/core/sets.py b/sympy/core/sets.py
+|index 9a5b0e1..c0f0a0a 100644
+|--- a/sympy/core/sets.py
+|+++ b/sympy/core/sets.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 26: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-19495/run_instance.log) for more information.
+Evaluation:  92%|█████████▏| 230/250 [21:20<01:49,  5.46s/it, ✓=0, ✖=36, error=195]Evaluation:  92%|█████████▏| 231/250 [21:20<01:22,  4.33s/it, ✓=0, ✖=36, error=195]sympy__sympy-19954: >>>>> Patch Apply Failed:
+patching file sympy/combinatorics/perm_groups.py
+Hunk #1 FAILED at 2205.
+1 out of 1 hunk FAILED -- saving rejects to file sympy/combinatorics/perm_groups.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-19954/run_instance.log) for more information.
+Evaluation:  92%|█████████▏| 231/250 [21:33<01:22,  4.33s/it, ✓=0, ✖=36, error=196]Evaluation:  93%|█████████▎| 232/250 [21:33<02:06,  7.05s/it, ✓=0, ✖=36, error=196]sympy__sympy-20154: >>>>> Patch Apply Failed:
+patching file sympy/utilities/iterables.py
+Hunk #1 succeeded at 629 with fuzz 3 (offset 506 lines).
+Hunk #2 FAILED at 131.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/utilities/iterables.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-20154/run_instance.log) for more information.
+Evaluation:  93%|█████████▎| 232/250 [21:36<02:06,  7.05s/it, ✓=0, ✖=36, error=197]Evaluation:  93%|█████████▎| 233/250 [21:36<01:36,  5.65s/it, ✓=0, ✖=36, error=197]Evaluation:  93%|█████████▎| 233/250 [21:37<01:36,  5.65s/it, ✓=0, ✖=36, error=198]Evaluation:  94%|█████████▎| 234/250 [21:37<01:11,  4.47s/it, ✓=0, ✖=36, error=198]sympy__sympy-21379: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-21379/run_instance.log) for more information.
+Evaluation:  94%|█████████▎| 234/250 [21:50<01:11,  4.47s/it, ✓=0, ✖=37, error=198]Evaluation:  94%|█████████▍| 235/250 [21:50<01:46,  7.10s/it, ✓=0, ✖=37, error=198]Evaluation:  94%|█████████▍| 235/250 [21:51<01:46,  7.10s/it, ✓=0, ✖=37, error=199]Evaluation:  94%|█████████▍| 236/250 [21:51<01:12,  5.20s/it, ✓=0, ✖=37, error=199]sympy__sympy-21612: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sympy/parsing/latex.py b/sympy/parsing/latex.py
+|index 7b8f0e1..d0a0a0a 100644
+|--- a/sympy/parsing/latex.py
+|+++ b/sympy/parsing/latex.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-21612/run_instance.log) for more information.
+sympy__sympy-21847: >>>>> Patch Apply Failed:
+patching file sympy/polys/monomials.py
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-21847/run_instance.log) for more information.
+Evaluation:  94%|█████████▍| 236/250 [21:55<01:12,  5.20s/it, ✓=0, ✖=37, error=200]Evaluation:  95%|█████████▍| 237/250 [21:55<01:00,  4.66s/it, ✓=0, ✖=37, error=200]sympy__sympy-21930: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 12: ```
+
+patching file sympy/physics/secondquant.py
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-21930/run_instance.log) for more information.
+Evaluation:  95%|█████████▍| 237/250 [22:02<01:00,  4.66s/it, ✓=0, ✖=38, error=200]Evaluation:  95%|█████████▌| 238/250 [22:02<01:06,  5.55s/it, ✓=0, ✖=38, error=200]sympy__sympy-22456: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/codegen/ast.py b/codegen/ast.py
+|index 1234567..89abcdef 100644
+|--- a/codegen/ast.py
+|+++ b/codegen/ast.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-22456/run_instance.log) for more information.
+Evaluation:  95%|█████████▌| 238/250 [22:09<01:06,  5.55s/it, ✓=0, ✖=38, error=201]Evaluation:  96%|█████████▌| 239/250 [22:09<01:05,  5.98s/it, ✓=0, ✖=38, error=201]Evaluation:  96%|█████████▌| 239/250 [22:10<01:05,  5.98s/it, ✓=0, ✖=38, error=202]Evaluation:  96%|█████████▌| 240/250 [22:10<00:43,  4.31s/it, ✓=0, ✖=38, error=202]sympy__sympy-22714: >>>>> Patch Apply Failed:
+patching file sympy/core/sympify.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 468.
+1 out of 1 hunk FAILED -- saving rejects to file sympy/core/sympify.py.rej
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-22714/run_instance.log) for more information.
+sympy__sympy-23413: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/your_module.py b/your_module.py
+|index abcdef0..1234567 100644
+|--- a/your_module.py
+|+++ b/your_module.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-23413/run_instance.log) for more information.
+Evaluation:  96%|█████████▌| 240/250 [22:12<00:43,  4.31s/it, ✓=0, ✖=38, error=203]Evaluation:  96%|█████████▋| 241/250 [22:12<00:34,  3.81s/it, ✓=0, ✖=38, error=203]sympy__sympy-23534: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sympy/core/symbols.py b/sympy/core/symbols.py
+|index 5a3b7c9..e4f8b0a 100644
+|--- a/sympy/core/symbols.py
+|+++ b/sympy/core/symbols.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-23534/run_instance.log) for more information.
+Evaluation:  96%|█████████▋| 241/250 [22:20<00:34,  3.81s/it, ✓=0, ✖=38, error=204]Evaluation:  97%|█████████▋| 242/250 [22:20<00:39,  4.88s/it, ✓=0, ✖=38, error=204]sympy__sympy-23824: >>>>> Patch Apply Failed:
+patching file sympy/physics/hep/gamma_matrices.py
+Hunk #1 FAILED at 123.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sympy/physics/hep/gamma_matrices.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-23824/run_instance.log) for more information.
+Evaluation:  97%|█████████▋| 242/250 [22:28<00:39,  4.88s/it, ✓=0, ✖=38, error=205]Evaluation:  97%|█████████▋| 243/250 [22:28<00:41,  5.97s/it, ✓=0, ✖=38, error=205]Evaluation:  97%|█████████▋| 243/250 [22:28<00:41,  5.97s/it, ✓=0, ✖=38, error=206]Evaluation:  98%|█████████▊| 244/250 [22:30<00:35,  5.97s/it, ✓=0, ✖=38, error=207]Evaluation:  98%|█████████▊| 245/250 [22:30<00:18,  3.66s/it, ✓=0, ✖=38, error=207]sympy__sympy-24443: >>>>> Patch Apply Failed:
+patching file sympy/combinatorics/homomorphisms.py
+Hunk #1 FAILED at 334.
+1 out of 1 hunk FAILED -- saving rejects to file sympy/combinatorics/homomorphisms.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-24443/run_instance.log) for more information.
+sympy__sympy-24066: >>>>> Patch Apply Failed:
+patching file sympy/physics/units/systems/si.py
+Hunk #1 FAILED at 123.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file sympy/physics/units/systems/si.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-24066/run_instance.log) for more information.
+sympy__sympy-24562: >>>>> Patch Apply Failed:
+patching file sympy/core/numbers.py
+Hunk #1 FAILED at 102.
+1 out of 1 hunk FAILED -- saving rejects to file sympy/core/numbers.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-24562/run_instance.log) for more information.
+Evaluation:  98%|█████████▊| 245/250 [22:37<00:18,  3.66s/it, ✓=0, ✖=38, error=208]Evaluation:  98%|█████████▊| 246/250 [22:37<00:17,  4.49s/it, ✓=0, ✖=38, error=208]sympy__sympy-24661: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sympy/parsing/expr_parser.py b/sympy/parsing/expr_parser.py
+|index 7b8c0a6..e0f0a0a 100644
+|--- a/sympy/parsing/expr_parser.py
+|+++ b/sympy/parsing/expr_parser.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk ignored
+
+Check (logs/run_evaluation/coder-3b-instruct-patch-official/coder-3b-instruct-patch/sympy__sympy-24661/run_instance.log) for more information.
+Evaluation:  98%|█████████▊| 246/250 [22:47<00:17,  4.49s/it, ✓=0, ✖=38, error=209]Evaluation:  99%|█████████▉| 247/250 [22:47<00:17,  5.79s/it, ✓=0, ✖=38, error=209]Evaluation:  99%|█████████▉| 247/250 [22:47<00:17,  5.79s/it, ✓=0, ✖=38, error=210]Evaluation:  99%|█████████▉| 248/250 [22:47<00:08,  4.30s/it, ✓=0, ✖=38, error=210]Evaluation:  99%|█████████▉| 248/250 [22:48<00:08,  4.30s/it, ✓=0, ✖=38, error=211]Evaluation: 100%|█████████▉| 249/250 [22:48<00:03,  3.32s/it, ✓=0, ✖=38, error=211]Evaluation: 100%|█████████▉| 249/250 [22:55<00:03,  3.32s/it, ✓=0, ✖=38, error=212]Evaluation: 100%|██████████| 250/250 [22:55<00:00,  4.35s/it, ✓=0, ✖=38, error=212]All instances run.
+Evaluation: 100%|██████████| 250/250 [22:55<00:00,  5.50s/it, ✓=0, ✖=38, error=212]
+Cleaning cached images...
+Removed 0 images.
+Total instances: 500
+Instances submitted: 250
+Instances completed: 38
+Instances incomplete: 250
+Instances resolved: 0
+Instances unresolved: 38
+Instances with empty patches: 0
+Instances with errors: 212
+Unstopped containers: 0
+Unremoved images: 250
+Report written to coder-3b-instruct-patch.coder-3b-instruct-patch-official.json

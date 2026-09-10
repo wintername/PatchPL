@@ -1,0 +1,163 @@
+2026-09-08 02:23:17 STEP1 build data
+patch_sft samples: 250 -> data/patch_sft/train.jsonl
+2026-09-08 02:23:17 STEP2 train instruct
+2026-09-08 02:23:29 instruct done rc=0
+2026-09-08 02:23:29 STEP3 train base-ds
+2026-09-08 02:23:42 base done rc=0
+2026-09-08 02:23:42 STEP4 generate predictions
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/checkpoints/coder-3b-instruct-patch/resolve/main/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+huggingface_hub.errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-6a9f0132-001bd2805aa31e5d756f6204;bb92906e-e02d-4dd7-a4d1-46ed89061895)
+
+Repository Not Found for url: https://huggingface.co/checkpoints/coder-3b-instruct-patch/resolve/main/config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated and your token has the required permissions.
+For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+OSError: checkpoints/coder-3b-instruct-patch is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+
+During handling of the above exception, another exception occurred:
+
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/checkpoints/coder-3b-instruct-patch/resolve/main/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 438, in cached_files
+    hf_hub_download(
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1019, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1166, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1904, in _raise_on_head_call_error
+    raise head_call_error
+huggingface_hub.errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-6a9f0132-7f337e34436bb21d3e430455;039bc7a8-badc-4fe6-a86a-560fb44c7d6b)
+
+Repository Not Found for url: https://huggingface.co/checkpoints/coder-3b-instruct-patch/resolve/main/config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated and your token has the required permissions.
+For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wcx/swe/gen_patch_preds.py", line 79, in <module>
+    main()
+  File "/home/wcx/swe/gen_patch_preds.py", line 37, in main
+    tok = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 772, in from_pretrained
+    config = PreTrainedConfig.from_pretrained(pretrained_model_name_or_path, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 704, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 745, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 800, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 294, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 470, in cached_files
+    raise OSError(
+OSError: checkpoints/coder-3b-instruct-patch is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/checkpoints/coder-3b-base-patch/resolve/main/config.json
+Rate limited. Waiting 66.0s before retry [Retry 1/5].
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/checkpoints/coder-3b-base-patch/resolve/main/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+huggingface_hub.errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-6a9f0179-3d45780c262ca5d96c30d24c;5775d0ca-0aa7-4b2e-a79f-686b5b8ce785)
+
+Repository Not Found for url: https://huggingface.co/checkpoints/coder-3b-base-patch/resolve/main/config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated and your token has the required permissions.
+For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+OSError: checkpoints/coder-3b-base-patch is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+
+During handling of the above exception, another exception occurred:
+
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/checkpoints/coder-3b-base-patch/resolve/main/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 438, in cached_files
+    hf_hub_download(
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1019, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1166, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1904, in _raise_on_head_call_error
+    raise head_call_error
+huggingface_hub.errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-6a9f0179-6c99ab0a20b50b2239f25417;136b8833-406e-4b00-9d71-6e68da8e412f)
+
+Repository Not Found for url: https://huggingface.co/checkpoints/coder-3b-base-patch/resolve/main/config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated and your token has the required permissions.
+For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wcx/swe/gen_patch_preds.py", line 79, in <module>
+    main()
+  File "/home/wcx/swe/gen_patch_preds.py", line 37, in main
+    tok = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 772, in from_pretrained
+    config = PreTrainedConfig.from_pretrained(pretrained_model_name_or_path, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 704, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 745, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 800, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 294, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 470, in cached_files
+    raise OSError(
+OSError: checkpoints/coder-3b-base-patch is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+2026-09-08 02:24:58 STEP5 harness coder-3b-instruct-patch
+2026-09-08 02:25:00 harness coder-3b-instruct-patch done rc=0
+2026-09-08 02:25:00 STEP5 harness coder-3b-base-patch
+2026-09-08 02:25:01 harness coder-3b-base-patch done rc=0
+2026-09-08 02:25:01 STEP6 report
+coder-3b-instruct-patch: NO-RESULT [Errno 2] No such file or directory: '/home/wcx/swe/coder-3b-instruct-patch.coder-3b-instruct-patch-official.json'
+coder-3b-base-patch: NO-RESULT [Errno 2] No such file or directory: '/home/wcx/swe/coder-3b-base-patch.coder-3b-base-patch-official.json'
+PATCH-PIPELINE-DONE

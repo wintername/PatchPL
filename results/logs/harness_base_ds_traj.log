@@ -1,0 +1,16 @@
+2026-09-07 21:08:49,005 - datasets - INFO - PyTorch version 2.6.0 available.
+<frozen runpy>:128: RuntimeWarning: 'swebench.harness.run_evaluation' found in sys.modules after import of package 'swebench.harness', but prior to execution of 'swebench.harness.run_evaluation'; this may result in unpredictable behaviour
+No instances to run.
+Cleaning cached images...
+Removed 0 images.
+Total instances: 500
+Instances submitted: 250
+Instances completed: 0
+Instances incomplete: 250
+Instances resolved: 0
+Instances unresolved: 0
+Instances with empty patches: 250
+Instances with errors: 0
+Unstopped containers: 0
+Unremoved images: 250
+Report written to coder-3b-base-ds-traj.coder-3b-base-ds-traj-official.json

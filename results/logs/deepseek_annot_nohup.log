@@ -1,0 +1,135 @@
+best uids: 1256
+already done: 0
+to annotate: 1256
+loaded msgs: 1256
+progress 25/1256 elapsed=5s rate=0.2/traj
+progress 50/1256 elapsed=8s rate=0.2/traj
+progress 75/1256 elapsed=11s rate=0.2/traj
+progress 100/1256 elapsed=15s rate=0.1/traj
+progress 125/1256 elapsed=18s rate=0.1/traj
+progress 150/1256 elapsed=22s rate=0.1/traj
+progress 175/1256 elapsed=26s rate=0.1/traj
+progress 200/1256 elapsed=29s rate=0.1/traj
+progress 225/1256 elapsed=32s rate=0.1/traj
+progress 250/1256 elapsed=35s rate=0.1/traj
+progress 275/1256 elapsed=39s rate=0.1/traj
+progress 300/1256 elapsed=43s rate=0.1/traj
+progress 325/1256 elapsed=46s rate=0.1/traj
+progress 350/1256 elapsed=50s rate=0.1/traj
+progress 375/1256 elapsed=53s rate=0.1/traj
+progress 400/1256 elapsed=57s rate=0.1/traj
+progress 425/1256 elapsed=60s rate=0.1/traj
+progress 450/1256 elapsed=64s rate=0.1/traj
+progress 475/1256 elapsed=68s rate=0.1/traj
+progress 500/1256 elapsed=71s rate=0.1/traj
+progress 525/1256 elapsed=75s rate=0.1/traj
+progress 550/1256 elapsed=79s rate=0.1/traj
+progress 575/1256 elapsed=83s rate=0.1/traj
+progress 600/1256 elapsed=87s rate=0.1/traj
+progress 625/1256 elapsed=91s rate=0.1/traj
+progress 650/1256 elapsed=95s rate=0.1/traj
+progress 675/1256 elapsed=100s rate=0.1/traj
+progress 700/1256 elapsed=103s rate=0.1/traj
+progress 725/1256 elapsed=108s rate=0.1/traj
+progress 750/1256 elapsed=112s rate=0.1/traj
+progress 775/1256 elapsed=116s rate=0.2/traj
+progress 800/1256 elapsed=120s rate=0.2/traj
+progress 825/1256 elapsed=124s rate=0.2/traj
+progress 850/1256 elapsed=128s rate=0.2/traj
+progress 875/1256 elapsed=132s rate=0.2/traj
+progress 900/1256 elapsed=136s rate=0.2/traj
+progress 925/1256 elapsed=140s rate=0.2/traj
+progress 950/1256 elapsed=143s rate=0.2/traj
+progress 975/1256 elapsed=146s rate=0.1/traj
+progress 1000/1256 elapsed=150s rate=0.1/traj
+progress 1025/1256 elapsed=153s rate=0.1/traj
+progress 1050/1256 elapsed=157s rate=0.1/traj
+progress 1075/1256 elapsed=161s rate=0.1/traj
+FAIL 3ba327b0-7488-440c-aa49-89e0fe09b6af <HTTPError 402: 'Payment Required'>
+FAIL 89dd01fc-3eaf-4460-9798-c9334be093e5 <HTTPError 402: 'Payment Required'>
+progress 1100/1256 elapsed=195s rate=0.2/traj
+FAIL 62260b12-b409-43f2-b8fe-9e4b5bb43f47 <HTTPError 402: 'Payment Required'>
+FAIL b9d66142-f594-4669-9987-04b86b2c6945 <HTTPError 402: 'Payment Required'>
+FAIL cd3cba1c-fa0c-49ce-8327-fe3857379cf1 <HTTPError 402: 'Payment Required'>
+FAIL 9c9478b1-876e-445c-a7b5-95cdee080e18 <HTTPError 402: 'Payment Required'>
+FAIL 70c2a7c7-ea82-445f-936d-bedb1a689625 <HTTPError 402: 'Payment Required'>
+FAIL 5ebe90b9-d8a1-4914-a329-1b84f446eb48 <HTTPError 402: 'Payment Required'>
+FAIL f41b07ac-67fb-44db-8962-61de1c97d177 <HTTPError 402: 'Payment Required'>
+FAIL 34d30b7e-5417-4ba9-8acb-1058df7a0ada <HTTPError 402: 'Payment Required'>
+FAIL ed11e10b-e40b-414b-a37a-68808981e81c <HTTPError 402: 'Payment Required'>
+FAIL 36ecd89c-b331-4489-9d60-c852cf81731b <HTTPError 402: 'Payment Required'>
+FAIL 4e881d7b-c99b-46e6-bc64-868719cadb4a <HTTPError 402: 'Payment Required'>
+FAIL 6023465b-1a52-47dc-81e1-ce1e835a11f7 <HTTPError 402: 'Payment Required'>
+FAIL 642aaef0-0d37-44ab-9d6d-3a26ded109d0 <HTTPError 402: 'Payment Required'>
+FAIL 4fedbf73-574b-4c35-8991-45759feca383 <HTTPError 402: 'Payment Required'>
+FAIL b3fd8077-c7e6-47a7-9a58-a83558b9f1d1 <HTTPError 402: 'Payment Required'>
+FAIL 1996eaa3-b100-4145-8972-f037b91fddb6 <HTTPError 402: 'Payment Required'>
+FAIL 8669f9a7-d927-4f9f-b47a-405a4e83e646 <HTTPError 402: 'Payment Required'>
+FAIL a3ecc41d-4c8b-4ff0-a924-023b431e58f6 <HTTPError 402: 'Payment Required'>
+FAIL 11425687-fe37-4214-a4af-95430fb704ac <HTTPError 402: 'Payment Required'>
+FAIL 9734f8ae-4868-4b01-99da-18c0814347f8 <HTTPError 402: 'Payment Required'>
+FAIL a82c2faa-1e88-4347-80ad-abfe9e411b24 <HTTPError 402: 'Payment Required'>
+FAIL c92becd5-2a6b-421f-a5ab-b572603f248f <HTTPError 402: 'Payment Required'>
+FAIL 5ae140db-d2cc-4fd4-ae50-8c51a038feb3 <HTTPError 402: 'Payment Required'>
+FAIL 6f7b9eee-03ed-4909-a1f7-cca11b017e19 <HTTPError 402: 'Payment Required'>
+FAIL 57fe41e2-a40b-4f84-b30c-3403793a8b99 <HTTPError 402: 'Payment Required'>
+progress 1125/1256 elapsed=291s rate=0.3/traj
+FAIL f2c3ce95-cb4c-428f-84a0-6b283c74a81a <HTTPError 402: 'Payment Required'>
+FAIL 181766b3-1cf3-47d7-a13f-23c4e4ac8e8b <HTTPError 402: 'Payment Required'>
+FAIL 64fe0a7d-a6a6-4363-81a1-c2f558e78aa7 <HTTPError 402: 'Payment Required'>
+FAIL ff2f37af-dbbd-4a4b-9668-f9aa08017140 <HTTPError 402: 'Payment Required'>
+FAIL c656e126-18f7-4329-9f99-1ec0b05e6de3 <HTTPError 402: 'Payment Required'>
+FAIL 2e34bcc1-fa5f-4be1-86e1-4e364a2b63fb <HTTPError 402: 'Payment Required'>
+FAIL 05bf902f-243a-44c0-9d35-ab921e04d1f7 <HTTPError 402: 'Payment Required'>
+FAIL 526d6ec2-5b37-48a4-aee8-d3f9d991fef5 <HTTPError 402: 'Payment Required'>
+FAIL 8b6cd7ad-c893-4369-9561-1da3a3ffe780 <HTTPError 402: 'Payment Required'>
+FAIL 51340cf7-5b72-4cf7-b3d5-09c0f608235e <HTTPError 402: 'Payment Required'>
+FAIL f7616650-5981-40d8-ad51-7ad12afc21dc <HTTPError 402: 'Payment Required'>
+FAIL c688cd79-a8bd-43a7-8831-8b369a944121 <HTTPError 402: 'Payment Required'>
+FAIL f2d83665-1a22-469a-97ab-14766e40094f <HTTPError 402: 'Payment Required'>
+FAIL 03553086-9d92-412e-996e-369ebb0b278d <HTTPError 402: 'Payment Required'>
+FAIL 48f7004f-39a8-440c-81a5-876fef0dcd1e <HTTPError 402: 'Payment Required'>
+FAIL 202f6a44-3a44-43ac-9c16-a364ce797b84 <HTTPError 402: 'Payment Required'>
+FAIL 5d2cbe8b-2ea4-4b50-8e08-9d643f3cd371 <HTTPError 402: 'Payment Required'>
+FAIL 5be3a6d2-55e4-44bc-a9f0-d279af0cda2f <HTTPError 402: 'Payment Required'>
+FAIL e96548fd-ad11-482a-8236-a029028e66b8 <HTTPError 402: 'Payment Required'>
+FAIL 2c071e0e-6111-49c7-bf99-7ea04f11277b <HTTPError 402: 'Payment Required'>
+FAIL 4efffd89-f23d-416c-88f2-e97148e3da9b <HTTPError 402: 'Payment Required'>
+FAIL 89f1c0ed-cdbb-4d0d-8d34-ef8406926f3f <HTTPError 402: 'Payment Required'>
+FAIL 4d0d2572-fd13-48f7-bcae-825fe9343a6f <HTTPError 402: 'Payment Required'>
+FAIL 2ea9c9d2-5c93-4b43-98e1-ad54f53df1ce <HTTPError 402: 'Payment Required'>
+FAIL 44279779-c41b-4f4b-963a-b3761b8a9df1 <HTTPError 402: 'Payment Required'>
+progress 1150/1256 elapsed=387s rate=0.3/traj
+FAIL 9e317852-eee8-42ad-8cfb-1df718b3b806 <HTTPError 402: 'Payment Required'>
+FAIL e69abdd0-ce85-4d99-9bd5-17b8deda2aff <HTTPError 402: 'Payment Required'>
+FAIL d0f05a3e-c44c-4541-afcf-fc8aedf4f5e5 <HTTPError 402: 'Payment Required'>
+FAIL 57582dec-7ba4-4838-b46a-48b33813999f <HTTPError 402: 'Payment Required'>
+FAIL 1254705d-ccc5-4aae-b6d1-9e04c7e5bc45 <HTTPError 402: 'Payment Required'>
+FAIL b2f9c850-047e-46ea-a493-7065ad5b46c2 <HTTPError 402: 'Payment Required'>
+FAIL 88ff0887-b185-44e9-a150-55b49f64d7cb <HTTPError 402: 'Payment Required'>
+FAIL 34adabaa-4228-4286-9f53-934435507572 <HTTPError 402: 'Payment Required'>
+FAIL 132b8b27-632b-4e60-9689-80f9e5c691ed <HTTPError 402: 'Payment Required'>
+FAIL f89b2188-f672-4be8-8af9-0598a3e96f02 <HTTPError 402: 'Payment Required'>
+FAIL fc0caecf-f7d9-4eec-813a-3e7bf7bcbab1 <HTTPError 402: 'Payment Required'>
+FAIL 5b2bfd68-20ea-41a4-9a52-11fb24be51be <HTTPError 402: 'Payment Required'>
+FAIL ac4021e0-e65f-44a8-84c0-79d249b95bb6 <HTTPError 402: 'Payment Required'>
+FAIL 16577cf0-3de0-4726-9779-ab2162c69b63 <HTTPError 402: 'Payment Required'>
+FAIL 5998093c-61a7-4cb3-969f-3e58bb7aed03 <HTTPError 402: 'Payment Required'>
+FAIL 7c9e0400-835e-47e4-a823-25aba9aeec9c <HTTPError 402: 'Payment Required'>
+FAIL 21c1abed-c14d-46fd-99b3-d9c75a9d1886 <HTTPError 402: 'Payment Required'>
+FAIL 32395261-5f2b-4867-ad70-dddc9dda238a <HTTPError 402: 'Payment Required'>
+FAIL 137f5f42-1a09-4173-9277-77c5a247ebe3 <HTTPError 402: 'Payment Required'>
+FAIL 65058f89-8040-4ed0-8051-808502ac34df <HTTPError 402: 'Payment Required'>
+FAIL 279cb415-e390-44f6-bc66-904703d7141e <HTTPError 402: 'Payment Required'>
+FAIL 8f5500e3-cf9a-4179-aaa8-6d3fcce9716d <HTTPError 402: 'Payment Required'>
+FAIL 35c92900-7888-4b08-b8ad-1ac4b75e61e6 <HTTPError 402: 'Payment Required'>
+FAIL 9d5ea1bd-d373-4033-ac3b-71638061ee7c <HTTPError 402: 'Payment Required'>
+FAIL 956868a7-6a5e-43b5-aa99-587eb1330e86 <HTTPError 402: 'Payment Required'>
+progress 1175/1256 elapsed=483s rate=0.4/traj
+FAIL 7f036de9-54b7-47e6-8abf-a520a007942f <HTTPError 402: 'Payment Required'>
+FAIL 9282659b-a8d6-4955-8466-0dc4999f3fc1 <HTTPError 402: 'Payment Required'>
+FAIL 8c6741a7-e8f1-4caa-a440-a7767f9ad6b3 <HTTPError 402: 'Payment Required'>
+progress 1200/1256 elapsed=503s rate=0.4/traj
+progress 1225/1256 elapsed=507s rate=0.4/traj
+progress 1250/1256 elapsed=510s rate=0.4/traj
+ANNOT-DONE total=1256

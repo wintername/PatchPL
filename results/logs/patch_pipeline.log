@@ -1,0 +1,188 @@
+2026-09-08 02:23:17 STEP1 build data
+patch_sft samples: 250 -> data/patch_sft/train.jsonl
+2026-09-08 02:23:17 STEP2 train instruct
+2026-09-08 02:23:29 instruct done rc=0
+2026-09-08 02:23:29 STEP3 train base-ds
+2026-09-08 02:23:42 base done rc=0
+2026-09-08 02:23:42 STEP4 generate predictions
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/checkpoints/coder-3b-instruct-patch/resolve/main/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+huggingface_hub.errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-6a9f0132-001bd2805aa31e5d756f6204;bb92906e-e02d-4dd7-a4d1-46ed89061895)
+
+Repository Not Found for url: https://huggingface.co/checkpoints/coder-3b-instruct-patch/resolve/main/config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated and your token has the required permissions.
+For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+OSError: checkpoints/coder-3b-instruct-patch is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+
+During handling of the above exception, another exception occurred:
+
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/checkpoints/coder-3b-instruct-patch/resolve/main/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 438, in cached_files
+    hf_hub_download(
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1019, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1166, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1904, in _raise_on_head_call_error
+    raise head_call_error
+huggingface_hub.errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-6a9f0132-7f337e34436bb21d3e430455;039bc7a8-badc-4fe6-a86a-560fb44c7d6b)
+
+Repository Not Found for url: https://huggingface.co/checkpoints/coder-3b-instruct-patch/resolve/main/config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated and your token has the required permissions.
+For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wcx/swe/gen_patch_preds.py", line 79, in <module>
+    main()
+  File "/home/wcx/swe/gen_patch_preds.py", line 37, in main
+    tok = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 772, in from_pretrained
+    config = PreTrainedConfig.from_pretrained(pretrained_model_name_or_path, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 704, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 745, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 800, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 294, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 470, in cached_files
+    raise OSError(
+OSError: checkpoints/coder-3b-instruct-patch is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+HTTP Error 429 thrown while requesting HEAD https://huggingface.co/checkpoints/coder-3b-base-patch/resolve/main/config.json
+Rate limited. Waiting 66.0s before retry [Retry 1/5].
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/checkpoints/coder-3b-base-patch/resolve/main/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+huggingface_hub.errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-6a9f0179-3d45780c262ca5d96c30d24c;5775d0ca-0aa7-4b2e-a79f-686b5b8ce785)
+
+Repository Not Found for url: https://huggingface.co/checkpoints/coder-3b-base-patch/resolve/main/config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated and your token has the required permissions.
+For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+OSError: checkpoints/coder-3b-base-patch is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+
+During handling of the above exception, another exception occurred:
+
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/checkpoints/coder-3b-base-patch/resolve/main/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 438, in cached_files
+    hf_hub_download(
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1019, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1166, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1904, in _raise_on_head_call_error
+    raise head_call_error
+huggingface_hub.errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-6a9f0179-6c99ab0a20b50b2239f25417;136b8833-406e-4b00-9d71-6e68da8e412f)
+
+Repository Not Found for url: https://huggingface.co/checkpoints/coder-3b-base-patch/resolve/main/config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated and your token has the required permissions.
+For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/wcx/swe/gen_patch_preds.py", line 79, in <module>
+    main()
+  File "/home/wcx/swe/gen_patch_preds.py", line 37, in main
+    tok = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 772, in from_pretrained
+    config = PreTrainedConfig.from_pretrained(pretrained_model_name_or_path, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 704, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 745, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/configuration_utils.py", line 800, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 294, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wcx/miniconda3/lib/python3.11/site-packages/transformers/utils/hub.py", line 470, in cached_files
+    raise OSError(
+OSError: checkpoints/coder-3b-base-patch is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+2026-09-08 02:24:58 STEP5 harness coder-3b-instruct-patch
+2026-09-08 02:25:00 harness coder-3b-instruct-patch done rc=0
+2026-09-08 02:25:00 STEP5 harness coder-3b-base-patch
+2026-09-08 02:25:01 harness coder-3b-base-patch done rc=0
+2026-09-08 02:25:01 STEP6 report
+coder-3b-instruct-patch: NO-RESULT [Errno 2] No such file or directory: '/home/wcx/swe/coder-3b-instruct-patch.coder-3b-instruct-patch-official.json'
+coder-3b-base-patch: NO-RESULT [Errno 2] No such file or directory: '/home/wcx/swe/coder-3b-base-patch.coder-3b-base-patch-official.json'
+PATCH-PIPELINE-DONE
+2026-09-08 13:29:29 STEP1 build data
+patch_sft samples: 250 -> data/patch_sft/train.jsonl
+2026-09-08 13:29:29 STEP2 train instruct
+2026-09-08 13:48:46 instruct done rc=0
+2026-09-08 13:48:46 STEP3 train base-ds
+2026-09-08 14:08:23 base done rc=0
+2026-09-08 14:08:23 STEP4 generate predictions
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 1/434 [00:00<00:46,  9.25it/s]Loading weights:   7%|▋         | 29/434 [00:00<00:02, 159.63it/s]Loading weights:  15%|█▍        | 63/434 [00:00<00:01, 211.65it/s]Loading weights:  21%|██        | 89/434 [00:00<00:01, 218.94it/s]Loading weights:  27%|██▋       | 119/434 [00:00<00:01, 245.43it/s]Loading weights:  34%|███▍      | 147/434 [00:00<00:01, 247.72it/s]Loading weights:  40%|███▉      | 172/434 [00:00<00:01, 236.37it/s]Loading weights:  45%|████▌     | 196/434 [00:00<00:01, 236.66it/s]Loading weights:  51%|█████     | 221/434 [00:00<00:00, 233.59it/s]Loading weights:  57%|█████▋    | 249/434 [00:01<00:00, 243.79it/s]Loading weights:  63%|██████▎   | 274/434 [00:01<00:00, 236.01it/s]Loading weights:  69%|██████▉   | 299/434 [00:01<00:00, 238.68it/s]Loading weights:  75%|███████▌  | 327/434 [00:01<00:00, 247.21it/s]Loading weights:  81%|████████  | 352/434 [00:01<00:00, 238.29it/s]Loading weights:  87%|████████▋ | 377/434 [00:01<00:00, 234.79it/s]Loading weights:  92%|█████████▏| 401/434 [00:01<00:00, 231.34it/s]Loading weights:  98%|█████████▊| 425/434 [00:01<00:00, 233.03it/s]Loading weights: 100%|██████████| 434/434 [00:01<00:00, 233.36it/s]
+coder-3b-instruct-patch:   0%|          | 0/32 [00:00<?, ?it/s]coder-3b-instruct-patch:   3%|▎         | 1/32 [00:39<20:22, 39.45s/it]coder-3b-instruct-patch:   6%|▋         | 2/32 [01:01<14:31, 29.06s/it]coder-3b-instruct-patch:   9%|▉         | 3/32 [01:28<13:38, 28.23s/it]coder-3b-instruct-patch:  12%|█▎        | 4/32 [01:58<13:33, 29.05s/it]coder-3b-instruct-patch:  16%|█▌        | 5/32 [02:53<17:17, 38.42s/it]coder-3b-instruct-patch:  19%|█▉        | 6/32 [03:23<15:24, 35.54s/it]coder-3b-instruct-patch:  22%|██▏       | 7/32 [03:51<13:45, 33.02s/it]coder-3b-instruct-patch:  25%|██▌       | 8/32 [04:35<14:38, 36.60s/it]coder-3b-instruct-patch:  28%|██▊       | 9/32 [05:09<13:39, 35.61s/it]coder-3b-instruct-patch:  31%|███▏      | 10/32 [05:55<14:18, 39.03s/it]coder-3b-instruct-patch:  34%|███▍      | 11/32 [06:21<12:14, 34.95s/it]coder-3b-instruct-patch:  38%|███▊      | 12/32 [09:07<24:52, 74.63s/it]coder-3b-instruct-patch:  41%|████      | 13/32 [09:54<21:03, 66.52s/it]coder-3b-instruct-patch:  44%|████▍     | 14/32 [12:39<28:49, 96.07s/it]coder-3b-instruct-patch:  47%|████▋     | 15/32 [15:24<33:09, 117.06s/it]coder-3b-instruct-patch:  50%|█████     | 16/32 [15:50<23:51, 89.47s/it] coder-3b-instruct-patch:  53%|█████▎    | 17/32 [16:33<18:53, 75.57s/it]coder-3b-instruct-patch:  56%|█████▋    | 18/32 [17:13<15:08, 64.86s/it]coder-3b-instruct-patch:  59%|█████▉    | 19/32 [19:58<20:34, 94.93s/it]coder-3b-instruct-patch:  62%|██████▎   | 20/32 [20:36<15:32, 77.74s/it]coder-3b-instruct-patch:  66%|██████▌   | 21/32 [21:14<12:06, 66.03s/it]coder-3b-instruct-patch:  69%|██████▉   | 22/32 [24:01<16:01, 96.12s/it]coder-3b-instruct-patch:  72%|███████▏  | 23/32 [26:49<17:39, 117.76s/it]coder-3b-instruct-patch:  75%|███████▌  | 24/32 [27:18<12:09, 91.23s/it] coder-3b-instruct-patch:  78%|███████▊  | 25/32 [27:55<08:43, 74.85s/it]coder-3b-instruct-patch:  81%|████████▏ | 26/32 [30:43<10:16, 102.78s/it]coder-3b-instruct-patch:  84%|████████▍ | 27/32 [33:27<10:06, 121.32s/it]coder-3b-instruct-patch:  88%|████████▊ | 28/32 [36:12<08:56, 134.21s/it]coder-3b-instruct-patch:  91%|█████████ | 29/32 [36:49<05:15, 105.01s/it]coder-3b-instruct-patch:  94%|█████████▍| 30/32 [37:23<02:47, 83.72s/it] coder-3b-instruct-patch:  97%|█████████▋| 31/32 [37:51<01:07, 67.05s/it]coder-3b-instruct-patch: 100%|██████████| 32/32 [40:34<00:00, 95.93s/it]coder-3b-instruct-patch: 100%|██████████| 32/32 [40:34<00:00, 76.08s/it]
+DONE coder-3b-instruct-patch nonempty: 250 / 250
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   3%|▎         | 12/434 [00:00<00:03, 119.39it/s]Loading weights:   9%|▉         | 40/434 [00:00<00:02, 196.56it/s]Loading weights:  17%|█▋        | 75/434 [00:00<00:01, 258.17it/s]Loading weights:  23%|██▎       | 101/434 [00:00<00:01, 244.15it/s]Loading weights:  31%|███       | 135/434 [00:00<00:01, 273.09it/s]Loading weights:  38%|███▊      | 163/434 [00:00<00:01, 251.55it/s]Loading weights:  44%|████▎     | 189/434 [00:00<00:00, 252.36it/s]Loading weights:  50%|█████     | 219/434 [00:00<00:00, 255.89it/s]Loading weights:  56%|█████▋    | 245/434 [00:01<00:00, 241.63it/s]Loading weights:  62%|██████▏   | 270/434 [00:01<00:00, 239.30it/s]Loading weights:  68%|██████▊   | 295/434 [00:01<00:00, 242.26it/s]Loading weights:  74%|███████▍  | 321/434 [00:01<00:00, 246.95it/s]Loading weights:  80%|███████▉  | 347/434 [00:01<00:00, 250.09it/s]Loading weights:  86%|████████▌ | 373/434 [00:01<00:00, 252.40it/s]Loading weights:  92%|█████████▏| 399/434 [00:01<00:00, 249.82it/s]Loading weights:  98%|█████████▊| 425/434 [00:01<00:00, 237.95it/s]Loading weights: 100%|██████████| 434/434 [00:01<00:00, 247.68it/s]
+coder-3b-base-patch:   0%|          | 0/32 [00:00<?, ?it/s]coder-3b-base-patch:   3%|▎         | 1/32 [03:21<1:44:04, 201.44s/it]coder-3b-base-patch:   6%|▋         | 2/32 [06:06<1:29:55, 179.84s/it]coder-3b-base-patch:   9%|▉         | 3/32 [09:28<1:31:47, 189.91s/it]coder-3b-base-patch:  12%|█▎        | 4/32 [12:49<1:30:48, 194.60s/it]coder-3b-base-patch:  16%|█▌        | 5/32 [16:13<1:29:02, 197.88s/it]coder-3b-base-patch:  19%|█▉        | 6/32 [19:35<1:26:17, 199.14s/it]coder-3b-base-patch:  22%|██▏       | 7/32 [22:22<1:18:36, 188.66s/it]coder-3b-base-patch:  25%|██▌       | 8/32 [25:07<1:12:26, 181.09s/it]coder-3b-base-patch:  28%|██▊       | 9/32 [27:50<1:07:20, 175.69s/it]coder-3b-base-patch:  31%|███▏      | 10/32 [31:10<1:07:10, 183.19s/it]coder-3b-base-patch:  34%|███▍      | 11/32 [34:31<1:05:59, 188.56s/it]coder-3b-base-patch:  38%|███▊      | 12/32 [37:15<1:00:23, 181.18s/it]coder-3b-base-patch:  41%|████      | 13/32 [40:03<56:01, 176.92s/it]  coder-3b-base-patch:  44%|████▍     | 14/32 [42:46<51:53, 173.00s/it]coder-3b-base-patch:  47%|████▋     | 15/32 [45:30<48:14, 170.24s/it]coder-3b-base-patch:  50%|█████     | 16/32 [48:48<47:35, 178.50s/it]coder-3b-base-patch:  53%|█████▎    | 17/32 [52:08<46:14, 184.98s/it]coder-3b-base-patch:  56%|█████▋    | 18/32 [55:28<44:11, 189.42s/it]coder-3b-base-patch:  59%|█████▉    | 19/32 [58:06<39:01, 180.13s/it]coder-3b-base-patch:  62%|██████▎   | 20/32 [1:00:49<34:59, 174.97s/it]coder-3b-base-patch:  66%|██████▌   | 21/32 [1:03:33<31:26, 171.47s/it]coder-3b-base-patch:  69%|██████▉   | 22/32 [1:06:16<28:09, 168.92s/it]coder-3b-base-patch:  72%|███████▏  | 23/32 [1:09:03<25:15, 168.41s/it]coder-3b-base-patch:  75%|███████▌  | 24/32 [1:11:48<22:19, 167.43s/it]coder-3b-base-patch:  78%|███████▊  | 25/32 [1:14:34<19:28, 166.96s/it]coder-3b-base-patch:  81%|████████▏ | 26/32 [1:17:58<17:48, 178.00s/it]coder-3b-base-patch:  84%|████████▍ | 27/32 [1:20:38<14:23, 172.72s/it]coder-3b-base-patch:  88%|████████▊ | 28/32 [1:23:17<11:14, 168.74s/it]coder-3b-base-patch:  91%|█████████ | 29/32 [1:25:57<08:17, 165.95s/it]coder-3b-base-patch:  94%|█████████▍| 30/32 [1:28:37<05:28, 164.22s/it]coder-3b-base-patch:  97%|█████████▋| 31/32 [1:31:16<02:42, 162.66s/it]coder-3b-base-patch: 100%|██████████| 32/32 [1:34:01<00:00, 163.30s/it]coder-3b-base-patch: 100%|██████████| 32/32 [1:34:01<00:00, 176.29s/it]
+DONE coder-3b-base-patch nonempty: 250 / 250
+2026-09-08 16:23:19 STEP5 harness coder-3b-instruct-patch
+2026-09-08 16:46:38 harness coder-3b-instruct-patch done rc=0
+2026-09-08 16:46:38 STEP5 harness coder-3b-base-patch
+2026-09-08 17:07:26 harness coder-3b-base-patch done rc=0
+2026-09-08 17:07:26 STEP6 report
+coder-3b-instruct-patch: submitted=250 completed=38 resolved=0 (0.0%)
+  resolved_ids: []
+coder-3b-base-patch: submitted=250 completed=19 resolved=0 (0.0%)
+  resolved_ids: []
+PATCH-PIPELINE-DONE

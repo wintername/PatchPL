@@ -1,0 +1,89 @@
+[93m [WARNING] [0m fp_quantizer compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m transformer_inference compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m inference_core_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m cutlass_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m ragged_device_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m ragged_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m spatial_inference compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[2026-09-08 13:29:34,792] [INFO] [launch.py:162:main] WORLD INFO DICT: {'localhost': [0, 1, 2]}
+[2026-09-08 13:29:34,792] [INFO] [launch.py:168:main] nnodes=1, num_local_procs=3, node_rank=0
+[2026-09-08 13:29:34,792] [INFO] [launch.py:179:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0, 1, 2]})
+[2026-09-08 13:29:34,792] [INFO] [launch.py:180:main] dist_world_size=3
+[2026-09-08 13:29:34,792] [INFO] [launch.py:184:main] Setting CUDA_VISIBLE_DEVICES=0,1,2
+[2026-09-08 13:29:34,793] [INFO] [launch.py:272:main] process 6210 spawned with command: ['/home/wcx/miniconda3/bin/python', '-u', 'train_patch_sft.py', '--local_rank=0', 'models/Qwen2.5-Coder-3B-Instruct', 'checkpoints/coder-3b-instruct-patch', 'instruct-patch']
+[2026-09-08 13:29:34,793] [INFO] [launch.py:272:main] process 6211 spawned with command: ['/home/wcx/miniconda3/bin/python', '-u', 'train_patch_sft.py', '--local_rank=1', 'models/Qwen2.5-Coder-3B-Instruct', 'checkpoints/coder-3b-instruct-patch', 'instruct-patch']
+[2026-09-08 13:29:34,794] [INFO] [launch.py:272:main] process 6212 spawned with command: ['/home/wcx/miniconda3/bin/python', '-u', 'train_patch_sft.py', '--local_rank=2', 'models/Qwen2.5-Coder-3B-Instruct', 'checkpoints/coder-3b-instruct-patch', 'instruct-patch']
+samples: 250 fit: 249
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+samples: 250 fit: 249
+samples: 250 fit: 249
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  30%|███       | 132/434 [00:00<00:00, 1306.07it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 3515.88it/s]
+Loading weights:  32%|███▏      | 138/434 [00:00<00:00, 1376.62it/s]Loading weights:  32%|███▏      | 140/434 [00:00<00:00, 1399.16it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 3606.37it/s]
+Loading weights: 100%|██████████| 434/434 [00:00<00:00, 3345.96it/s]
+[93m [WARNING] [0m fp_quantizer compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m transformer_inference compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m inference_core_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m cutlass_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m ragged_device_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m ragged_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m spatial_inference compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m fp_quantizer compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m transformer_inference compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m inference_core_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m cutlass_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m ragged_device_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m ragged_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m spatial_inference compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m fp_quantizer compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m transformer_inference compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m inference_core_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m cutlass_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m ragged_device_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m ragged_ops compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+[93m [WARNING] [0m spatial_inference compatibility check failed (CUDA_HOME does not exist, unable to compile CUDA op(s)), treating the op as not compatible
+Applying formatting function to train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Applying formatting function to train dataset: 100%|██████████| 249/249 [00:00<00:00, 8067.15 examples/s]
+Adding EOS to train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Adding EOS to train dataset: 100%|██████████| 249/249 [00:00<00:00, 7303.32 examples/s]
+Tokenizing train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Tokenizing train dataset:  27%|██▋       | 66/249 [00:00<00:00, 645.43 examples/s]Tokenizing train dataset:  53%|█████▎    | 132/249 [00:00<00:00, 641.35 examples/s]Tokenizing train dataset:  80%|████████  | 200/249 [00:00<00:00, 528.33 examples/s]Tokenizing train dataset: 100%|██████████| 249/249 [00:00<00:00, 526.09 examples/s]
+Building labels for train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Building labels for train dataset:  87%|████████▋ | 216/249 [00:00<00:00, 2136.07 examples/s]Building labels for train dataset: 100%|██████████| 249/249 [00:00<00:00, 1493.00 examples/s]
+Truncating train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Truncating train dataset:  67%|██████▋   | 167/249 [00:00<00:00, 1643.95 examples/s]Truncating train dataset: 100%|██████████| 249/249 [00:00<00:00, 1179.14 examples/s]
+Applying formatting function to train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Applying formatting function to train dataset:   0%|          | 0/249 [00:00<?, ? examples/s][RANK 0] Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+[transformers] The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+Applying formatting function to train dataset: 100%|██████████| 249/249 [00:00<00:00, 12083.84 examples/s]
+Adding EOS to train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Applying formatting function to train dataset: 100%|██████████| 249/249 [00:00<00:00, 11276.35 examples/s]
+Adding EOS to train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Adding EOS to train dataset: 100%|██████████| 249/249 [00:00<00:00, 12399.02 examples/s]
+Adding EOS to train dataset: 100%|██████████| 249/249 [00:00<00:00, 12353.55 examples/s]
+[RANK 0] Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 8. Using DeepSpeed's value.
+Tokenizing train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Tokenizing train dataset:  26%|██▌       | 65/249 [00:00<00:00, 636.70 examples/s]Tokenizing train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Tokenizing train dataset:  25%|██▍       | 62/249 [00:00<00:00, 605.88 examples/s]Tokenizing train dataset:  63%|██████▎   | 156/249 [00:00<00:00, 608.86 examples/s]Tokenizing train dataset:  60%|██████    | 150/249 [00:00<00:00, 580.37 examples/s]Tokenizing train dataset:  90%|████████▉ | 223/249 [00:00<00:00, 521.35 examples/s]Tokenizing train dataset: 100%|██████████| 249/249 [00:00<00:00, 514.78 examples/s]
+Building labels for train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Building labels for train dataset:  85%|████████▌ | 212/249 [00:00<00:00, 2085.46 examples/s]Tokenizing train dataset:  96%|█████████▌| 238/249 [00:00<00:00, 498.71 examples/s]Tokenizing train dataset: 100%|██████████| 249/249 [00:00<00:00, 482.69 examples/s]
+Building labels for train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Building labels for train dataset: 100%|██████████| 249/249 [00:00<00:00, 1473.00 examples/s]
+Truncating train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Building labels for train dataset:  80%|████████  | 200/249 [00:00<00:00, 1963.69 examples/s]Truncating train dataset:  66%|██████▋   | 165/249 [00:00<00:00, 1635.01 examples/s]Building labels for train dataset: 100%|██████████| 249/249 [00:00<00:00, 1373.74 examples/s]
+Truncating train dataset:   0%|          | 0/249 [00:00<?, ? examples/s]Truncating train dataset: 100%|██████████| 249/249 [00:00<00:00, 1148.27 examples/s]
+[transformers] The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+Truncating train dataset:  62%|██████▏   | 155/249 [00:00<00:00, 1536.70 examples/s]Truncating train dataset: 100%|██████████| 249/249 [00:00<00:00, 1070.74 examples/s]
+[transformers] The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[2026-09-08 13:29:52,334] [WARNING] [engine.py:1949:_do_optimizer_sanity_check] **** You are using ZeRO with an untested optimizer, proceed with caution *****
+  0%|          | 0/33 [00:00<?, ?it/s]  3%|▎         | 1/33 [00:36<19:24, 36.38s/it]  6%|▌         | 2/33 [01:10<18:02, 34.91s/it]  9%|▉         | 3/33 [01:44<17:15, 34.52s/it] 12%|█▏        | 4/33 [02:18<16:39, 34.47s/it]                                              {'loss': '1.418', 'grad_norm': '3.575', 'learning_rate': '3e-05', 'entropy': '1.076', 'num_tokens': '7.685e+04', 'mean_token_accuracy': '0.6931', 'epoch': '0.3855'}
+ 12%|█▏        | 4/33 [02:18<16:39, 34.47s/it] 15%|█▌        | 5/33 [02:52<16:02, 34.36s/it] 18%|█▊        | 6/33 [03:28<15:34, 34.62s/it] 21%|██        | 7/33 [04:01<14:53, 34.37s/it] 24%|██▍       | 8/33 [04:35<14:13, 34.14s/it]                                              {'loss': '1.42', 'grad_norm': '4.286', 'learning_rate': '7e-05', 'entropy': '1.07', 'num_tokens': '1.528e+05', 'mean_token_accuracy': '0.6915', 'epoch': '0.7711'}
+ 24%|██▍       | 8/33 [04:35<14:13, 34.14s/it] 27%|██▋       | 9/33 [05:10<13:43, 34.33s/it] 30%|███       | 10/33 [05:44<13:09, 34.35s/it] 33%|███▎      | 11/33 [05:57<10:13, 27.91s/it] 36%|███▋      | 12/33 [06:33<10:33, 30.19s/it]                                               {'loss': '1.282', 'grad_norm': '3.475', 'learning_rate': '9.953e-05', 'entropy': '1.021', 'num_tokens': '2.251e+05', 'mean_token_accuracy': '0.7048', 'epoch': '1.096'}
+ 36%|███▋      | 12/33 [06:33<10:33, 30.19s/it] 39%|███▉      | 13/33 [07:08<10:32, 31.61s/it] 42%|████▏     | 14/33 [07:41<10:11, 32.19s/it] 45%|████▌     | 15/33 [08:17<09:56, 33.15s/it] 48%|████▊     | 16/33 [08:51<09:27, 33.39s/it]                                               {'loss': '1.388', 'grad_norm': '3.94', 'learning_rate': '8.879e-05', 'entropy': '1.064', 'num_tokens': '3.069e+05', 'mean_token_accuracy': '0.6945', 'epoch': '1.482'}
+ 48%|████▊     | 16/33 [08:51<09:27, 33.39s/it] 52%|█████▏    | 17/33 [09:25<08:56, 33.55s/it] 55%|█████▍    | 18/33 [09:59<08:28, 33.91s/it] 58%|█████▊    | 19/33 [10:33<07:54, 33.90s/it] 61%|██████    | 20/33 [11:07<07:20, 33.90s/it]                                               {'loss': '1.435', 'grad_norm': '4.231', 'learning_rate': '6.674e-05', 'entropy': '1.076', 'num_tokens': '3.793e+05', 'mean_token_accuracy': '0.6931', 'epoch': '1.867'}
+ 61%|██████    | 20/33 [11:07<07:20, 33.90s/it] 64%|██████▎   | 21/33 [11:42<06:51, 34.32s/it] 67%|██████▋   | 22/33 [11:55<05:06, 27.88s/it] 70%|██████▉   | 23/33 [12:29<04:57, 29.78s/it] 73%|███████▎  | 24/33 [13:04<04:41, 31.26s/it]                                               {'loss': '1.421', 'grad_norm': '3.791', 'learning_rate': '3.983e-05', 'entropy': '1.072', 'num_tokens': '4.473e+05', 'mean_token_accuracy': '0.6926', 'epoch': '2.193'}
+ 73%|███████▎  | 24/33 [13:04<04:41, 31.26s/it] 76%|███████▌  | 25/33 [13:38<04:16, 32.05s/it] 79%|███████▉  | 26/33 [14:12<03:49, 32.73s/it] 82%|████████▏ | 27/33 [14:47<03:20, 33.38s/it] 85%|████████▍ | 28/33 [15:22<02:48, 33.66s/it]                                               {'loss': '1.342', 'grad_norm': '3.624', 'learning_rate': '1.587e-05', 'entropy': '1.047', 'num_tokens': '5.325e+05', 'mean_token_accuracy': '0.7', 'epoch': '2.578'}
+ 85%|████████▍ | 28/33 [15:22<02:48, 33.66s/it] 88%|████████▊ | 29/33 [15:56<02:16, 34.04s/it] 91%|█████████ | 30/33 [16:31<01:42, 34.05s/it] 94%|█████████▍| 31/33 [17:04<01:07, 33.83s/it] 97%|█████████▋| 32/33 [17:39<00:34, 34.18s/it]                                               {'loss': '1.435', 'grad_norm': '3.552', 'learning_rate': '1.854e-06', 'entropy': '1.093', 'num_tokens': '6.054e+05', 'mean_token_accuracy': '0.687', 'epoch': '2.964'}
+ 97%|█████████▋| 32/33 [17:39<00:34, 34.18s/it]
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:03<00:00,  3.82s/it][AWriting model shards: 100%|██████████| 1/1 [00:03<00:00,  3.82s/it]
+100%|██████████| 33/33 [18:11<00:00, 33.48s/it]
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:03<00:00,  3.91s/it][AWriting model shards: 100%|██████████| 1/1 [00:03<00:00,  3.91s/it]
+                                               {'train_runtime': '1114', 'train_samples_per_second': '0.671', 'train_steps_per_second': '0.03', 'train_loss': '1.379', 'entropy': '1.041', 'num_tokens': '6.116e+05', 'mean_token_accuracy': '0.6981', 'epoch': '3'}
+100%|██████████| 33/33 [18:33<00:00, 33.48s/it]100%|██████████| 33/33 [18:33<00:00, 33.75s/it]
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]PATCH-SFT-DONE-instruct-patch
+PATCH-SFT-DONE-instruct-patch
+[2026-09-08 13:48:39,974] [INFO] [launch.py:367:main] Process 6212 exits successfully.
+[2026-09-08 13:48:39,974] [INFO] [launch.py:367:main] Process 6211 exits successfully.
+Writing model shards: 100%|██████████| 1/1 [00:03<00:00,  3.94s/it]Writing model shards: 100%|██████████| 1/1 [00:03<00:00,  3.94s/it]
+PATCH-SFT-DONE-instruct-patch
+[2026-09-08 13:48:44,975] [INFO] [launch.py:367:main] Process 6210 exits successfully.

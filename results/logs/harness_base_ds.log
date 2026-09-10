@@ -1,0 +1,2061 @@
+2026-09-06 12:28:28,558 - datasets - INFO - PyTorch version 2.6.0 available.
+<frozen runpy>:128: RuntimeWarning: 'swebench.harness.run_evaluation' found in sys.modules after import of package 'swebench.harness', but prior to execution of 'swebench.harness.run_evaluation'; this may result in unpredictable behaviour
+Found 250 existing instance images. Will reuse them.
+Running 250 instances...
+Evaluation:   0%|          | 0/250 [00:00<?, ?it/s, error=0, ✓=0, ✖=0]astropy__astropy-12907: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/astropy__astropy-12907/run_instance.log) for more information.
+astropy__astropy-13579: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/astropy__astropy-13579/run_instance.log) for more information.
+astropy__astropy-13033: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/astropy__astropy-13033/run_instance.log) for more information.
+astropy__astropy-13398: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/astropy__astropy-13398/run_instance.log) for more information.
+Evaluation:   0%|          | 0/250 [00:20<?, ?it/s, ✓=0, ✖=0, error=1]Evaluation:   0%|          | 1/250 [00:20<1:25:15, 20.54s/it, ✓=0, ✖=0, error=1]Evaluation:   0%|          | 1/250 [00:20<1:25:15, 20.54s/it, ✓=0, ✖=0, error=2]Evaluation:   1%|          | 2/250 [00:20<1:24:55, 20.54s/it, ✓=0, ✖=0, error=3]Evaluation:   1%|          | 3/250 [00:20<22:36,  5.49s/it, ✓=0, ✖=0, error=3]  Evaluation:   1%|          | 3/250 [00:20<22:36,  5.49s/it, ✓=0, ✖=0, error=4]astropy__astropy-14365: >>>>> Patch Apply Failed:
+The next patch would create the file astropy/io/ascii/qdp.py,
+which already exists!  Assuming -R.
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file astropy/io/ascii/qdp.py
+Hunk #1 succeeded at 6 with fuzz 3 (offset 5 lines).
+Hunk #2 FAILED at 13.
+Hunk #3 FAILED at 22.
+Hunk #4 FAILED at 33.
+Hunk #5 FAILED at 44.
+Hunk #6 FAILED at 55.
+Hunk #7 FAILED at 66.
+Hunk #8 FAILED at 77.
+Hunk #9 FAILED at 88.
+Hunk #10 FAILED at 99.
+patch unexpectedly ends in middle of line
+Hunk #11 FAILED at 110.
+Not deleting file astropy/io/ascii/qdp.py as content differs from patch
+10 out of 11 hunks FAILED -- saving rejects to file astropy/io/ascii/qdp.py.rej
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/astropy__astropy-14365/run_instance.log) for more information.
+astropy__astropy-14309: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/astropy__astropy-14309/run_instance.log) for more information.
+astropy__astropy-14508: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/astropy__astropy-14508/run_instance.log) for more information.
+astropy__astropy-14539: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/astropy__astropy-14539/run_instance.log) for more information.
+Evaluation:   2%|▏         | 4/250 [00:39<22:30,  5.49s/it, ✓=0, ✖=0, error=5]Evaluation:   2%|▏         | 5/250 [00:39<30:20,  7.43s/it, ✓=0, ✖=0, error=5]Evaluation:   2%|▏         | 5/250 [00:41<30:20,  7.43s/it, ✓=0, ✖=0, error=6]Evaluation:   2%|▏         | 6/250 [00:41<23:44,  5.84s/it, ✓=0, ✖=0, error=6]Evaluation:   2%|▏         | 6/250 [00:41<23:44,  5.84s/it, ✓=0, ✖=0, error=7]Evaluation:   3%|▎         | 7/250 [00:41<17:32,  4.33s/it, ✓=0, ✖=0, error=7]Evaluation:   3%|▎         | 7/250 [00:41<17:32,  4.33s/it, ✓=0, ✖=0, error=8]Evaluation:   3%|▎         | 8/250 [00:41<13:02,  3.23s/it, ✓=0, ✖=0, error=8]astropy__astropy-14995: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/astropy__astropy-14995/run_instance.log) for more information.
+astropy__astropy-7166: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/astropy__astropy-7166/run_instance.log) for more information.
+django__django-10097: >>>>> Patch Apply Failed:
+patching file django/core/validators.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 15.
+Hunk #3 succeeded at 24 with fuzz 3.
+patch: **** malformed patch at line 43: diff --git a/tests/validators/tests.py b/tests/validators/tests.py
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-10097/run_instance.log) for more information.
+django__django-10554: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-10554/run_instance.log) for more information.
+Evaluation:   3%|▎         | 8/250 [01:00<13:02,  3.23s/it, ✓=0, ✖=0, error=9]Evaluation:   4%|▎         | 9/250 [01:00<31:13,  7.77s/it, ✓=0, ✖=0, error=9]Evaluation:   4%|▎         | 9/250 [01:01<31:13,  7.77s/it, ✓=0, ✖=0, error=10]Evaluation:   4%|▍         | 10/250 [01:01<22:25,  5.61s/it, ✓=0, ✖=0, error=10]Evaluation:   4%|▍         | 10/250 [01:01<22:25,  5.61s/it, ✓=0, ✖=0, error=11]Evaluation:   4%|▍         | 11/250 [01:01<16:35,  4.17s/it, ✓=0, ✖=0, error=11]Evaluation:   4%|▍         | 11/250 [01:03<16:35,  4.17s/it, ✓=0, ✖=0, error=12]Evaluation:   5%|▍         | 12/250 [01:03<12:58,  3.27s/it, ✓=0, ✖=0, error=12]django__django-10880: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/fields/__init__.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-10880/run_instance.log) for more information.
+django__django-11066: >>>>> Patch Apply Failed:
+patching file django/contrib/contenttypes/management/__init__.py
+Hunk #1 FAILED at 24.
+1 out of 1 hunk FAILED -- saving rejects to file django/contrib/contenttypes/management/__init__.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11066/run_instance.log) for more information.
+django__django-11095: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/admin.py b/admin.py
+|index 1234567..abcdefg 100644
+|--- a/admin.py
+|+++ b/admin.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 13: +    return inlines
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11095/run_instance.log) for more information.
+django__django-11087: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/treeherder/model/models.py b/treeherder/model/models.py
+|index 4253244..500899d 100644
+|--- a/treeherder/model/models.py
+|+++ b/treeherder/model/models.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+13 out of 13 hunks ignored
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11087/run_instance.log) for more information.
+Evaluation:   5%|▍         | 12/250 [01:21<12:58,  3.27s/it, ✓=0, ✖=0, error=13]Evaluation:   5%|▌         | 13/250 [01:21<30:19,  7.68s/it, ✓=0, ✖=0, error=13]Evaluation:   5%|▌         | 13/250 [01:22<30:19,  7.68s/it, ✓=0, ✖=0, error=14]Evaluation:   6%|▌         | 14/250 [01:22<22:15,  5.66s/it, ✓=0, ✖=0, error=14]Evaluation:   6%|▌         | 14/250 [01:23<22:15,  5.66s/it, ✓=0, ✖=0, error=15]Evaluation:   6%|▌         | 15/250 [01:23<17:06,  4.37s/it, ✓=0, ✖=0, error=15]Evaluation:   6%|▌         | 15/250 [01:23<17:06,  4.37s/it, ✓=0, ✖=0, error=16]Evaluation:   6%|▋         | 16/250 [01:23<12:27,  3.20s/it, ✓=0, ✖=0, error=16]django__django-11119: >>>>> Patch Apply Failed:
+patching file django/core/handlers/base.py
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/handlers/base.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11119/run_instance.log) for more information.
+django__django-11138: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11138/run_instance.log) for more information.
+django__django-11133: >>>>> Patch Apply Failed:
+patching file django/http/response.py
+patch: **** malformed patch at line 12: @@ -18,6 +18,10 @@ class HttpResponse(HttpResponseBase):
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11133/run_instance.log) for more information.
+django__django-11141: >>>>> Patch Apply Failed:
+patch: **** unexpected end of file in patch
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django/db/migrations/autodiscover.py b/django/db/migrations/autodiscover.py
+|index 222601625d..1c156e2e5f 100644
+|--- a/django/db/migrations/autodiscover.py
+|+++ b/django/db/migrations/autodiscover.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patching file django/db/migrations/executor.py
+Hunk #1 FAILED at 17.
+Hunk #2 FAILED at 102.
+Hunk #3 FAILED at 110.
+Hunk #4 FAILED at 118.
+Hunk #5 FAILED at 126.
+Hunk #6 FAILED at 134.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11141/run_instance.log) for more information.
+Evaluation:   6%|▋         | 16/250 [01:42<12:27,  3.20s/it, ✓=0, ✖=0, error=17]Evaluation:   7%|▋         | 17/250 [01:42<30:20,  7.81s/it, ✓=0, ✖=0, error=17]Evaluation:   7%|▋         | 17/250 [01:44<30:20,  7.81s/it, ✓=0, ✖=0, error=18]Evaluation:   7%|▋         | 18/250 [01:44<23:18,  6.03s/it, ✓=0, ✖=0, error=18]Evaluation:   7%|▋         | 18/250 [01:44<23:18,  6.03s/it, ✓=0, ✖=0, error=19]Evaluation:   8%|▊         | 19/250 [01:44<16:53,  4.39s/it, ✓=0, ✖=0, error=19]Evaluation:   8%|▊         | 19/250 [01:45<16:53,  4.39s/it, ✓=0, ✖=0, error=20]Evaluation:   8%|▊         | 20/250 [01:45<12:22,  3.23s/it, ✓=0, ✖=0, error=20]django__django-11149: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11149/run_instance.log) for more information.
+django__django-11211: >>>>> Patch Apply Failed:
+The next patch would delete the file models.py,
+which does not exist!  Assuming -R.
+patching file models.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 5.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file models.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11211/run_instance.log) for more information.
+django__django-11276: >>>>> Patch Apply Failed:
+patching file django/utils/html.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 15.
+Hunk #3 FAILED at 24.
+Hunk #4 FAILED at 33.
+Hunk #5 FAILED at 42.
+Hunk #6 FAILED at 51.
+Hunk #7 FAILED at 60.
+Hunk #8 FAILED at 69.
+Hunk #9 FAILED at 78.
+Hunk #10 FAILED at 87.
+Hunk #11 FAILED at 96.
+Hunk #12 FAILED at 105.
+patch unexpectedly ends in middle of line
+12 out of 12 hunks FAILED -- saving rejects to file django/utils/html.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11276/run_instance.log) for more information.
+Evaluation:   8%|▊         | 20/250 [02:03<12:22,  3.23s/it, ✓=0, ✖=0, error=21]Evaluation:   8%|▊         | 21/250 [02:03<29:07,  7.63s/it, ✓=0, ✖=0, error=21]Evaluation:   8%|▊         | 21/250 [02:05<29:07,  7.63s/it, ✓=0, ✖=0, error=22]Evaluation:   9%|▉         | 22/250 [02:05<22:26,  5.91s/it, ✓=0, ✖=0, error=22]Evaluation:   9%|▉         | 22/250 [02:05<22:26,  5.91s/it, ✓=0, ✖=0, error=23]Evaluation:   9%|▉         | 23/250 [02:05<16:14,  4.29s/it, ✓=0, ✖=0, error=23]django__django-11333: >>>>> Patch Apply Failed:
+patching file django/urls/resolvers.py
+Hunk #1 succeeded at 11 with fuzz 3.
+Hunk #2 succeeded at 20 with fuzz 3.
+Hunk #3 succeeded at 29 with fuzz 3.
+Hunk #4 succeeded at 38 with fuzz 3.
+Hunk #5 succeeded at 47 with fuzz 3.
+Hunk #6 succeeded at 56 with fuzz 3.
+Hunk #7 succeeded at 65 with fuzz 3.
+Hunk #8 succeeded at 74 with fuzz 3.
+Hunk #9 succeeded at 83 with fuzz 3.
+Hunk #10 succeeded at 92 with fuzz 3.
+Hunk #11 succeeded at 101 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11333/run_instance.log) for more information.
+django__django-11400: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/filters.py
+Hunk #1 FAILED at 193.
+Hunk #2 FAILED at 419.
+2 out of 2 hunks FAILED -- saving rejects to file django/contrib/admin/filters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11400/run_instance.log) for more information.
+django__django-11451: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/backends.py
+patch: **** malformed patch at line 14:              # Run the default password hasher once to reduce the timing
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11451/run_instance.log) for more information.
+Evaluation:   9%|▉         | 23/250 [02:14<16:14,  4.29s/it, ✓=0, ✖=1, error=23]Evaluation:  10%|▉         | 24/250 [02:14<20:45,  5.51s/it, ✓=0, ✖=1, error=23]django__django-11490: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11490/run_instance.log) for more information.
+Evaluation:  10%|▉         | 24/250 [02:23<20:45,  5.51s/it, ✓=0, ✖=1, error=24]Evaluation:  10%|█         | 25/250 [02:23<25:00,  6.67s/it, ✓=0, ✖=1, error=24]Evaluation:  10%|█         | 25/250 [02:25<25:00,  6.67s/it, ✓=0, ✖=1, error=25]Evaluation:  10%|█         | 26/250 [02:25<19:19,  5.18s/it, ✓=0, ✖=1, error=25]Evaluation:  10%|█         | 26/250 [02:25<19:19,  5.18s/it, ✓=0, ✖=1, error=26]django__django-11532: >>>>> Patch Apply Failed:
+patching file django/core/mail/message.py
+Hunk #1 FAILED at 257.
+Hunk #2 FAILED at 64.
+Hunk #3 FAILED at 257.
+Hunk #4 FAILED at 64.
+Hunk #5 FAILED at 257.
+Hunk #6 FAILED at 64.
+Hunk #7 FAILED at 257.
+Hunk #8 FAILED at 64.
+Hunk #9 FAILED at 257.
+Hunk #10 FAILED at 64.
+patch unexpectedly ends in middle of line
+Hunk #11 FAILED at 257.
+11 out of 11 hunks FAILED -- saving rejects to file django/core/mail/message.py.rej
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11532/run_instance.log) for more information.
+django__django-11555: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11555/run_instance.log) for more information.
+django__django-11728: >>>>> Patch Apply Failed:
+The next patch would create the file django/urls/resolvers.py,
+which already exists!  Assuming -R.
+patching file django/urls/resolvers.py
+Hunk #1 FAILED at 171.
+Hunk #2 FAILED at 184.
+Hunk #3 FAILED at 197.
+Hunk #4 FAILED at 210.
+Hunk #5 FAILED at 223.
+Hunk #6 FAILED at 236.
+Hunk #7 FAILED at 249.
+Hunk #8 FAILED at 262.
+Hunk #9 FAILED at 275.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11728/run_instance.log) for more information.
+Evaluation:  11%|█         | 27/250 [02:31<19:14,  5.18s/it, ✓=0, ✖=1, error=27]Evaluation:  11%|█         | 28/250 [02:31<15:49,  4.28s/it, ✓=0, ✖=1, error=27]django__django-11734: >>>>> Patch Apply Failed:
+patching file tests/queries/test_qs_combinators.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 14.
+patch: **** malformed patch at line 30: @@ -30,7 +30,7 @@ class QuerySetCombinatorsTestCase(TestCase):
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11734/run_instance.log) for more information.
+Evaluation:  11%|█         | 28/250 [02:42<15:49,  4.28s/it, ✓=0, ✖=1, error=28]Evaluation:  12%|█▏        | 29/250 [02:42<21:37,  5.87s/it, ✓=0, ✖=1, error=28]Evaluation:  12%|█▏        | 29/250 [02:44<21:37,  5.87s/it, ✓=0, ✖=1, error=29]Evaluation:  12%|█▏        | 30/250 [02:44<17:35,  4.80s/it, ✓=0, ✖=1, error=29]Evaluation:  12%|█▏        | 30/250 [02:44<17:35,  4.80s/it, ✓=0, ✖=1, error=30]Evaluation:  12%|█▏        | 31/250 [02:44<13:20,  3.65s/it, ✓=0, ✖=1, error=30]django__django-11740: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11740/run_instance.log) for more information.
+django__django-11848: >>>>> Patch Apply Failed:
+patching file django/utils/http.py
+Hunk #1 FAILED at 155.
+Hunk #2 FAILED at 163.
+2 out of 2 hunks FAILED -- saving rejects to file django/utils/http.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11848/run_instance.log) for more information.
+Evaluation:  12%|█▏        | 31/250 [02:49<13:20,  3.65s/it, ✓=0, ✖=1, error=31]Evaluation:  13%|█▎        | 32/250 [02:49<14:05,  3.88s/it, ✓=0, ✖=1, error=31]django__django-11880: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11880/run_instance.log) for more information.
+Evaluation:  13%|█▎        | 32/250 [03:01<14:05,  3.88s/it, ✓=0, ✖=1, error=32]Evaluation:  13%|█▎        | 33/250 [03:01<23:13,  6.42s/it, ✓=0, ✖=1, error=32]Evaluation:  13%|█▎        | 33/250 [03:03<23:13,  6.42s/it, ✓=0, ✖=1, error=33]Evaluation:  14%|█▎        | 34/250 [03:03<17:48,  4.94s/it, ✓=0, ✖=1, error=33]django__django-11885: >>>>> Patch Apply Failed:
+patching file django/db/models/deletion.py
+Hunk #1 succeeded at 10 with fuzz 3.
+Hunk #2 succeeded at 104 with fuzz 3.
+Hunk #3 succeeded at 116 with fuzz 3.
+Hunk #4 succeeded at 128 with fuzz 3.
+Hunk #5 succeeded at 140 with fuzz 3.
+Hunk #6 succeeded at 152 with fuzz 3.
+Hunk #7 succeeded at 164 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-11885/run_instance.log) for more information.
+django__django-12050: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file django/db/models/query.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file django/db/models/query.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file django/db/models/query.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-12050/run_instance.log) for more information.
+Evaluation:  14%|█▎        | 34/250 [03:06<17:48,  4.94s/it, ✓=0, ✖=1, error=34]Evaluation:  14%|█▍        | 35/250 [03:06<16:12,  4.52s/it, ✓=0, ✖=1, error=34]django__django-12125: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/migrations/0001_initial.py b/migrations/0001_initial.py
+|index 1234567..89abcdef 100644
+|--- a/migrations/0001_initial.py
+|+++ b/migrations/0001_initial.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-12125/run_instance.log) for more information.
+Evaluation:  14%|█▍        | 35/250 [03:14<16:12,  4.52s/it, ✓=0, ✖=2, error=34]Evaluation:  14%|█▍        | 36/250 [03:14<20:01,  5.61s/it, ✓=0, ✖=2, error=34]django__django-12155: >>>>> Patch Apply Failed:
+patching file admindoc/admindoc.py
+patch: **** malformed patch at line 13: Thanks for the patch. It has been applied to the master branch.<|file_sep|><|fim_prefix|>/README.md
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-12155/run_instance.log) for more information.
+Evaluation:  14%|█▍        | 36/250 [03:20<20:01,  5.61s/it, ✓=0, ✖=2, error=35]Evaluation:  15%|█▍        | 37/250 [03:20<19:36,  5.52s/it, ✓=0, ✖=2, error=35]Evaluation:  15%|█▍        | 37/250 [03:21<19:36,  5.52s/it, ✓=0, ✖=2, error=36]Evaluation:  15%|█▌        | 38/250 [03:21<14:57,  4.24s/it, ✓=0, ✖=2, error=36]django__django-12304: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-12304/run_instance.log) for more information.
+Evaluation:  15%|█▌        | 38/250 [03:24<14:57,  4.24s/it, ✓=0, ✖=2, error=37]Evaluation:  16%|█▌        | 39/250 [03:24<13:40,  3.89s/it, ✓=0, ✖=2, error=37]Evaluation:  16%|█▌        | 39/250 [03:32<13:40,  3.89s/it, ✓=0, ✖=2, error=38]Evaluation:  16%|█▌        | 40/250 [03:32<17:41,  5.05s/it, ✓=0, ✖=2, error=38]django__django-12325: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-12325/run_instance.log) for more information.
+Evaluation:  16%|█▌        | 40/250 [03:39<17:41,  5.05s/it, ✓=0, ✖=2, error=39]Evaluation:  16%|█▋        | 41/250 [03:39<20:07,  5.78s/it, ✓=0, ✖=2, error=39]django__django-12406: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 FAILED at 134.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/widgets.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-12406/run_instance.log) for more information.
+Evaluation:  16%|█▋        | 41/250 [03:50<20:07,  5.78s/it, ✓=0, ✖=2, error=40]Evaluation:  17%|█▋        | 42/250 [03:50<25:08,  7.25s/it, ✓=0, ✖=2, error=40]Evaluation:  17%|█▋        | 42/250 [03:50<25:08,  7.25s/it, ✓=0, ✖=3, error=40]Evaluation:  17%|█▋        | 43/250 [03:50<17:38,  5.11s/it, ✓=0, ✖=3, error=40]Evaluation:  17%|█▋        | 43/250 [03:51<17:38,  5.11s/it, ✓=0, ✖=4, error=40]Evaluation:  18%|█▊        | 44/250 [03:51<13:43,  4.00s/it, ✓=0, ✖=4, error=40]django__django-12419: >>>>> Patch Apply Failed:
+patching file django/conf/global_settings.py
+Hunk #1 succeeded at 265 with fuzz 3.
+can't find file to patch at input line 30
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|Can you test this patch and let me know if it works as expected? If there are any issues, I can make adjustments. Vertex
+|Vertexuser
+|I have tested the patch and it works as expected. Thank you for the patch. Vertex
+|Vertexassistant
+|You're welcome! If you have any other questions or need further assistance, feel free to ask. Vertex
+|Vertexuser
+|I have another question. Vertex
+|Vertexassistant
+|Sure, I'm here to help. Vertex
+|Vertexuser
+|Can you add a test case to ensure that the default SECURE_REFERRER_POLICY setting is set to "same-origin"? Vertex
+|Vertexassistant
+|Sure, here's a test case that ensures the default SECURE_REFERRER_POLICY setting is set to "same-origin":
+|diff --git a/tests/test_settings.py b/tests/test_settings.py
+|index 1a0a0a0..1a0a0a0 100644
+|--- a/tests/test_settings.py
+|+++ b/tests/test_settings.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 44: Can you test this test case and let me know if it works as expected? If there are any issues, I can make adjustments. Vertex
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-12419/run_instance.log) for more information.
+django__django-12741: >>>>> Patch Apply Failed:
+patching file django/db/backends/base/operations.py
+Hunk #1 succeeded at 15 with fuzz 3 (offset -217 lines).
+patching file django/db/backends/mysql/base.py
+Hunk #1 succeeded at 264 with fuzz 3 (offset 130 lines).
+patching file django/db/backends/oracle/base.py
+Hunk #1 succeeded at 297 with fuzz 3 (offset 169 lines).
+patching file django/db/backends/postgresql/base.py
+Hunk #1 succeeded at 273 with fuzz 3 (offset 139 lines).
+patching file django/db/backends/sqlite3/base.py
+Hunk #1 succeeded at 309 with fuzz 3 (offset 175 lines).
+patching file django/db/backends/sqlite3/operations.py
+Hunk #1 FAILED at 232.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/sqlite3/operations.py.rej
+patching file django/db/backends/sqlite3/operations.py
+Hunk #1 FAILED at 232.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/backends/sqlite3/operations.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-12741/run_instance.log) for more information.
+Evaluation:  18%|█▊        | 44/250 [03:57<13:43,  4.00s/it, ✓=0, ✖=4, error=41]Evaluation:  18%|█▊        | 45/250 [03:57<15:15,  4.47s/it, ✓=0, ✖=4, error=41]django__django-12965: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-12965/run_instance.log) for more information.
+Evaluation:  18%|█▊        | 45/250 [04:09<15:15,  4.47s/it, ✓=0, ✖=4, error=42]Evaluation:  18%|█▊        | 46/250 [04:09<23:09,  6.81s/it, ✓=0, ✖=4, error=42]Evaluation:  18%|█▊        | 46/250 [04:10<23:09,  6.81s/it, ✓=0, ✖=4, error=43]Evaluation:  19%|█▉        | 47/250 [04:10<17:08,  5.07s/it, ✓=0, ✖=4, error=43]django__django-13112: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/DJ_RegLogin/apps.py b/DJ_RegLogin/apps.py
+|index 9314552..306908a 100644
+|--- a/DJ_RegLogin/apps.py
+|+++ b/DJ_RegLogin/apps.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13112/run_instance.log) for more information.
+django__django-13158: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+patch: **** malformed patch at line 16: @@ -1306,6 +1311,11 @@ def _clone(self, klass=None, setup=False, **kwargs):
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13158/run_instance.log) for more information.
+Evaluation:  19%|█▉        | 47/250 [04:14<17:08,  5.07s/it, ✓=0, ✖=4, error=44]Evaluation:  19%|█▉        | 48/250 [04:14<16:06,  4.79s/it, ✓=0, ✖=4, error=44]django__django-13195: >>>>> Patch Apply Failed:
+patching file django/http/response.py
+Hunk #1 FAILED at 117.
+1 out of 1 hunk FAILED -- saving rejects to file django/http/response.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13195/run_instance.log) for more information.
+Evaluation:  19%|█▉        | 48/250 [04:19<16:06,  4.79s/it, ✓=0, ✖=5, error=44]Evaluation:  20%|█▉        | 49/250 [04:19<16:04,  4.80s/it, ✓=0, ✖=5, error=44]django__django-13343: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/files.py
+Hunk #1 succeeded at 235 with fuzz 3 (offset 223 lines).
+Hunk #2 succeeded at 285 with fuzz 3 (offset 264 lines).
+Hunk #3 FAILED at 31.
+Hunk #4 FAILED at 41.
+Hunk #5 FAILED at 51.
+Hunk #6 FAILED at 61.
+Hunk #7 FAILED at 71.
+Hunk #8 FAILED at 81.
+Hunk #9 FAILED at 91.
+Hunk #10 FAILED at 101.
+Hunk #11 FAILED at 111.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13343/run_instance.log) for more information.
+Evaluation:  20%|█▉        | 49/250 [04:29<16:04,  4.80s/it, ✓=0, ✖=5, error=45]Evaluation:  20%|██        | 50/250 [04:29<20:29,  6.15s/it, ✓=0, ✖=5, error=45]Evaluation:  20%|██        | 50/250 [04:29<20:29,  6.15s/it, ✓=0, ✖=5, error=46]Evaluation:  20%|██        | 51/250 [04:29<14:46,  4.45s/it, ✓=0, ✖=5, error=46]django__django-13344: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django/middleware/middleware.py b/django/middleware/middleware.py
+|index 0f0f0f0..0f0f0f0 100644
+|--- a/django/middleware/middleware.py
+|+++ b/django/middleware/middleware.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13344/run_instance.log) for more information.
+django__django-13346: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13346/run_instance.log) for more information.
+Evaluation:  20%|██        | 51/250 [04:32<14:46,  4.45s/it, ✓=0, ✖=5, error=47]Evaluation:  21%|██        | 52/250 [04:32<13:09,  3.99s/it, ✓=0, ✖=5, error=47]django__django-13363: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13363/run_instance.log) for more information.
+Evaluation:  21%|██        | 52/250 [04:37<13:09,  3.99s/it, ✓=0, ✖=5, error=48]Evaluation:  21%|██        | 53/250 [04:37<13:56,  4.25s/it, ✓=0, ✖=5, error=48]django__django-13401: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+Hunk #1 succeeded at 127 with fuzz 3.
+Hunk #2 succeeded at 138 with fuzz 3.
+Hunk #3 succeeded at 149 with fuzz 3.
+Hunk #4 succeeded at 160 with fuzz 3.
+Hunk #5 succeeded at 171 with fuzz 3.
+Hunk #6 succeeded at 182 with fuzz 3.
+Hunk #7 succeeded at 193 with fuzz 3.
+Hunk #8 succeeded at 204 with fuzz 3.
+Hunk #9 succeeded at 215 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13401/run_instance.log) for more information.
+Evaluation:  21%|██        | 53/250 [04:47<13:56,  4.25s/it, ✓=0, ✖=5, error=49]Evaluation:  22%|██▏       | 54/250 [04:47<20:00,  6.13s/it, ✓=0, ✖=5, error=49]Evaluation:  22%|██▏       | 54/250 [04:48<20:00,  6.13s/it, ✓=0, ✖=5, error=50]Evaluation:  22%|██▏       | 55/250 [04:48<14:19,  4.41s/it, ✓=0, ✖=5, error=50]django__django-13406: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13406/run_instance.log) for more information.
+Evaluation:  22%|██▏       | 55/250 [04:50<14:19,  4.41s/it, ✓=0, ✖=5, error=51]Evaluation:  22%|██▏       | 56/250 [04:50<12:10,  3.76s/it, ✓=0, ✖=5, error=51]django__django-13417: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+patch: **** malformed patch at line 7: ​
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13417/run_instance.log) for more information.
+django__django-13449: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 21:          sql, params = super().as_sql(compiler, connection)
+
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django/db/models/functions.py b/django/db/models/functions.py
+|index 8a0a0a0..8a0a0a0 100644
+|--- a/django/db/models/functions.py
+|+++ b/django/db/models/functions.py
+--------------------------
+No file to patch.  Skipping patch.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13449/run_instance.log) for more information.
+Evaluation:  22%|██▏       | 56/250 [04:54<12:10,  3.76s/it, ✓=0, ✖=5, error=52]Evaluation:  23%|██▎       | 57/250 [04:54<12:36,  3.92s/it, ✓=0, ✖=5, error=52]django__django-13512: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django_mysql/models/fields/json.py b/django_mysql/models/fields/json.py
+|index 1234567..abcdefg 100644
+|--- a/django_mysql/models/fields/json.py
+|+++ b/django_mysql/models/fields/json.py
+--------------------------
+No file to patch.  Skipping patch.
+2 out of 2 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13512/run_instance.log) for more information.
+Evaluation:  23%|██▎       | 57/250 [05:06<12:36,  3.92s/it, ✓=0, ✖=5, error=53]Evaluation:  23%|██▎       | 58/250 [05:06<19:55,  6.23s/it, ✓=0, ✖=5, error=53]Evaluation:  23%|██▎       | 58/250 [05:08<19:55,  6.23s/it, ✓=0, ✖=5, error=54]Evaluation:  24%|██▎       | 59/250 [05:08<15:25,  4.85s/it, ✓=0, ✖=5, error=54]Evaluation:  24%|██▎       | 59/250 [05:09<15:25,  4.85s/it, ✓=0, ✖=5, error=55]Evaluation:  24%|██▍       | 60/250 [05:09<11:54,  3.76s/it, ✓=0, ✖=5, error=55]django__django-13513: >>>>> Patch Apply Failed:
+patching file django/views/debug.py
+Hunk #1 FAILED at 392.
+1 out of 1 hunk FAILED -- saving rejects to file django/views/debug.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13513/run_instance.log) for more information.
+django__django-13551: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/apps/accounts/models.py b/apps/accounts/models.py
+|index 8566026..c896700 100644
+|--- a/apps/accounts/models.py
+|+++ b/apps/accounts/models.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 12: @@ -15,6 +16,7 @@ class UserManager(BaseUserManager):
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13551/run_instance.log) for more information.
+django__django-13569: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/compiler.py
+Hunk #1 FAILED at 103.
+Hunk #2 FAILED at 124.
+Hunk #3 FAILED at 145.
+Hunk #4 FAILED at 166.
+Hunk #5 FAILED at 187.
+Hunk #6 FAILED at 208.
+Hunk #7 FAILED at 229.
+Hunk #8 FAILED at 250.
+Hunk #9 FAILED at 271.
+Hunk #10 FAILED at 292.
+Hunk #11 FAILED at 313.
+patch unexpectedly ends in middle of line
+Hunk #12 FAILED at 334.
+12 out of 12 hunks FAILED -- saving rejects to file django/db/models/sql/compiler.py.rej
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13569/run_instance.log) for more information.
+Evaluation:  24%|██▍       | 60/250 [05:12<11:54,  3.76s/it, ✓=0, ✖=5, error=56]Evaluation:  24%|██▍       | 61/250 [05:12<11:15,  3.58s/it, ✓=0, ✖=5, error=56]django__django-13590: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 FAILED at 1234.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/sql/query.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13590/run_instance.log) for more information.
+Evaluation:  24%|██▍       | 61/250 [05:25<11:15,  3.58s/it, ✓=0, ✖=5, error=57]Evaluation:  25%|██▍       | 62/250 [05:25<20:32,  6.55s/it, ✓=0, ✖=5, error=57]Evaluation:  25%|██▍       | 62/250 [05:27<20:32,  6.55s/it, ✓=0, ✖=5, error=58]Evaluation:  25%|██▌       | 63/250 [05:27<15:55,  5.11s/it, ✓=0, ✖=5, error=58]django__django-13658: >>>>> Patch Apply Failed:
+patching file django/core/management/__init__.py
+Hunk #1 FAILED at 16.
+Hunk #2 succeeded at 189 with fuzz 3 (offset 165 lines).
+Hunk #3 FAILED at 32.
+Hunk #4 FAILED at 41.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13658/run_instance.log) for more information.
+Evaluation:  25%|██▌       | 63/250 [05:28<15:55,  5.11s/it, ✓=0, ✖=5, error=59]Evaluation:  26%|██▌       | 64/250 [05:28<11:51,  3.82s/it, ✓=0, ✖=5, error=59]Evaluation:  26%|██▌       | 64/250 [05:30<11:51,  3.82s/it, ✓=0, ✖=5, error=60]Evaluation:  26%|██▌       | 65/250 [05:30<10:24,  3.38s/it, ✓=0, ✖=5, error=60]django__django-13786: >>>>> Patch Apply Failed:
+patching file django/db/migrations/operations/models.py
+Hunk #1 FAILED at 141.
+Hunk #2 FAILED at 151.
+Hunk #3 FAILED at 161.
+Hunk #4 FAILED at 171.
+Hunk #5 FAILED at 181.
+Hunk #6 FAILED at 191.
+Hunk #7 FAILED at 201.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13786/run_instance.log) for more information.
+django__django-13807: >>>>> Patch Apply Failed:
+patching file django/db/backends/sqlite3/base.py
+Hunk #1 FAILED at 324.
+Hunk #2 FAILED at 331.
+2 out of 2 hunks FAILED -- saving rejects to file django/db/backends/sqlite3/base.py.rej
+patching file django/db/backends/sqlite3/base.py
+Hunk #1 FAILED at 324.
+Hunk #2 FAILED at 331.
+2 out of 2 hunks FAILED -- saving rejects to file django/db/backends/sqlite3/base.py.rej
+patching file django/db/backends/sqlite3/base.py
+Hunk #1 FAILED at 324.
+Hunk #2 FAILED at 331.
+2 out of 2 hunks FAILED -- saving rejects to file django/db/backends/sqlite3/base.py.rej
+patch unexpectedly ends in middle of line
+patching file django/db/backends/sqlite3/base.py
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13807/run_instance.log) for more information.
+Evaluation:  26%|██▌       | 65/250 [05:44<10:24,  3.38s/it, ✓=0, ✖=5, error=61]Evaluation:  26%|██▋       | 66/250 [05:44<19:39,  6.41s/it, ✓=0, ✖=5, error=61]django__django-13925: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13925/run_instance.log) for more information.
+Evaluation:  26%|██▋       | 66/250 [05:47<19:39,  6.41s/it, ✓=0, ✖=5, error=62]Evaluation:  27%|██▋       | 67/250 [05:47<16:27,  5.40s/it, ✓=0, ✖=5, error=62]Evaluation:  27%|██▋       | 67/250 [05:48<16:27,  5.40s/it, ✓=0, ✖=5, error=63]Evaluation:  27%|██▋       | 68/250 [05:48<12:38,  4.17s/it, ✓=0, ✖=5, error=63]django__django-13933: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch: **** malformed patch at line 12: diff --git a/django/forms/fields.py b/django/forms/fields.py
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13933/run_instance.log) for more information.
+django__django-13964: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 117.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-13964/run_instance.log) for more information.
+Evaluation:  27%|██▋       | 68/250 [05:55<12:38,  4.17s/it, ✓=0, ✖=6, error=63]Evaluation:  28%|██▊       | 69/250 [05:55<15:13,  5.05s/it, ✓=0, ✖=6, error=63]django__django-14007: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 13:              return None
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14007/run_instance.log) for more information.
+Evaluation:  28%|██▊       | 69/250 [06:01<15:13,  5.05s/it, ✓=0, ✖=6, error=64]Evaluation:  28%|██▊       | 70/250 [06:01<16:03,  5.35s/it, ✓=0, ✖=6, error=64]django__django-14011: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14011/run_instance.log) for more information.
+Evaluation:  28%|██▊       | 70/250 [06:05<16:03,  5.35s/it, ✓=0, ✖=6, error=65]Evaluation:  28%|██▊       | 71/250 [06:05<14:08,  4.74s/it, ✓=0, ✖=6, error=65]Evaluation:  28%|██▊       | 71/250 [06:06<14:08,  4.74s/it, ✓=0, ✖=6, error=66]Evaluation:  29%|██▉       | 72/250 [06:06<11:03,  3.73s/it, ✓=0, ✖=6, error=66]django__django-14034: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14034/run_instance.log) for more information.
+django__django-14089: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/ordered_set.py b/ordered_set.py
+|index 3039e32..3e7b426 100644
+|--- a/ordered_set.py
+|+++ b/ordered_set.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 21: +            node = node[1]
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14089/run_instance.log) for more information.
+Evaluation:  29%|██▉       | 72/250 [06:13<11:03,  3.73s/it, ✓=0, ✖=6, error=67]Evaluation:  29%|██▉       | 73/250 [06:13<13:42,  4.65s/it, ✓=0, ✖=6, error=67]Evaluation:  29%|██▉       | 73/250 [06:26<13:42,  4.65s/it, ✓=0, ✖=6, error=68]Evaluation:  30%|██▉       | 74/250 [06:26<21:24,  7.30s/it, ✓=0, ✖=6, error=68]Evaluation:  30%|██▉       | 74/250 [06:26<21:24,  7.30s/it, ✓=0, ✖=6, error=69]Evaluation:  30%|███       | 75/250 [06:27<21:16,  7.30s/it, ✓=0, ✖=6, error=70]Evaluation:  30%|███       | 76/250 [06:27<11:43,  4.05s/it, ✓=0, ✖=6, error=70]django__django-14349: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14349/run_instance.log) for more information.
+django__django-14373: >>>>> Patch Apply Failed:
+patching file django/utils/dateformat.py
+Hunk #1 succeeded at 23 with fuzz 3 (offset 13 lines).
+Hunk #2 FAILED at 20.
+1 out of 2 hunks FAILED -- saving rejects to file django/utils/dateformat.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14373/run_instance.log) for more information.
+django__django-14500: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14500/run_instance.log) for more information.
+Evaluation:  30%|███       | 76/250 [06:46<11:43,  4.05s/it, ✓=0, ✖=6, error=71]Evaluation:  31%|███       | 77/250 [06:46<22:11,  7.70s/it, ✓=0, ✖=6, error=71]Evaluation:  31%|███       | 77/250 [06:47<22:11,  7.70s/it, ✓=0, ✖=6, error=72]Evaluation:  31%|███       | 78/250 [06:47<17:30,  6.10s/it, ✓=0, ✖=6, error=72]Evaluation:  31%|███       | 78/250 [06:47<17:30,  6.10s/it, ✓=0, ✖=6, error=73]django__django-14539: >>>>> Patch Apply Failed:
+patching file django/utils/html.py
+Hunk #1 succeeded at 1 with fuzz 3.
+Hunk #2 succeeded at 14 with fuzz 3.
+Hunk #3 succeeded at 23 with fuzz 3.
+Hunk #4 succeeded at 31 with fuzz 3.
+Hunk #5 succeeded at 39 with fuzz 3.
+Hunk #6 succeeded at 47 with fuzz 3.
+Hunk #7 succeeded at 55 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14539/run_instance.log) for more information.
+Evaluation:  32%|███▏      | 79/250 [06:50<17:23,  6.10s/it, ✓=0, ✖=7, error=73]Evaluation:  32%|███▏      | 80/250 [06:50<11:36,  4.10s/it, ✓=0, ✖=7, error=73]django__django-14580: >>>>> Patch Apply Failed:
+patching file django/db/migrations/writer.py
+patch: **** malformed patch at line 12: @@ -23,6 +24,7 @@ class Migration(migrations.Migration):
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14580/run_instance.log) for more information.
+django__django-14725: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14725/run_instance.log) for more information.
+django__django-14752: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14752/run_instance.log) for more information.
+Evaluation:  32%|███▏      | 80/250 [07:05<11:36,  4.10s/it, ✓=0, ✖=7, error=74]Evaluation:  32%|███▏      | 81/250 [07:05<18:51,  6.69s/it, ✓=0, ✖=7, error=74]Evaluation:  32%|███▏      | 81/250 [07:07<18:51,  6.69s/it, ✓=0, ✖=7, error=75]Evaluation:  33%|███▎      | 82/250 [07:07<15:37,  5.58s/it, ✓=0, ✖=7, error=75]Evaluation:  33%|███▎      | 82/250 [07:08<15:37,  5.58s/it, ✓=0, ✖=7, error=76]Evaluation:  33%|███▎      | 83/250 [07:08<11:45,  4.22s/it, ✓=0, ✖=7, error=76]Evaluation:  33%|███▎      | 83/250 [07:09<11:45,  4.22s/it, ✓=0, ✖=7, error=77]Evaluation:  34%|███▎      | 84/250 [07:09<09:12,  3.33s/it, ✓=0, ✖=7, error=77]django__django-14915: >>>>> Patch Apply Failed:
+patching file django/forms/widgets.py
+Hunk #1 FAILED at 119.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/widgets.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14915/run_instance.log) for more information.
+django__django-14999: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 15: Here is the patch:
+
+patching file django/db/migrations/operations/models.py
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-14999/run_instance.log) for more information.
+django__django-15022: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15022/run_instance.log) for more information.
+Evaluation:  34%|███▎      | 84/250 [07:27<09:12,  3.33s/it, ✓=0, ✖=7, error=78]Evaluation:  34%|███▍      | 85/250 [07:27<21:02,  7.65s/it, ✓=0, ✖=7, error=78]Evaluation:  34%|███▍      | 85/250 [07:28<21:02,  7.65s/it, ✓=0, ✖=7, error=79]Evaluation:  34%|███▍      | 86/250 [07:28<15:15,  5.59s/it, ✓=0, ✖=7, error=79]Evaluation:  34%|███▍      | 86/250 [07:29<15:15,  5.59s/it, ✓=0, ✖=7, error=80]Evaluation:  35%|███▍      | 87/250 [07:29<11:14,  4.14s/it, ✓=0, ✖=7, error=80]django__django-15098: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/tshi/settings.py b/tshi/settings.py
+|index 302029e..0923d7a 100644
+|--- a/tshi/settings.py
+|+++ b/tshi/settings.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 11: @@ -10,6 +11,10 @@ LANGUAGES = [
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15098/run_instance.log) for more information.
+django__django-15161: >>>>> Patch Apply Failed:
+patching file django/db/models/expressions.py
+Hunk #1 FAILED at 1.
+patch: **** malformed patch at line 21: @@ -22,7 +22,7 @@ class F(Expression):
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15161/run_instance.log) for more information.
+django__django-15268: >>>>> Patch Apply Failed:
+patching file django/db/migrations/operations/fields.py
+Hunk #1 FAILED at 1.
+Hunk #2 FAILED at 1.
+Hunk #3 FAILED at 1.
+Hunk #4 FAILED at 1.
+Hunk #5 FAILED at 1.
+Hunk #6 FAILED at 1.
+Hunk #7 FAILED at 1.
+Hunk #8 FAILED at 1.
+Hunk #9 FAILED at 1.
+Hunk #10 FAILED at 1.
+Hunk #11 FAILED at 1.
+patch unexpectedly ends in middle of line
+Hunk #12 FAILED at 1.
+12 out of 12 hunks FAILED -- saving rejects to file django/db/migrations/operations/fields.py.rej
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15268/run_instance.log) for more information.
+Evaluation:  35%|███▍      | 87/250 [07:37<11:14,  4.14s/it, ✓=0, ✖=8, error=80]Evaluation:  35%|███▌      | 88/250 [07:37<14:50,  5.50s/it, ✓=0, ✖=8, error=80]django__django-15278: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15278/run_instance.log) for more information.
+Evaluation:  35%|███▌      | 88/250 [07:47<14:50,  5.50s/it, ✓=0, ✖=8, error=81]Evaluation:  36%|███▌      | 89/250 [07:47<18:19,  6.83s/it, ✓=0, ✖=8, error=81]Evaluation:  36%|███▌      | 89/250 [07:48<18:19,  6.83s/it, ✓=0, ✖=8, error=82]Evaluation:  36%|███▌      | 90/250 [07:48<13:30,  5.06s/it, ✓=0, ✖=8, error=82]Evaluation:  36%|███▌      | 90/250 [07:48<13:30,  5.06s/it, ✓=0, ✖=8, error=83]Evaluation:  36%|███▋      | 91/250 [07:48<09:33,  3.60s/it, ✓=0, ✖=8, error=83]django__django-15280: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15280/run_instance.log) for more information.
+django__django-15375: >>>>> Patch Apply Failed:
+patching file django/db/models/aggregates.py
+Hunk #1 FAILED at 10.
+Hunk #2 succeeded at 18 with fuzz 3.
+Hunk #3 succeeded at 31 with fuzz 3.
+patch: **** malformed patch at line 42: +
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15375/run_instance.log) for more information.
+django__django-15382: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15382/run_instance.log) for more information.
+Evaluation:  36%|███▋      | 91/250 [07:55<09:33,  3.60s/it, ✓=0, ✖=8, error=84]Evaluation:  37%|███▋      | 92/250 [07:55<11:52,  4.51s/it, ✓=0, ✖=8, error=84]django__django-15499: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15499/run_instance.log) for more information.
+Evaluation:  37%|███▋      | 92/250 [08:07<11:52,  4.51s/it, ✓=0, ✖=8, error=85]Evaluation:  37%|███▋      | 93/250 [08:07<17:21,  6.63s/it, ✓=0, ✖=8, error=85]Evaluation:  37%|███▋      | 93/250 [08:08<17:21,  6.63s/it, ✓=0, ✖=8, error=86]Evaluation:  38%|███▊      | 94/250 [08:08<13:07,  5.05s/it, ✓=0, ✖=8, error=86]Evaluation:  38%|███▊      | 94/250 [08:08<13:07,  5.05s/it, ✓=0, ✖=8, error=87]Evaluation:  38%|███▊      | 95/250 [08:08<09:32,  3.69s/it, ✓=0, ✖=8, error=87]django__django-15503: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+Hunk #1 FAILED at 1026.
+Hunk #2 FAILED at 1037.
+Hunk #3 FAILED at 1048.
+Hunk #4 FAILED at 1059.
+Hunk #5 FAILED at 1070.
+Hunk #6 FAILED at 1081.
+Hunk #7 FAILED at 1092.
+Hunk #8 FAILED at 1103.
+Hunk #9 FAILED at 1114.
+Hunk #10 FAILED at 1125.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15503/run_instance.log) for more information.
+django__django-15525: >>>>> Patch Apply Failed:
+patching file testbug/models.py
+patch: **** malformed patch at line 13: @@ -39,7 +39,7 @@ class Book(models.Model):
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15525/run_instance.log) for more information.
+django__django-15561: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15561/run_instance.log) for more information.
+Evaluation:  38%|███▊      | 95/250 [08:13<09:32,  3.69s/it, ✓=0, ✖=8, error=88]Evaluation:  38%|███▊      | 96/250 [08:13<09:47,  3.82s/it, ✓=0, ✖=8, error=88]django__django-15695: >>>>> Patch Apply Failed:
+(Patch is indented 41 spaces.)
+patching file tests/migrations/test_operations.py
+patch unexpectedly ends in middle of line
+(Patch is indented 41 spaces.)
+patch unexpectedly ends in middle of line
+patch: **** ed FAILED
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15695/run_instance.log) for more information.
+Evaluation:  38%|███▊      | 96/250 [08:27<09:47,  3.82s/it, ✓=0, ✖=8, error=89]Evaluation:  39%|███▉      | 97/250 [08:27<17:54,  7.02s/it, ✓=0, ✖=8, error=89]Evaluation:  39%|███▉      | 97/250 [08:28<17:54,  7.02s/it, ✓=0, ✖=8, error=90]Evaluation:  39%|███▉      | 98/250 [08:28<13:20,  5.26s/it, ✓=0, ✖=8, error=90]Evaluation:  39%|███▉      | 98/250 [08:29<13:20,  5.26s/it, ✓=0, ✖=8, error=91]Evaluation:  40%|███▉      | 99/250 [08:29<09:42,  3.86s/it, ✓=0, ✖=8, error=91]django__django-15732: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/models.py b/models.py
+|index 1234567..abcdefg 100644
+|--- a/models.py
+|+++ b/models.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 19: This patch removes the unique_together constraint from the model's Meta class, allowing the migration to proceed without errors. After applying the patch, you can run the migration again to drop the unique_together constraint on the primary key field.
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15732/run_instance.log) for more information.
+Evaluation:  40%|███▉      | 99/250 [08:31<09:42,  3.86s/it, ✓=0, ✖=8, error=92]Evaluation:  40%|████      | 100/250 [08:31<08:41,  3.47s/it, ✓=0, ✖=8, error=92]django__django-15741: >>>>> Patch Apply Failed:
+patching file django/utils/formats.py
+Hunk #1 FAILED at 103.
+patch unexpectedly ends in middle of line
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/formats.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-15741/run_instance.log) for more information.
+django__django-16032: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 15: @@ -1660,6 +1664,10 @@ class Query(object):
+
+patching file django/db/models/sql/query.py
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16032/run_instance.log) for more information.
+django__django-16100: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/options.py
+Hunk #1 succeeded at 112 with fuzz 3.
+Hunk #2 succeeded at 121 with fuzz 3.
+patch: **** malformed patch at line 28: @@ -139,6 +142,7 @@ class ModelAdmin(BaseModelAdmin):
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16100/run_instance.log) for more information.
+Evaluation:  40%|████      | 100/250 [08:47<08:41,  3.47s/it, ✓=0, ✖=8, error=93]Evaluation:  40%|████      | 101/250 [08:47<17:22,  7.00s/it, ✓=0, ✖=8, error=93]Evaluation:  40%|████      | 101/250 [08:49<17:22,  7.00s/it, ✓=0, ✖=8, error=94]Evaluation:  41%|████      | 102/250 [08:49<13:30,  5.48s/it, ✓=0, ✖=8, error=94]django__django-16139: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16139/run_instance.log) for more information.
+Evaluation:  41%|████      | 102/250 [08:49<13:30,  5.48s/it, ✓=0, ✖=8, error=95]Evaluation:  41%|████      | 103/250 [08:49<09:45,  3.98s/it, ✓=0, ✖=8, error=95]Evaluation:  41%|████      | 103/250 [08:51<09:45,  3.98s/it, ✓=0, ✖=8, error=96]Evaluation:  42%|████▏     | 104/250 [08:51<07:59,  3.29s/it, ✓=0, ✖=8, error=96]django__django-16256: >>>>> Patch Apply Failed:
+(Patch is indented 41 spaces.)
+patching file django/db/models/fields/related_descriptors.py
+patch unexpectedly ends in middle of line
+(Patch is indented 41 spaces.)
+patch unexpectedly ends in middle of line
+patch: **** ed FAILED
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16256/run_instance.log) for more information.
+django__django-16315: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1090.
+Hunk #2 FAILED at 1100.
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/query.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16315/run_instance.log) for more information.
+django__django-16333: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/forms.py
+Hunk #1 succeeded at 11 with fuzz 3.
+Hunk #2 succeeded at 38 with fuzz 3.
+Hunk #3 succeeded at 47 with fuzz 3.
+Hunk #4 succeeded at 55 with fuzz 3.
+Hunk #5 succeeded at 64 with fuzz 3.
+Hunk #6 succeeded at 73 with fuzz 3.
+Hunk #7 succeeded at 82 with fuzz 3.
+Hunk #8 succeeded at 92 with fuzz 3.
+Hunk #9 succeeded at 101 with fuzz 3.
+Hunk #10 succeeded at 110 with fuzz 3.
+Hunk #11 succeeded at 120 with fuzz 3.
+Hunk #12 succeeded at 129 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16333/run_instance.log) for more information.
+Evaluation:  42%|████▏     | 104/250 [09:05<07:59,  3.29s/it, ✓=0, ✖=8, error=97]Evaluation:  42%|████▏     | 105/250 [09:05<15:52,  6.57s/it, ✓=0, ✖=8, error=97]django__django-16493: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/files.py
+Hunk #1 FAILED at 109.
+Hunk #2 FAILED at 123.
+Hunk #3 FAILED at 137.
+Hunk #4 FAILED at 151.
+Hunk #5 FAILED at 165.
+Hunk #6 FAILED at 179.
+Hunk #7 FAILED at 193.
+Hunk #8 FAILED at 207.
+Hunk #9 FAILED at 221.
+Hunk #10 FAILED at 235.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16493/run_instance.log) for more information.
+Evaluation:  42%|████▏     | 105/250 [09:10<15:52,  6.57s/it, ✓=0, ✖=8, error=98]Evaluation:  42%|████▏     | 106/250 [09:10<14:23,  6.00s/it, ✓=0, ✖=8, error=98]Evaluation:  42%|████▏     | 106/250 [09:10<14:23,  6.00s/it, ✓=0, ✖=8, error=99]Evaluation:  43%|████▎     | 107/250 [09:10<10:12,  4.29s/it, ✓=0, ✖=8, error=99]Evaluation:  43%|████▎     | 107/250 [09:10<10:12,  4.29s/it, ✓=0, ✖=8, error=100]Evaluation:  43%|████▎     | 108/250 [09:10<07:11,  3.04s/it, ✓=0, ✖=8, error=100]django__django-16527: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16527/run_instance.log) for more information.
+django__django-16560: >>>>> Patch Apply Failed:
+patching file django/contrib/auth/validators.py
+patch: **** malformed patch at line 12: @@ -14,6 +15,7 @@ class UsernameValidator(BaseConstraint):
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16560/run_instance.log) for more information.
+django__django-16595: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/migrations/optimizer.py b/migrations/optimizer.py
+|index 0a5a0a0..0a5a0a0 100644
+|--- a/migrations/optimizer.py
+|+++ b/migrations/optimizer.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 16:                  return [operation]
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16595/run_instance.log) for more information.
+Evaluation:  43%|████▎     | 108/250 [09:22<07:11,  3.04s/it, ✓=0, ✖=8, error=101]Evaluation:  44%|████▎     | 109/250 [09:22<13:42,  5.83s/it, ✓=0, ✖=8, error=101]django__django-16612: >>>>> Patch Apply Failed:
+patching file django/contrib/admin/sites.py
+Hunk #1 FAILED at 453.
+Hunk #2 FAILED at 461.
+Hunk #3 FAILED at 469.
+Hunk #4 FAILED at 477.
+Hunk #5 FAILED at 485.
+Hunk #6 FAILED at 493.
+Hunk #7 FAILED at 501.
+patch unexpectedly ends in middle of line
+Hunk #8 FAILED at 509.
+8 out of 8 hunks FAILED -- saving rejects to file django/contrib/admin/sites.py.rej
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16612/run_instance.log) for more information.
+Evaluation:  44%|████▎     | 109/250 [09:29<13:42,  5.83s/it, ✓=0, ✖=8, error=102]Evaluation:  44%|████▍     | 110/250 [09:29<14:19,  6.14s/it, ✓=0, ✖=8, error=102]Evaluation:  44%|████▍     | 110/250 [09:30<14:19,  6.14s/it, ✓=0, ✖=8, error=103]Evaluation:  44%|████▍     | 111/250 [09:30<10:48,  4.66s/it, ✓=0, ✖=8, error=103]Evaluation:  44%|████▍     | 111/250 [09:31<10:48,  4.66s/it, ✓=0, ✖=8, error=104]Evaluation:  45%|████▍     | 112/250 [09:31<07:43,  3.36s/it, ✓=0, ✖=8, error=104]django__django-16631: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16631/run_instance.log) for more information.
+django__django-16877: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16877/run_instance.log) for more information.
+django__django-16662: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/migrations/0001_initial.py b/migrations/0001_initial.py
+|index 0a5a5a5..b0a0a0a 100644
+|--- a/migrations/0001_initial.py
+|+++ b/migrations/0001_initial.py
+--------------------------
+No file to patch.  Skipping patch.
+2 out of 2 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-16662/run_instance.log) for more information.
+Evaluation:  45%|████▍     | 112/250 [09:40<07:43,  3.36s/it, ✓=0, ✖=8, error=105]Evaluation:  45%|████▌     | 113/250 [09:40<11:30,  5.04s/it, ✓=0, ✖=8, error=105]django__django-17029: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/django-stubs/apps.py b/django-stubs/apps.py
+|index 4650536..3137117 100644
+|--- a/django-stubs/apps.py
+|+++ b/django-stubs/apps.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+14 out of 14 hunks ignored
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-17029/run_instance.log) for more information.
+Evaluation:  45%|████▌     | 113/250 [09:49<11:30,  5.04s/it, ✓=0, ✖=8, error=106]Evaluation:  46%|████▌     | 114/250 [09:49<14:15,  6.29s/it, ✓=0, ✖=8, error=106]Evaluation:  46%|████▌     | 114/250 [09:51<14:15,  6.29s/it, ✓=0, ✖=8, error=107]Evaluation:  46%|████▌     | 115/250 [09:51<11:08,  4.95s/it, ✓=0, ✖=8, error=107]Evaluation:  46%|████▌     | 115/250 [09:51<11:08,  4.95s/it, ✓=0, ✖=8, error=108]Evaluation:  46%|████▋     | 116/250 [09:51<08:09,  3.66s/it, ✓=0, ✖=8, error=108]django__django-17087: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/app/login.py b/app/login.py
+|index 1234567..89abcdef 100644
+|--- a/app/login.py
+|+++ b/app/login.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-17087/run_instance.log) for more information.
+django__django-9296: >>>>> Patch Apply Failed:
+patching file django/core/paginator.py
+Hunk #1 FAILED at 1.
+Hunk #2 succeeded at 32 with fuzz 3 (offset 17 lines).
+Hunk #3 succeeded at 64 with fuzz 3 (offset 40 lines).
+Hunk #4 FAILED at 34.
+patch: **** malformed patch at line 48: <|fim_middle|>
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/django__django-9296/run_instance.log) for more information.
+matplotlib__matplotlib-20488: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-20488/run_instance.log) for more information.
+Evaluation:  46%|████▋     | 116/250 [09:57<08:09,  3.66s/it, ✓=0, ✖=8, error=109]Evaluation:  47%|████▋     | 117/250 [09:57<09:35,  4.32s/it, ✓=0, ✖=8, error=109]matplotlib__matplotlib-20676: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/lib/matplotlib/widgets/spanselector.py b/lib/matplotlib/widgets/spanselector.py
+|index 1234567..abcdefg 100644
+|--- a/lib/matplotlib/widgets/spanselector.py
+|+++ b/lib/matplotlib/widgets/spanselector.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-20676/run_instance.log) for more information.
+Evaluation:  47%|████▋     | 117/250 [10:09<09:35,  4.32s/it, ✓=0, ✖=8, error=110]Evaluation:  47%|████▋     | 118/250 [10:09<14:14,  6.47s/it, ✓=0, ✖=8, error=110]Evaluation:  47%|████▋     | 118/250 [10:10<14:14,  6.47s/it, ✓=0, ✖=8, error=111]Evaluation:  48%|████▊     | 119/250 [10:10<10:56,  5.01s/it, ✓=0, ✖=8, error=111]Evaluation:  48%|████▊     | 119/250 [10:11<10:56,  5.01s/it, ✓=0, ✖=8, error=112]Evaluation:  48%|████▊     | 120/250 [10:11<08:14,  3.80s/it, ✓=0, ✖=8, error=112]matplotlib__matplotlib-20859: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-20859/run_instance.log) for more information.
+matplotlib__matplotlib-21568: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-21568/run_instance.log) for more information.
+matplotlib__matplotlib-22719: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-22719/run_instance.log) for more information.
+Evaluation:  48%|████▊     | 120/250 [10:15<08:14,  3.80s/it, ✓=0, ✖=8, error=113]Evaluation:  48%|████▊     | 121/250 [10:15<07:55,  3.68s/it, ✓=0, ✖=8, error=113]matplotlib__matplotlib-23314: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/matplotlib/axes/_base.py b/matplotlib/axes/_base.py
+|index 1234567..abcdefg 100644
+|--- a/matplotlib/axes/_base.py
+|+++ b/matplotlib/axes/_base.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-23314/run_instance.log) for more information.
+Evaluation:  48%|████▊     | 121/250 [10:29<07:55,  3.68s/it, ✓=0, ✖=8, error=114]Evaluation:  49%|████▉     | 122/250 [10:29<14:32,  6.82s/it, ✓=0, ✖=8, error=114]Evaluation:  49%|████▉     | 122/250 [10:30<14:32,  6.82s/it, ✓=0, ✖=8, error=115]Evaluation:  49%|████▉     | 123/250 [10:30<10:57,  5.18s/it, ✓=0, ✖=8, error=115]Evaluation:  49%|████▉     | 123/250 [10:31<10:57,  5.18s/it, ✓=0, ✖=8, error=116]Evaluation:  50%|████▉     | 124/250 [10:31<08:03,  3.84s/it, ✓=0, ✖=8, error=116]matplotlib__matplotlib-23412: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-23412/run_instance.log) for more information.
+Evaluation:  50%|████▉     | 124/250 [10:34<08:03,  3.84s/it, ✓=0, ✖=8, error=117]Evaluation:  50%|█████     | 125/250 [10:34<07:19,  3.51s/it, ✓=0, ✖=8, error=117]matplotlib__matplotlib-24149: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-24149/run_instance.log) for more information.
+matplotlib__matplotlib-24570: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/matplotlib/offsetbox.py b/matplotlib/offsetbox.py
+|index 0a5a5a5..b0a0a0a 100644
+|--- a/matplotlib/offsetbox.py
+|+++ b/matplotlib/offsetbox.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-24570/run_instance.log) for more information.
+matplotlib__matplotlib-24627: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/lib/matplotlib/axes.py b/lib/matplotlib/axes.py
+|index 1234567..1234567 100644
+|--- a/lib/matplotlib/axes.py
+|+++ b/lib/matplotlib/axes.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-24627/run_instance.log) for more information.
+Evaluation:  50%|█████     | 125/250 [10:49<07:19,  3.51s/it, ✓=0, ✖=8, error=118]Evaluation:  50%|█████     | 126/250 [10:49<14:20,  6.94s/it, ✓=0, ✖=8, error=118]Evaluation:  50%|█████     | 126/250 [10:50<14:20,  6.94s/it, ✓=0, ✖=8, error=119]Evaluation:  51%|█████     | 127/250 [10:50<10:51,  5.29s/it, ✓=0, ✖=8, error=119]matplotlib__matplotlib-24637: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-24637/run_instance.log) for more information.
+Evaluation:  51%|█████     | 127/250 [10:52<10:51,  5.29s/it, ✓=0, ✖=8, error=120]Evaluation:  51%|█████     | 128/250 [10:52<08:38,  4.25s/it, ✓=0, ✖=8, error=120]Evaluation:  51%|█████     | 128/250 [10:53<08:38,  4.25s/it, ✓=0, ✖=8, error=121]Evaluation:  52%|█████▏    | 129/250 [10:53<06:42,  3.33s/it, ✓=0, ✖=8, error=121]matplotlib__matplotlib-24870: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-24870/run_instance.log) for more information.
+matplotlib__matplotlib-24970: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/matplotlib/colors.py b/matplotlib/colors.py
+|index 0a5a5a5..b0a0a0a 100644
+|--- a/matplotlib/colors.py
+|+++ b/matplotlib/colors.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-24970/run_instance.log) for more information.
+matplotlib__matplotlib-25122: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file lib/matplotlib/mlab.py
+Hunk #1 FAILED at 423.
+1 out of 1 hunk FAILED -- saving rejects to file lib/matplotlib/mlab.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-25122/run_instance.log) for more information.
+Evaluation:  52%|█████▏    | 129/250 [11:07<06:42,  3.33s/it, ✓=0, ✖=8, error=122]Evaluation:  52%|█████▏    | 130/250 [11:07<12:46,  6.39s/it, ✓=0, ✖=8, error=122]matplotlib__matplotlib-25287: >>>>> Patch Apply Failed:
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/axis.py b/axis.py
+|--- a/axis.py	
+|+++ b/axis.py	(date 1675716341305)
+--------------------------
+No file to patch.  Skipping patch.
+2 out of 2 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-25287/run_instance.log) for more information.
+Evaluation:  52%|█████▏    | 130/250 [11:11<12:46,  6.39s/it, ✓=0, ✖=8, error=123]Evaluation:  52%|█████▏    | 131/250 [11:11<11:17,  5.70s/it, ✓=0, ✖=8, error=123]Evaluation:  52%|█████▏    | 131/250 [11:12<11:17,  5.70s/it, ✓=0, ✖=8, error=124]Evaluation:  53%|█████▎    | 132/250 [11:12<08:43,  4.44s/it, ✓=0, ✖=8, error=124]Evaluation:  53%|█████▎    | 132/250 [11:12<08:43,  4.44s/it, ✓=0, ✖=8, error=125]matplotlib__matplotlib-25479: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-25479/run_instance.log) for more information.
+matplotlib__matplotlib-26113: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-26113/run_instance.log) for more information.
+matplotlib__matplotlib-25960: >>>>> Patch Apply Failed:
+patching file lib/matplotlib/figure.py
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-25960/run_instance.log) for more information.
+Evaluation:  53%|█████▎    | 133/250 [11:24<08:39,  4.44s/it, ✓=0, ✖=8, error=126]Evaluation:  54%|█████▎    | 134/250 [11:24<09:59,  5.16s/it, ✓=0, ✖=8, error=126]matplotlib__matplotlib-26208: >>>>> Patch Apply Failed:
+patching file lib/matplotlib/axes/_axes.py
+patch: **** malformed patch at line 14:          self.dataLim.update_from(self.viewLim)
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-26208/run_instance.log) for more information.
+Evaluation:  54%|█████▎    | 134/250 [11:30<09:59,  5.16s/it, ✓=0, ✖=8, error=127]Evaluation:  54%|█████▍    | 135/250 [11:30<09:59,  5.22s/it, ✓=0, ✖=8, error=127]Evaluation:  54%|█████▍    | 135/250 [11:31<09:59,  5.22s/it, ✓=0, ✖=8, error=128]Evaluation:  54%|█████▍    | 136/250 [11:31<08:06,  4.27s/it, ✓=0, ✖=8, error=128]Evaluation:  54%|█████▍    | 136/250 [11:31<08:06,  4.27s/it, ✓=0, ✖=8, error=129]matplotlib__matplotlib-26342: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/matplotlib__matplotlib-26342/run_instance.log) for more information.
+psf__requests-1142: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/psf__requests-1142/run_instance.log) for more information.
+mwaskom__seaborn-3069: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/mwaskom__seaborn-3069/run_instance.log) for more information.
+Evaluation:  55%|█████▍    | 137/250 [11:42<08:02,  4.27s/it, ✓=0, ✖=8, error=130]Evaluation:  55%|█████▌    | 138/250 [11:42<08:43,  4.67s/it, ✓=0, ✖=8, error=130]psf__requests-2317: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/neutronclient/utils.py b/neutronclient/utils.py
+|index 0a0a0a0..0a0a0a0 100644
+|--- a/neutronclient/utils.py
+|+++ b/neutronclient/utils.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 13: @@ -15,7 +15,7 @@
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/psf__requests-2317/run_instance.log) for more information.
+Evaluation:  55%|█████▌    | 138/250 [11:49<08:43,  4.67s/it, ✓=0, ✖=8, error=131]Evaluation:  56%|█████▌    | 139/250 [11:49<09:52,  5.34s/it, ✓=0, ✖=8, error=131]Evaluation:  56%|█████▌    | 139/250 [11:51<09:52,  5.34s/it, ✓=0, ✖=8, error=132]Evaluation:  56%|█████▌    | 140/250 [11:51<08:02,  4.39s/it, ✓=0, ✖=8, error=132]Evaluation:  56%|█████▌    | 140/250 [11:51<08:02,  4.39s/it, ✓=0, ✖=8, error=133]Evaluation:  56%|█████▋    | 141/250 [11:51<05:57,  3.28s/it, ✓=0, ✖=8, error=133]pydata__xarray-3095: >>>>> Patch Apply Failed:
+patching file xarray/core/dataset.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/dataset.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-3095/run_instance.log) for more information.
+pydata__xarray-2905: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-2905/run_instance.log) for more information.
+Evaluation:  56%|█████▋    | 141/250 [11:59<05:57,  3.28s/it, ✓=0, ✖=8, error=134]Evaluation:  57%|█████▋    | 142/250 [11:59<08:21,  4.64s/it, ✓=0, ✖=8, error=134]pydata__xarray-3305: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/xarray/core/quantile.py b/xarray/core/quantile.py
+|index 69c7e01e..69c7e01e 100644
+|--- a/xarray/core/quantile.py
+|+++ b/xarray/core/quantile.py
+--------------------------
+No file to patch.  Skipping patch.
+3 out of 3 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-3305/run_instance.log) for more information.
+Evaluation:  57%|█████▋    | 142/250 [12:10<08:21,  4.64s/it, ✓=0, ✖=8, error=135]Evaluation:  57%|█████▋    | 143/250 [12:10<11:16,  6.33s/it, ✓=0, ✖=8, error=135]Evaluation:  57%|█████▋    | 143/250 [12:10<11:16,  6.33s/it, ✓=0, ✖=8, error=136]Evaluation:  58%|█████▊    | 144/250 [12:10<08:02,  4.55s/it, ✓=0, ✖=8, error=136]pydata__xarray-3677: >>>>> Patch Apply Failed:
+patching file xarray/core/dataset.py
+Hunk #1 FAILED at 3591.
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/dataset.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-3677/run_instance.log) for more information.
+pydata__xarray-4094: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-4094/run_instance.log) for more information.
+Evaluation:  58%|█████▊    | 144/250 [12:14<08:02,  4.55s/it, ✓=0, ✖=9, error=136]Evaluation:  58%|█████▊    | 145/250 [12:14<07:53,  4.51s/it, ✓=0, ✖=9, error=136]pydata__xarray-4356: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-4356/run_instance.log) for more information.
+Evaluation:  58%|█████▊    | 145/250 [12:17<07:53,  4.51s/it, ✓=0, ✖=9, error=137]Evaluation:  58%|█████▊    | 146/250 [12:17<06:42,  3.87s/it, ✓=0, ✖=9, error=137]pydata__xarray-4687: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-4687/run_instance.log) for more information.
+Evaluation:  58%|█████▊    | 146/250 [12:28<06:42,  3.87s/it, ✓=0, ✖=9, error=138]Evaluation:  59%|█████▉    | 147/250 [12:28<10:36,  6.18s/it, ✓=0, ✖=9, error=138]Evaluation:  59%|█████▉    | 147/250 [12:28<10:36,  6.18s/it, ✓=0, ✖=9, error=139]pydata__xarray-4695: >>>>> Patch Apply Failed:
+patching file xarray/core/dataset.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/dataset.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-4695/run_instance.log) for more information.
+Evaluation:  59%|█████▉    | 148/250 [12:32<10:30,  6.18s/it, ✓=0, ✖=9, error=140]Evaluation:  60%|█████▉    | 149/250 [12:32<07:07,  4.23s/it, ✓=0, ✖=9, error=140]pydata__xarray-6461: >>>>> Patch Apply Failed:
+patching file xarray/core/alignment.py
+Hunk #1 FAILED at 1810.
+patch: **** malformed patch at line 22: ```
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-6461/run_instance.log) for more information.
+Evaluation:  60%|█████▉    | 149/250 [12:34<07:07,  4.23s/it, ✓=0, ✖=9, error=141]Evaluation:  60%|██████    | 150/250 [12:34<06:11,  3.71s/it, ✓=0, ✖=9, error=141]pydata__xarray-6599: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-6599/run_instance.log) for more information.
+Evaluation:  60%|██████    | 150/250 [12:46<06:11,  3.71s/it, ✓=0, ✖=9, error=142]Evaluation:  60%|██████    | 151/250 [12:46<09:43,  5.89s/it, ✓=0, ✖=9, error=142]pydata__xarray-6992: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file xarray/core/dataset.py
+Hunk #1 FAILED at 365.
+1 out of 1 hunk FAILED -- saving rejects to file xarray/core/dataset.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-6992/run_instance.log) for more information.
+Evaluation:  60%|██████    | 151/250 [12:50<09:43,  5.89s/it, ✓=0, ✖=9, error=143]Evaluation:  61%|██████    | 152/250 [12:50<08:46,  5.37s/it, ✓=0, ✖=9, error=143]Evaluation:  61%|██████    | 152/250 [12:52<08:46,  5.37s/it, ✓=0, ✖=9, error=144]Evaluation:  61%|██████    | 153/250 [12:52<07:00,  4.34s/it, ✓=0, ✖=9, error=144]pydata__xarray-7393: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/xarray/core/coords.py b/xarray/core/coords.py
+|index 1234567..abcdefg 100644
+|--- a/xarray/core/coords.py
+|+++ b/xarray/core/coords.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 12: ```
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pydata__xarray-7393/run_instance.log) for more information.
+pylint-dev__pylint-4604: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pylint-dev__pylint-4604/run_instance.log) for more information.
+Evaluation:  61%|██████    | 153/250 [13:04<07:00,  4.34s/it, ✓=0, ✖=9, error=145]Evaluation:  62%|██████▏   | 154/250 [13:04<10:28,  6.55s/it, ✓=0, ✖=9, error=145]pylint-dev__pylint-6528: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/pylint/checkers/importing.py b/pylint/checkers/importing.py
+|index 4c0a0a6..9a0a0a6 100644
+|--- a/pylint/checkers/importing.py
+|+++ b/pylint/checkers/importing.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pylint-dev__pylint-6528/run_instance.log) for more information.
+Evaluation:  62%|██████▏   | 154/250 [13:09<10:28,  6.55s/it, ✓=0, ✖=9, error=146]Evaluation:  62%|██████▏   | 155/250 [13:09<09:24,  5.95s/it, ✓=0, ✖=9, error=146]Evaluation:  62%|██████▏   | 155/250 [13:10<09:24,  5.95s/it, ✓=0, ✖=9, error=147]Evaluation:  62%|██████▏   | 156/250 [13:10<07:11,  4.59s/it, ✓=0, ✖=9, error=147]pylint-dev__pylint-7080: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pylint-dev__pylint-7080/run_instance.log) for more information.
+Evaluation:  62%|██████▏   | 156/250 [13:12<07:11,  4.59s/it, ✓=0, ✖=10, error=147]Evaluation:  63%|██████▎   | 157/250 [13:12<05:46,  3.73s/it, ✓=0, ✖=10, error=147]pylint-dev__pylint-7277: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file pylint/__init__.py
+patch: **** malformed patch at line 14:  if __name__ == "__main__":
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pylint-dev__pylint-7277/run_instance.log) for more information.
+pylint-dev__pylint-8898: >>>>> Patch Apply Failed:
+patching file pylint/config/argument.py
+patch: **** malformed patch at line 13: ```
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pylint-dev__pylint-8898/run_instance.log) for more information.
+Evaluation:  63%|██████▎   | 157/250 [13:22<05:46,  3.73s/it, ✓=0, ✖=10, error=148]Evaluation:  63%|██████▎   | 158/250 [13:22<08:34,  5.59s/it, ✓=0, ✖=10, error=148]pytest-dev__pytest-10051: >>>>> Patch Apply Failed:
+patching file src/_pytest/logging.py
+Hunk #1 FAILED at 342.
+1 out of 1 hunk FAILED -- saving rejects to file src/_pytest/logging.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pytest-dev__pytest-10051/run_instance.log) for more information.
+Evaluation:  63%|██████▎   | 158/250 [13:26<08:34,  5.59s/it, ✓=0, ✖=10, error=149]Evaluation:  64%|██████▎   | 159/250 [13:26<08:09,  5.38s/it, ✓=0, ✖=10, error=149]Evaluation:  64%|██████▎   | 159/250 [13:28<08:09,  5.38s/it, ✓=0, ✖=10, error=150]Evaluation:  64%|██████▍   | 160/250 [13:28<06:19,  4.22s/it, ✓=0, ✖=10, error=150]pytest-dev__pytest-10081: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pytest-dev__pytest-10081/run_instance.log) for more information.
+Evaluation:  64%|██████▍   | 160/250 [13:29<06:19,  4.22s/it, ✓=0, ✖=10, error=151]Evaluation:  64%|██████▍   | 161/250 [13:29<05:01,  3.39s/it, ✓=0, ✖=10, error=151]pytest-dev__pytest-10356: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pytest-dev__pytest-10356/run_instance.log) for more information.
+pytest-dev__pytest-5787: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pytest-dev__pytest-5787/run_instance.log) for more information.
+Evaluation:  64%|██████▍   | 161/250 [13:39<05:01,  3.39s/it, ✓=0, ✖=10, error=152]Evaluation:  65%|██████▍   | 162/250 [13:39<07:45,  5.28s/it, ✓=0, ✖=10, error=152]pytest-dev__pytest-5840: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pytest-dev__pytest-5840/run_instance.log) for more information.
+Evaluation:  65%|██████▍   | 162/250 [13:44<07:45,  5.28s/it, ✓=0, ✖=10, error=153]Evaluation:  65%|██████▌   | 163/250 [13:44<07:38,  5.27s/it, ✓=0, ✖=10, error=153]Evaluation:  65%|██████▌   | 163/250 [13:46<07:38,  5.27s/it, ✓=0, ✖=10, error=154]Evaluation:  66%|██████▌   | 164/250 [13:46<06:05,  4.25s/it, ✓=0, ✖=10, error=154]Evaluation:  66%|██████▌   | 164/250 [13:48<06:05,  4.25s/it, ✓=0, ✖=10, error=155]Evaluation:  66%|██████▌   | 165/250 [13:48<05:07,  3.62s/it, ✓=0, ✖=10, error=155]pytest-dev__pytest-7324: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pytest-dev__pytest-7324/run_instance.log) for more information.
+pytest-dev__pytest-7432: >>>>> Patch Apply Failed:
+patching file src/_pytest/skipping.py
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pytest-dev__pytest-7432/run_instance.log) for more information.
+Evaluation:  66%|██████▌   | 165/250 [13:57<05:07,  3.62s/it, ✓=0, ✖=10, error=156]Evaluation:  66%|██████▋   | 166/250 [13:57<07:22,  5.27s/it, ✓=0, ✖=10, error=156]pytest-dev__pytest-7490: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pytest-dev__pytest-7490/run_instance.log) for more information.
+Evaluation:  66%|██████▋   | 166/250 [14:06<07:22,  5.27s/it, ✓=0, ✖=10, error=157]Evaluation:  67%|██████▋   | 167/250 [14:06<08:36,  6.23s/it, ✓=0, ✖=10, error=157]Evaluation:  67%|██████▋   | 167/250 [14:07<08:36,  6.23s/it, ✓=0, ✖=10, error=158]Evaluation:  67%|██████▋   | 168/250 [14:07<06:34,  4.82s/it, ✓=0, ✖=10, error=158]pytest-dev__pytest-7571: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/pytest_logging.py b/pytest_logging.py
+|index 0a0a0a0..0a0a0a0 100644
+|--- a/pytest_logging.py
+|+++ b/pytest_logging.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pytest-dev__pytest-7571/run_instance.log) for more information.
+pytest-dev__pytest-7982: >>>>> Patch Apply Failed:
+patching file src/_pytest/main.py
+Hunk #1 FAILED at 1003.
+1 out of 1 hunk FAILED -- saving rejects to file src/_pytest/main.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/pytest-dev__pytest-7982/run_instance.log) for more information.
+Evaluation:  67%|██████▋   | 168/250 [14:16<06:34,  4.82s/it, ✓=0, ✖=10, error=159]Evaluation:  68%|██████▊   | 169/250 [14:16<07:55,  5.88s/it, ✓=0, ✖=10, error=159]scikit-learn__scikit-learn-10297: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-10297/run_instance.log) for more information.
+Evaluation:  68%|██████▊   | 169/250 [14:25<07:55,  5.88s/it, ✓=0, ✖=10, error=160]Evaluation:  68%|██████▊   | 170/250 [14:25<09:14,  6.93s/it, ✓=0, ✖=10, error=160]Evaluation:  68%|██████▊   | 170/250 [14:26<09:14,  6.93s/it, ✓=0, ✖=10, error=161]Evaluation:  68%|██████▊   | 171/250 [14:26<06:52,  5.22s/it, ✓=0, ✖=10, error=161]scikit-learn__scikit-learn-10844: >>>>> Patch Apply Failed:
+patching file sklearn/metrics/cluster/supervised.py
+Hunk #1 FAILED at 856.
+1 out of 1 hunk FAILED -- saving rejects to file sklearn/metrics/cluster/supervised.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-10844/run_instance.log) for more information.
+scikit-learn__scikit-learn-11310: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-11310/run_instance.log) for more information.
+Evaluation:  68%|██████▊   | 171/250 [14:34<06:52,  5.22s/it, ✓=0, ✖=10, error=162]Evaluation:  69%|██████▉   | 172/250 [14:34<07:33,  5.81s/it, ✓=0, ✖=10, error=162]scikit-learn__scikit-learn-12585: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file sklearn/base.py
+Hunk #1 succeeded at 27 with fuzz 3 (offset -24 lines).
+patch: **** malformed patch at line 23:          If safe is False, clone will fall back to a deep copy on objects
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-12585/run_instance.log) for more information.
+Evaluation:  69%|██████▉   | 172/250 [14:39<07:33,  5.81s/it, ✓=0, ✖=11, error=162]Evaluation:  69%|██████▉   | 173/250 [14:39<07:10,  5.59s/it, ✓=0, ✖=11, error=162]scikit-learn__scikit-learn-12682: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-12682/run_instance.log) for more information.
+Evaluation:  69%|██████▉   | 173/250 [14:44<07:10,  5.59s/it, ✓=0, ✖=11, error=163]Evaluation:  70%|██████▉   | 174/250 [14:44<07:04,  5.58s/it, ✓=0, ✖=11, error=163]Evaluation:  70%|██████▉   | 174/250 [14:45<07:04,  5.58s/it, ✓=0, ✖=11, error=164]Evaluation:  70%|███████   | 175/250 [14:45<05:09,  4.13s/it, ✓=0, ✖=11, error=164]scikit-learn__scikit-learn-12973: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-12973/run_instance.log) for more information.
+scikit-learn__scikit-learn-13124: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-13124/run_instance.log) for more information.
+Evaluation:  70%|███████   | 175/250 [14:51<05:09,  4.13s/it, ✓=0, ✖=11, error=165]Evaluation:  70%|███████   | 176/250 [14:51<05:49,  4.73s/it, ✓=0, ✖=11, error=165]scikit-learn__scikit-learn-13142: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 12: ```
+
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sklearn/mixture/_gaussian_mixture.py b/sklearn/mixture/_gaussian_mixture.py
+|index 7848763..c244277 100644
+|--- a/sklearn/mixture/_gaussian_mixture.py
+|+++ b/sklearn/mixture/_gaussian_mixture.py
+--------------------------
+No file to patch.  Skipping patch.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-13142/run_instance.log) for more information.
+Evaluation:  70%|███████   | 176/250 [14:56<05:49,  4.73s/it, ✓=0, ✖=11, error=166]Evaluation:  71%|███████   | 177/250 [14:56<05:53,  4.84s/it, ✓=0, ✖=11, error=166]Evaluation:  71%|███████   | 177/250 [15:03<05:53,  4.84s/it, ✓=0, ✖=11, error=167]Evaluation:  71%|███████   | 178/250 [15:03<06:30,  5.42s/it, ✓=0, ✖=11, error=167]Evaluation:  71%|███████   | 178/250 [15:04<06:30,  5.42s/it, ✓=0, ✖=11, error=168]Evaluation:  72%|███████▏  | 179/250 [15:04<04:45,  4.02s/it, ✓=0, ✖=11, error=168]scikit-learn__scikit-learn-14087: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-14087/run_instance.log) for more information.
+Evaluation:  72%|███████▏  | 179/250 [15:09<04:45,  4.02s/it, ✓=0, ✖=11, error=169]Evaluation:  72%|███████▏  | 180/250 [15:09<05:12,  4.47s/it, ✓=0, ✖=11, error=169]scikit-learn__scikit-learn-14141: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-14141/run_instance.log) for more information.
+Evaluation:  72%|███████▏  | 180/250 [15:23<05:12,  4.47s/it, ✓=0, ✖=11, error=170]Evaluation:  72%|███████▏  | 181/250 [15:23<08:15,  7.18s/it, ✓=0, ✖=11, error=170]Evaluation:  72%|███████▏  | 181/250 [15:25<08:15,  7.18s/it, ✓=0, ✖=12, error=170]Evaluation:  73%|███████▎  | 182/250 [15:25<06:18,  5.56s/it, ✓=0, ✖=12, error=170]scikit-learn__scikit-learn-14496: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file sklearn/cluster/optics_.py
+Hunk #1 FAILED at 439.
+1 out of 1 hunk FAILED -- saving rejects to file sklearn/cluster/optics_.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-14496/run_instance.log) for more information.
+Evaluation:  73%|███████▎  | 182/250 [15:27<06:18,  5.56s/it, ✓=0, ✖=12, error=171]Evaluation:  73%|███████▎  | 183/250 [15:27<05:09,  4.61s/it, ✓=0, ✖=12, error=171]scikit-learn__scikit-learn-25102: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-25102/run_instance.log) for more information.
+Evaluation:  73%|███████▎  | 183/250 [15:31<05:09,  4.61s/it, ✓=0, ✖=13, error=171]Evaluation:  74%|███████▎  | 184/250 [15:31<05:02,  4.58s/it, ✓=0, ✖=13, error=171]scikit-learn__scikit-learn-25747: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-25747/run_instance.log) for more information.
+Evaluation:  74%|███████▎  | 184/250 [15:41<05:02,  4.58s/it, ✓=0, ✖=13, error=172]Evaluation:  74%|███████▍  | 185/250 [15:41<06:27,  5.96s/it, ✓=0, ✖=13, error=172]scikit-learn__scikit-learn-25931: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-25931/run_instance.log) for more information.
+Evaluation:  74%|███████▍  | 185/250 [15:45<06:27,  5.96s/it, ✓=0, ✖=13, error=173]Evaluation:  74%|███████▍  | 186/250 [15:45<05:43,  5.37s/it, ✓=0, ✖=13, error=173]scikit-learn__scikit-learn-25973: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-25973/run_instance.log) for more information.
+Evaluation:  74%|███████▍  | 186/250 [15:49<05:43,  5.37s/it, ✓=0, ✖=14, error=173]Evaluation:  75%|███████▍  | 187/250 [15:49<05:22,  5.12s/it, ✓=0, ✖=14, error=173]Evaluation:  75%|███████▍  | 187/250 [15:50<05:22,  5.12s/it, ✓=0, ✖=14, error=174]Evaluation:  75%|███████▌  | 188/250 [15:50<03:52,  3.75s/it, ✓=0, ✖=14, error=174]scikit-learn__scikit-learn-26323: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-26323/run_instance.log) for more information.
+scikit-learn__scikit-learn-9288: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sklearn/cluster/kmeans_.py b/sklearn/cluster/kmeans_.py
+|index 6e4b0e8..6e4b0e8 100644
+|--- a/sklearn/cluster/kmeans_.py
+|+++ b/sklearn/cluster/kmeans_.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/scikit-learn__scikit-learn-9288/run_instance.log) for more information.
+Evaluation:  75%|███████▌  | 188/250 [15:58<03:52,  3.75s/it, ✓=0, ✖=14, error=175]Evaluation:  76%|███████▌  | 189/250 [15:58<05:14,  5.15s/it, ✓=0, ✖=14, error=175]sphinx-doc__sphinx-10323: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-10323/run_instance.log) for more information.
+Evaluation:  76%|███████▌  | 189/250 [16:02<05:14,  5.15s/it, ✓=0, ✖=14, error=176]Evaluation:  76%|███████▌  | 190/250 [16:02<04:51,  4.86s/it, ✓=0, ✖=14, error=176]sphinx-doc__sphinx-10435: >>>>> Patch Apply Failed:
+patching file sphinx/writers/latex.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file sphinx/writers/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-10435/run_instance.log) for more information.
+Evaluation:  76%|███████▌  | 190/250 [16:08<04:51,  4.86s/it, ✓=0, ✖=14, error=177]Evaluation:  76%|███████▋  | 191/250 [16:08<05:05,  5.18s/it, ✓=0, ✖=14, error=177]Evaluation:  76%|███████▋  | 191/250 [16:08<05:05,  5.18s/it, ✓=0, ✖=14, error=178]Evaluation:  77%|███████▋  | 192/250 [16:08<03:34,  3.70s/it, ✓=0, ✖=14, error=178]sphinx-doc__sphinx-10673: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-10673/run_instance.log) for more information.
+sphinx-doc__sphinx-11510: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-11510/run_instance.log) for more information.
+Evaluation:  77%|███████▋  | 192/250 [16:16<03:34,  3.70s/it, ✓=0, ✖=14, error=179]Evaluation:  77%|███████▋  | 193/250 [16:16<04:31,  4.76s/it, ✓=0, ✖=14, error=179]sphinx-doc__sphinx-7454: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sphinx/ext/autodoc.py b/sphinx/ext/autodoc.py
+|index 4a5a2e3..18a4d8a 100644
+|--- a/sphinx/ext/autodoc.py
+|+++ b/sphinx/ext/autodoc.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+9 out of 9 hunks ignored
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-7454/run_instance.log) for more information.
+Evaluation:  77%|███████▋  | 193/250 [16:20<04:31,  4.76s/it, ✓=0, ✖=14, error=180]Evaluation:  78%|███████▊  | 194/250 [16:20<04:14,  4.55s/it, ✓=0, ✖=14, error=180]sphinx-doc__sphinx-7889: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-7889/run_instance.log) for more information.
+Evaluation:  78%|███████▊  | 194/250 [16:27<04:14,  4.55s/it, ✓=0, ✖=14, error=181]Evaluation:  78%|███████▊  | 195/250 [16:27<04:58,  5.42s/it, ✓=0, ✖=14, error=181]Evaluation:  78%|███████▊  | 195/250 [16:27<04:58,  5.42s/it, ✓=0, ✖=14, error=182]Evaluation:  78%|███████▊  | 196/250 [16:27<03:29,  3.87s/it, ✓=0, ✖=14, error=182]sphinx-doc__sphinx-8056: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 12: ```
+
+can't find file to patch at input line 4
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/your_file.py b/your_file.py
+|--- a/your_file.py
+|+++ b/your_file.py
+--------------------------
+No file to patch.  Skipping patch.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-8056/run_instance.log) for more information.
+sphinx-doc__sphinx-8120: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-8120/run_instance.log) for more information.
+Evaluation:  78%|███████▊  | 196/250 [16:33<03:29,  3.87s/it, ✓=0, ✖=14, error=183]Evaluation:  79%|███████▉  | 197/250 [16:33<03:54,  4.42s/it, ✓=0, ✖=14, error=183]sphinx-doc__sphinx-8475: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/linkchecker.py b/linkchecker.py
+|index 1234567..abcdefg 100644
+|--- a/linkchecker.py
+|+++ b/linkchecker.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-8475/run_instance.log) for more information.
+Evaluation:  79%|███████▉  | 197/250 [16:37<03:54,  4.42s/it, ✓=0, ✖=14, error=184]Evaluation:  79%|███████▉  | 198/250 [16:37<03:45,  4.35s/it, ✓=0, ✖=14, error=184]sphinx-doc__sphinx-8548: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-8548/run_instance.log) for more information.
+Evaluation:  79%|███████▉  | 198/250 [16:47<03:45,  4.35s/it, ✓=0, ✖=14, error=185]Evaluation:  80%|███████▉  | 199/250 [16:47<04:56,  5.82s/it, ✓=0, ✖=14, error=185]Evaluation:  80%|███████▉  | 199/250 [16:47<04:56,  5.82s/it, ✓=0, ✖=14, error=186]Evaluation:  80%|████████  | 200/250 [16:47<03:25,  4.11s/it, ✓=0, ✖=14, error=186]sphinx-doc__sphinx-8621: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file sphinx/util/docutils.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file sphinx/util/docutils.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-8621/run_instance.log) for more information.
+Evaluation:  80%|████████  | 200/250 [16:51<03:25,  4.11s/it, ✓=0, ✖=14, error=187]Evaluation:  80%|████████  | 201/250 [16:51<03:24,  4.18s/it, ✓=0, ✖=14, error=187]sphinx-doc__sphinx-9229: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-9229/run_instance.log) for more information.
+Evaluation:  80%|████████  | 201/250 [16:55<03:24,  4.18s/it, ✓=0, ✖=14, error=188]Evaluation:  81%|████████  | 202/250 [16:55<03:16,  4.09s/it, ✓=0, ✖=14, error=188]sphinx-doc__sphinx-9230: >>>>> Patch Apply Failed:
+patching file sphinxTest/sphinxTest.py
+Hunk #1 FAILED at 1.
+patch: **** Can't reopen file sphinxTest/sphinxTest.py : No such file or directory
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-9230/run_instance.log) for more information.
+Evaluation:  81%|████████  | 202/250 [17:05<03:16,  4.09s/it, ✓=0, ✖=14, error=189]Evaluation:  81%|████████  | 203/250 [17:05<04:32,  5.80s/it, ✓=0, ✖=14, error=189]sphinx-doc__sphinx-9258: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/pydoc-markdown/core.py b/pydoc-markdown/core.py
+|index 0a5a5a5..b0a5a5a 100644
+|--- a/pydoc-markdown/core.py
+|+++ b/pydoc-markdown/core.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-9258/run_instance.log) for more information.
+Evaluation:  81%|████████  | 203/250 [17:09<04:32,  5.80s/it, ✓=0, ✖=14, error=190]Evaluation:  82%|████████▏ | 204/250 [17:09<04:05,  5.33s/it, ✓=0, ✖=14, error=190]sphinx-doc__sphinx-9367: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file sphinx/pycode/ast.py
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-9367/run_instance.log) for more information.
+Evaluation:  82%|████████▏ | 204/250 [17:13<04:05,  5.33s/it, ✓=0, ✖=14, error=191]Evaluation:  82%|████████▏ | 205/250 [17:13<03:36,  4.81s/it, ✓=0, ✖=14, error=191]sphinx-doc__sphinx-9658: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-9658/run_instance.log) for more information.
+Evaluation:  82%|████████▏ | 205/250 [17:17<03:36,  4.81s/it, ✓=0, ✖=15, error=191]Evaluation:  82%|████████▏ | 206/250 [17:17<03:33,  4.84s/it, ✓=0, ✖=15, error=191]sphinx-doc__sphinx-9698: >>>>> Patch Apply Failed:
+patching file sphinx/domains/python.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file sphinx/domains/python.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-9698/run_instance.log) for more information.
+Evaluation:  82%|████████▏ | 206/250 [17:22<03:33,  4.84s/it, ✓=0, ✖=15, error=192]Evaluation:  83%|████████▎ | 207/250 [17:22<03:28,  4.85s/it, ✓=0, ✖=15, error=192]sphinx-doc__sphinx-9711: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sphinx_gallery/gen_gallery.py b/sphinx_gallery/gen_gallery.py
+|index 0a0a0a0..0a0a0a0 100644
+|--- a/sphinx_gallery/gen_gallery.py
+|+++ b/sphinx_gallery/gen_gallery.py
+--------------------------
+No file to patch.  Skipping patch.
+3 out of 3 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sphinx-doc__sphinx-9711/run_instance.log) for more information.
+Evaluation:  83%|████████▎ | 207/250 [17:27<03:28,  4.85s/it, ✓=0, ✖=15, error=193]Evaluation:  83%|████████▎ | 208/250 [17:27<03:15,  4.64s/it, ✓=0, ✖=15, error=193]sympy__sympy-12419: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-12419/run_instance.log) for more information.
+Evaluation:  83%|████████▎ | 208/250 [17:30<03:15,  4.64s/it, ✓=0, ✖=15, error=194]Evaluation:  84%|████████▎ | 209/250 [17:30<02:58,  4.35s/it, ✓=0, ✖=15, error=194]sympy__sympy-12489: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file sympy/combinatorics/permutations.py
+Hunk #1 succeeded at 12 with fuzz 3.
+Hunk #2 succeeded at 22 with fuzz 3.
+Hunk #3 succeeded at 31 with fuzz 3.
+Hunk #4 succeeded at 40 with fuzz 3.
+Hunk #5 succeeded at 49 with fuzz 3.
+Hunk #6 succeeded at 58 with fuzz 3.
+Hunk #7 succeeded at 67 with fuzz 3.
+Hunk #8 succeeded at 76 with fuzz 3.
+Hunk #9 succeeded at 85 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-12489/run_instance.log) for more information.
+Evaluation:  84%|████████▎ | 209/250 [17:35<02:58,  4.35s/it, ✓=0, ✖=15, error=195]Evaluation:  84%|████████▍ | 210/250 [17:35<03:01,  4.54s/it, ✓=0, ✖=15, error=195]sympy__sympy-13031: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 102.
+1 out of 1 hunk FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-13031/run_instance.log) for more information.
+Evaluation:  84%|████████▍ | 210/250 [17:40<03:01,  4.54s/it, ✓=0, ✖=15, error=196]Evaluation:  84%|████████▍ | 211/250 [17:40<02:57,  4.54s/it, ✓=0, ✖=15, error=196]sympy__sympy-13091: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 11: ```
+
+patching file sympy/core/basic.py
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-13091/run_instance.log) for more information.
+Evaluation:  84%|████████▍ | 211/250 [17:44<02:57,  4.54s/it, ✓=0, ✖=15, error=197]Evaluation:  85%|████████▍ | 212/250 [17:44<02:52,  4.53s/it, ✓=0, ✖=15, error=197]Evaluation:  85%|████████▍ | 212/250 [17:48<02:52,  4.53s/it, ✓=0, ✖=15, error=198]Evaluation:  85%|████████▌ | 213/250 [17:48<02:40,  4.33s/it, ✓=0, ✖=15, error=198]sympy__sympy-13647: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file sympy/matrices/matrices.py
+Hunk #1 FAILED at 1237.
+1 out of 1 hunk FAILED -- saving rejects to file sympy/matrices/matrices.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-13647/run_instance.log) for more information.
+Evaluation:  85%|████████▌ | 213/250 [17:53<02:40,  4.33s/it, ✓=0, ✖=15, error=199]Evaluation:  86%|████████▌ | 214/250 [17:53<02:42,  4.52s/it, ✓=0, ✖=15, error=199]sympy__sympy-13798: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-13798/run_instance.log) for more information.
+Evaluation:  86%|████████▌ | 214/250 [17:57<02:42,  4.52s/it, ✓=0, ✖=15, error=200]Evaluation:  86%|████████▌ | 215/250 [17:57<02:34,  4.43s/it, ✓=0, ✖=15, error=200]sympy__sympy-13877: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-13877/run_instance.log) for more information.
+Evaluation:  86%|████████▌ | 215/250 [18:06<02:34,  4.43s/it, ✓=0, ✖=15, error=201]Evaluation:  86%|████████▋ | 216/250 [18:06<03:13,  5.68s/it, ✓=0, ✖=15, error=201]sympy__sympy-13878: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sympy/stats/distributions.py b/sympy/stats/distributions.py
+|index 0a0a0a0..0a0a0a0 100644
+|--- a/sympy/stats/distributions.py
+|+++ b/sympy/stats/distributions.py
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-13878/run_instance.log) for more information.
+Evaluation:  86%|████████▋ | 216/250 [18:10<03:13,  5.68s/it, ✓=0, ✖=15, error=202]Evaluation:  87%|████████▋ | 217/250 [18:10<02:56,  5.35s/it, ✓=0, ✖=15, error=202]sympy__sympy-14531: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sympy/printing/sstr.py b/sympy/printing/sstr.py
+|index 1234567..abcdefg 100644
+|--- a/sympy/printing/sstr.py
+|+++ b/sympy/printing/sstr.py
+--------------------------
+No file to patch.  Skipping patch.
+2 out of 2 hunks ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-14531/run_instance.log) for more information.
+Evaluation:  87%|████████▋ | 217/250 [18:15<02:56,  5.35s/it, ✓=0, ✖=15, error=203]Evaluation:  87%|████████▋ | 218/250 [18:15<02:39,  4.99s/it, ✓=0, ✖=15, error=203]sympy__sympy-14711: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-14711/run_instance.log) for more information.
+Evaluation:  87%|████████▋ | 218/250 [18:19<02:39,  4.99s/it, ✓=0, ✖=16, error=203]Evaluation:  88%|████████▊ | 219/250 [18:19<02:30,  4.84s/it, ✓=0, ✖=16, error=203]sympy__sympy-15017: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sympy/tensor/array.py b/sympy/tensor/array.py
+|index 8f0f0a0..8f0f0a0 100644
+|--- a/sympy/tensor/array.py
+|+++ b/sympy/tensor/array.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-15017/run_instance.log) for more information.
+Evaluation:  88%|████████▊ | 219/250 [18:23<02:30,  4.84s/it, ✓=0, ✖=16, error=204]Evaluation:  88%|████████▊ | 220/250 [18:23<02:19,  4.66s/it, ✓=0, ✖=16, error=204]sympy__sympy-15809: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/stdlib/stdlib/math/numeric.py b/stdlib/stdlib/math/numeric.py
+|index 590e63e..7623032 100644
+|--- a/stdlib/stdlib/math/numeric.py
+|+++ b/stdlib/stdlib/math/numeric.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 18: ```
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-15809/run_instance.log) for more information.
+Evaluation:  88%|████████▊ | 220/250 [18:28<02:19,  4.66s/it, ✓=0, ✖=16, error=205]Evaluation:  88%|████████▊ | 221/250 [18:28<02:13,  4.60s/it, ✓=0, ✖=16, error=205]sympy__sympy-16450: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/src/posify.jl b/src/posify.jl
+|index 0f0f0f0..0f0f0f0 100644
+|--- a/src/posify.jl
+|+++ b/src/posify.jl
+--------------------------
+No file to patch.  Skipping patch.
+patch unexpectedly ends in middle of line
+patch: **** unexpected end of file in patch
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-16450/run_instance.log) for more information.
+Evaluation:  88%|████████▊ | 221/250 [18:32<02:13,  4.60s/it, ✓=0, ✖=16, error=206]Evaluation:  89%|████████▉ | 222/250 [18:32<02:05,  4.47s/it, ✓=0, ✖=16, error=206]sympy__sympy-16597: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-16597/run_instance.log) for more information.
+Evaluation:  89%|████████▉ | 222/250 [18:37<02:05,  4.47s/it, ✓=0, ✖=16, error=207]Evaluation:  89%|████████▉ | 223/250 [18:37<02:01,  4.52s/it, ✓=0, ✖=16, error=207]sympy__sympy-16766: >>>>> Patch Apply Failed:
+patch: **** Only garbage was found in the patch input.
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-16766/run_instance.log) for more information.
+Evaluation:  89%|████████▉ | 223/250 [18:41<02:01,  4.52s/it, ✓=0, ✖=16, error=208]Evaluation:  90%|████████▉ | 224/250 [18:41<01:55,  4.43s/it, ✓=0, ✖=16, error=208]sympy__sympy-16886: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/simpy/crypto/crypto.py b/simpy/crypto/crypto.py
+|index 0a0a0a0..0a0a0a0 100644
+|--- a/simpy/crypto/crypto.py
+|+++ b/simpy/crypto/crypto.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-16886/run_instance.log) for more information.
+Evaluation:  90%|████████▉ | 224/250 [18:45<01:55,  4.43s/it, ✓=0, ✖=16, error=209]Evaluation:  90%|█████████ | 225/250 [18:45<01:50,  4.41s/it, ✓=0, ✖=16, error=209]sympy__sympy-17139: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-17139/run_instance.log) for more information.
+Evaluation:  90%|█████████ | 225/250 [18:50<01:50,  4.41s/it, ✓=0, ✖=16, error=210]Evaluation:  90%|█████████ | 226/250 [18:50<01:45,  4.41s/it, ✓=0, ✖=16, error=210]sympy__sympy-17630: >>>>> Patch Apply Failed:
+patching file sympy/matrices/expressions/blockmatrix.py
+Hunk #1 FAILED at 87.
+1 out of 1 hunk FAILED -- saving rejects to file sympy/matrices/expressions/blockmatrix.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-17630/run_instance.log) for more information.
+Evaluation:  90%|█████████ | 226/250 [18:54<01:45,  4.41s/it, ✓=0, ✖=16, error=211]Evaluation:  91%|█████████ | 227/250 [18:54<01:43,  4.48s/it, ✓=0, ✖=16, error=211]sympy__sympy-18189: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-18189/run_instance.log) for more information.
+Evaluation:  91%|█████████ | 227/250 [18:58<01:43,  4.48s/it, ✓=0, ✖=16, error=212]Evaluation:  91%|█████████ | 228/250 [18:58<01:35,  4.34s/it, ✓=0, ✖=16, error=212]sympy__sympy-18199: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/nthroot_mod.py b/nthroot_mod.py
+|index 1234567..89abcdef 100644
+|--- a/nthroot_mod.py
+|+++ b/nthroot_mod.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+can't find file to patch at input line 27
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|```
+|
+|Apply this patch to your `nthroot_mod.py` file to fix the issue.
+|<|repo_name|>system
+|nthroot_mod function misses one root of x = 0 mod p.
+|When in the equation x**n = a mod p , when a % p == 0. Then x = 0 mod p is also a root of this equation. But right now `nthroot_mod` does not check for this condition. `nthroot_mod(17*17, 5 , 17)` has a root `0 mod 17`. But it does not return it.
+|<|fim_middle|>
+|Here is the patch that fixes the issue:
+|
+|```diff
+|diff --git a/nthroot_mod.py b/nthroot_mod.py
+|index 1234567..89abcdef 100644
+|--- a/nthroot_mod.py
+|+++ b/nthroot_mod.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-18199/run_instance.log) for more information.
+Evaluation:  91%|█████████ | 228/250 [19:03<01:35,  4.34s/it, ✓=0, ✖=16, error=213]Evaluation:  92%|█████████▏| 229/250 [19:03<01:31,  4.34s/it, ✓=0, ✖=16, error=213]sympy__sympy-18763: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-18763/run_instance.log) for more information.
+Evaluation:  92%|█████████▏| 229/250 [19:07<01:31,  4.34s/it, ✓=0, ✖=16, error=214]Evaluation:  92%|█████████▏| 230/250 [19:07<01:27,  4.38s/it, ✓=0, ✖=16, error=214]sympy__sympy-19495: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sympy/core/sets.py b/sympy/core/sets.py
+|index 8a8a8a8..8a8a8a8 100644
+|--- a/sympy/core/sets.py
+|+++ b/sympy/core/sets.py
+--------------------------
+No file to patch.  Skipping patch.
+patch: **** malformed patch at line 15: ```
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-19495/run_instance.log) for more information.
+Evaluation:  92%|█████████▏| 230/250 [19:12<01:27,  4.38s/it, ✓=0, ✖=16, error=215]Evaluation:  92%|█████████▏| 231/250 [19:12<01:24,  4.44s/it, ✓=0, ✖=16, error=215]sympy__sympy-19954: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-19954/run_instance.log) for more information.
+Evaluation:  92%|█████████▏| 231/250 [19:16<01:24,  4.44s/it, ✓=0, ✖=16, error=216]Evaluation:  93%|█████████▎| 232/250 [19:16<01:19,  4.43s/it, ✓=0, ✖=16, error=216]sympy__sympy-20154: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-20154/run_instance.log) for more information.
+Evaluation:  93%|█████████▎| 232/250 [19:20<01:19,  4.43s/it, ✓=0, ✖=16, error=217]Evaluation:  93%|█████████▎| 233/250 [19:20<01:13,  4.30s/it, ✓=0, ✖=16, error=217]sympy__sympy-20801: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-20801/run_instance.log) for more information.
+Evaluation:  93%|█████████▎| 233/250 [19:24<01:13,  4.30s/it, ✓=0, ✖=16, error=218]Evaluation:  94%|█████████▎| 234/250 [19:24<01:09,  4.34s/it, ✓=0, ✖=16, error=218]sympy__sympy-21379: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-21379/run_instance.log) for more information.
+Evaluation:  94%|█████████▎| 234/250 [19:29<01:09,  4.34s/it, ✓=0, ✖=16, error=219]Evaluation:  94%|█████████▍| 235/250 [19:29<01:06,  4.45s/it, ✓=0, ✖=16, error=219]sympy__sympy-21612: >>>>> Patch Apply Failed:
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/sympy/parsing/latex.py b/sympy/parsing/latex.py
+|index 8e0a0a1..8e0a0a1 100644
+|--- a/sympy/parsing/latex.py
+|+++ b/sympy/parsing/latex.py
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-21612/run_instance.log) for more information.
+Evaluation:  94%|█████████▍| 235/250 [19:34<01:06,  4.45s/it, ✓=0, ✖=16, error=220]Evaluation:  94%|█████████▍| 236/250 [19:34<01:02,  4.43s/it, ✓=0, ✖=16, error=220]sympy__sympy-21847: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-21847/run_instance.log) for more information.
+Evaluation:  94%|█████████▍| 236/250 [19:38<01:02,  4.43s/it, ✓=0, ✖=16, error=221]Evaluation:  95%|█████████▍| 237/250 [19:38<00:56,  4.31s/it, ✓=0, ✖=16, error=221]sympy__sympy-21930: >>>>> Patch Apply Failed:
+patching file sympy/physics/secondquant.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file sympy/physics/secondquant.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-21930/run_instance.log) for more information.
+Evaluation:  95%|█████████▍| 237/250 [19:42<00:56,  4.31s/it, ✓=0, ✖=16, error=222]Evaluation:  95%|█████████▌| 238/250 [19:42<00:53,  4.44s/it, ✓=0, ✖=16, error=222]sympy__sympy-22456: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-22456/run_instance.log) for more information.
+Evaluation:  95%|█████████▌| 238/250 [19:47<00:53,  4.44s/it, ✓=0, ✖=16, error=223]Evaluation:  96%|█████████▌| 239/250 [19:47<00:49,  4.47s/it, ✓=0, ✖=16, error=223]sympy__sympy-22714: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file sympy/core/sympify.py
+Hunk #1 FAILED at 469.
+1 out of 1 hunk FAILED -- saving rejects to file sympy/core/sympify.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-22714/run_instance.log) for more information.
+Evaluation:  96%|█████████▌| 239/250 [19:51<00:49,  4.47s/it, ✓=0, ✖=16, error=224]Evaluation:  96%|█████████▌| 240/250 [19:51<00:43,  4.37s/it, ✓=0, ✖=16, error=224]sympy__sympy-23413: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-23413/run_instance.log) for more information.
+Evaluation:  96%|█████████▌| 240/250 [19:55<00:43,  4.37s/it, ✓=0, ✖=16, error=225]Evaluation:  96%|█████████▋| 241/250 [19:55<00:38,  4.25s/it, ✓=0, ✖=16, error=225]sympy__sympy-23534: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-23534/run_instance.log) for more information.
+Evaluation:  96%|█████████▋| 241/250 [20:01<00:38,  4.25s/it, ✓=0, ✖=16, error=226]Evaluation:  97%|█████████▋| 242/250 [20:01<00:37,  4.70s/it, ✓=0, ✖=16, error=226]sympy__sympy-23824: >>>>> Patch Apply Failed:
+patching file sympy/physics/hep/gamma_matrices.py
+Hunk #1 FAILED at 123.
+patch: **** malformed patch at line 20: ```
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-23824/run_instance.log) for more information.
+Evaluation:  97%|█████████▋| 242/250 [20:04<00:37,  4.70s/it, ✓=0, ✖=16, error=227]Evaluation:  97%|█████████▋| 243/250 [20:04<00:30,  4.37s/it, ✓=0, ✖=16, error=227]sympy__sympy-24066: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file sympy/physics/units/systems/si.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file sympy/physics/units/systems/si.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-24066/run_instance.log) for more information.
+Evaluation:  97%|█████████▋| 243/250 [20:08<00:30,  4.37s/it, ✓=0, ✖=16, error=228]Evaluation:  98%|█████████▊| 244/250 [20:08<00:25,  4.26s/it, ✓=0, ✖=16, error=228]sympy__sympy-24443: >>>>> Patch Apply Failed:
+patching file sympy/combinatorics/homomorphisms.py
+patch: **** malformed patch at line 11: ```
+
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-24443/run_instance.log) for more information.
+Evaluation:  98%|█████████▊| 244/250 [20:12<00:25,  4.26s/it, ✓=0, ✖=16, error=229]Evaluation:  98%|█████████▊| 245/250 [20:12<00:21,  4.23s/it, ✓=0, ✖=16, error=229]sympy__sympy-24562: >>>>> Patch Apply Failed:
+patch unexpectedly ends in middle of line
+patch: **** Only garbage was found in the patch input.
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-24562/run_instance.log) for more information.
+Evaluation:  98%|█████████▊| 245/250 [20:18<00:21,  4.23s/it, ✓=0, ✖=16, error=230]Evaluation:  98%|█████████▊| 246/250 [20:18<00:18,  4.65s/it, ✓=0, ✖=16, error=230]sympy__sympy-24661: >>>>> Patch Apply Failed:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file sympy/core/relational.py
+Hunk #1 FAILED at 123.
+1 out of 1 hunk FAILED -- saving rejects to file sympy/core/relational.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/coder-3b-base-ds-official/coder-3b-base-ds/sympy__sympy-24661/run_instance.log) for more information.
+Evaluation:  98%|█████████▊| 246/250 [20:22<00:18,  4.65s/it, ✓=0, ✖=16, error=231]Evaluation:  99%|█████████▉| 247/250 [20:22<00:13,  4.36s/it, ✓=0, ✖=16, error=231]Evaluation:  99%|█████████▉| 247/250 [20:26<00:13,  4.36s/it, ✓=0, ✖=16, error=232]Evaluation:  99%|█████████▉| 248/250 [20:26<00:08,  4.27s/it, ✓=0, ✖=16, error=232]Evaluation:  99%|█████████▉| 248/250 [20:30<00:08,  4.27s/it, ✓=0, ✖=16, error=233]Evaluation: 100%|█████████▉| 249/250 [20:30<00:04,  4.22s/it, ✓=0, ✖=16, error=233]Evaluation: 100%|█████████▉| 249/250 [20:36<00:04,  4.22s/it, ✓=0, ✖=16, error=234]Evaluation: 100%|██████████| 250/250 [20:36<00:00,  4.64s/it, ✓=0, ✖=16, error=234]All instances run.
+Evaluation: 100%|██████████| 250/250 [20:36<00:00,  4.94s/it, ✓=0, ✖=16, error=234]
+Cleaning cached images...
+Removed 0 images.
+Total instances: 500
+Instances submitted: 250
+Instances completed: 16
+Instances incomplete: 250
+Instances resolved: 0
+Instances unresolved: 16
+Instances with empty patches: 0
+Instances with errors: 234
+Unstopped containers: 0
+Unremoved images: 250
+Report written to coder-3b-base-ds.coder-3b-base-ds-official.json

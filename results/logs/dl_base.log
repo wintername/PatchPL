@@ -1,0 +1,5 @@
+/home/wcx/miniconda3/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py:189: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
+  warnings.warn(
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 12 files:   8%|▊         | 1/12 [00:00<00:04,  2.31it/s]Fetching 12 files:  25%|██▌       | 3/12 [00:00<00:02,  3.91it/s]Fetching 12 files:  42%|████▏     | 5/12 [00:00<00:01,  6.49it/s]Fetching 12 files:  67%|██████▋   | 8/12 [00:01<00:00,  9.96it/s]Fetching 12 files:  83%|████████▎ | 10/12 [00:01<00:00, 11.52it/s]Fetching 12 files:  83%|████████▎ | 10/12 [00:19<00:00, 11.52it/s]Fetching 12 files:  92%|█████████▏| 11/12 [02:04<00:23, 23.75s/it]Fetching 12 files: 100%|██████████| 12/12 [04:00<00:00, 43.71s/it]Fetching 12 files: 100%|██████████| 12/12 [04:00<00:00, 20.07s/it]
+BASE-DL-DONE /home/wcx/swe/models/Qwen2.5-Coder-3B

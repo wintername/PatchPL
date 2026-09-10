@@ -1,0 +1,32 @@
+try 1 train-00000-of-00010.jsonl.gz
+done train-00000-of-00010.jsonl.gz
+try 1 train-00001-of-00010.jsonl.gz
+done train-00001-of-00010.jsonl.gz
+try 1 train-00002-of-00010.jsonl.gz
+done train-00002-of-00010.jsonl.gz
+try 1 train-00003-of-00010.jsonl.gz
+done train-00003-of-00010.jsonl.gz
+try 1 train-00004-of-00010.jsonl.gz
+done train-00004-of-00010.jsonl.gz
+try 1 train-00005-of-00010.jsonl.gz
+done train-00005-of-00010.jsonl.gz
+try 1 train-00006-of-00010.jsonl.gz
+done train-00006-of-00010.jsonl.gz
+try 1 train-00007-of-00010.jsonl.gz
+done train-00007-of-00010.jsonl.gz
+try 1 train-00008-of-00010.jsonl.gz
+done train-00008-of-00010.jsonl.gz
+try 1 train-00009-of-00010.jsonl.gz
+done train-00009-of-00010.jsonl.gz
+ALL-REDL-DONE
+total 257M
+-rw-rw-r-- 1 wcx wcx 26M 9月   4 17:50 train-00000-of-00010.jsonl.gz
+-rw-rw-r-- 1 wcx wcx 25M 9月   4 17:50 train-00001-of-00010.jsonl.gz
+-rw-rw-r-- 1 wcx wcx 26M 9月   4 17:50 train-00002-of-00010.jsonl.gz
+-rw-rw-r-- 1 wcx wcx 26M 9月   4 17:50 train-00003-of-00010.jsonl.gz
+-rw-rw-r-- 1 wcx wcx 26M 9月   4 17:50 train-00004-of-00010.jsonl.gz
+-rw-rw-r-- 1 wcx wcx 27M 9月   4 17:50 train-00005-of-00010.jsonl.gz
+-rw-rw-r-- 1 wcx wcx 27M 9月   4 17:50 train-00006-of-00010.jsonl.gz
+-rw-rw-r-- 1 wcx wcx 26M 9月   4 17:50 train-00007-of-00010.jsonl.gz
+-rw-rw-r-- 1 wcx wcx 26M 9月   4 17:51 train-00008-of-00010.jsonl.gz
+-rw-rw-r-- 1 wcx wcx 26M 9月   4 17:51 train-00009-of-00010.jsonl.gz

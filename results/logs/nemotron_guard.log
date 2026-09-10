@@ -1,0 +1,22 @@
+2026-09-04 17:52:34 ===== nemotron guard started =====
+2026-09-04 17:52:34 WARN no step progress (step=)
+2026-09-04 18:52:34 training OK step=49
+2026-09-04 19:52:34 training OK step=104
+2026-09-04 20:52:34 training OK step=157
+2026-09-04 21:52:34 training OK step=211
+2026-09-04 22:52:34 training OK step=265
+2026-09-04 23:52:34 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 00:52:34 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 01:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 02:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 03:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 04:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 05:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 06:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 07:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 08:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 09:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 10:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 11:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 12:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
+2026-09-05 13:52:35 training done, gen_nemotron.py not ready -> AWAIT-EVAL
